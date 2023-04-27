@@ -158,8 +158,188 @@ const drinks = [{
 console.log(drinks.length)
 
 const foods = [{
+    itemName: "Pork Adobo",
+    subCategory: "Main Dish",
+    size: "Regular",
+    price: "250",
+    description: ""
+},{
+    itemName: "Pinoy Chicken Curry",
+    subCategory: "Main Dish",
+    size: "Regular",
+    price: "250",
+    description: ""
+},{
+    itemName: "Beef Bulalo",
+    subCategory: "Main Dish",
+    size: "Regular",
+    price: "350",
+    description: ""
+},{
+    itemName: "Pork Menudo",
+    subCategory: "Main Dish",
+    size: "Regular",
+    price: "250",
+    description: ""
+},{
+    itemName: "Pork Caldereta",
+    subCategory: "Main Dish",
+    size: "Regular",
+    price: "250",
+    description: ""
+},{
+    itemName: "Chicken Afritada",
+    subCategory: "Main Dish",
+    size: "Regular",
+    price: "239",
+    description: ""
+},{
+    itemName: "Bicol Express",
+    subCategory: "Main Dish",
+    size: "Regular",
+    price: "239",
+    description: ""
+},{
+    itemName: "Pork Steak",
+    subCategory: "Main Dish",
+    size: "Regular",
+    price: "250",
+    description: ""
+},{
+    itemName: "Garlic Butter shrimp",
+    subCategory: "Main Dish",
+    size: "Regular",
+    price: "300",
+    description: ""
+},{
+    itemName: "Pork Sisig",
+    subCategory: "Main Dish",
+    size: "Regular",
+    price: "295",
+    description: ""
+},{
+    itemName: "Sinigang na Hipon",
+    subCategory: "Main Dish",
+    size: "Regular",
+    price: "250",
+    description: ""
+},{
+    itemName: "Sinigang na Baboy",
+    subCategory: "Main Dish",
+    size: "Regular",
+    price: "250",
+    description: ""
+},{
+    itemName: "Lechon Kawali",
+    subCategory: "Main Dish",
+    size: "Regular",
+    price: "300",
+    description: ""
+},{
+    itemName: "Beef Kare-Kare",
+    subCategory: "Main Dish",
+    size: "Regular",
+    price: "300",
+    description: ""
+},{
+    itemName: "Chicken Cordon Bleu",
+    subCategory: "Main Dish",
+    size: "Regular",
+    price: "320",
+    description: ""
+},{
+    itemName: "Fresh Green Beans",
+    subCategory: "Side Dish",
+    size: "Regular",
+    price: "135",
+    description: ""
+},{
+    itemName: "Sautéed Zucchini And Squash",
+    subCategory: "Side Dish",
+    size: "Regular",
+    price: "150",
+    description: ""
+},{
+    itemName: "Roasted Veggies",
+    subCategory: "Side Dish",
+    size: "Regular",
+    price: "150",
+    description: ""
+},{
+    itemName: "Roasted Broccoli With Sweet Chili Sauce",
+    subCategory: "Side Dish",
+    size: "Regular",
+    price: "145",
+    description: ""
+},{
+    itemName: "Roasted Ratatouille",
+    subCategory: "Side Dish",
+    size: "Regular",
+    price: "165",
+    description: ""
+},{
+    itemName: "Pearl Couscous Salad",
+    subCategory: "Side Dish",
+    size: "Regular",
+    price: "190",
+    description: ""
+},{
+    itemName: "Mediterranean Quinoa Salad",
+    subCategory: "Side Dish",
+    size: "Regular",
+    price: "200",
+    description: ""
+},{
+    itemName: "Chilaquiles",
+    subCategory: "Side Dish",
+    size: "Regular",
+    price: "178",
+    description: ""
+},{
+    itemName: "Crockpot Mac And Cheese",
+    subCategory: "Side Dish",
+    size: "Regular",
+    price: "155",
+    description: ""
+},{
+    itemName: "Filet Mignon Nachos",
+    subCategory: "Side Dish",
+    size: "Regular",
+    price: "198",
+    description: ""
+},{
+    itemName: "Spicy Shrimp Nacho",
+    subCategory: "Side Dish",
+    size: "Regular",
+    price: "225",
+    description: ""
+},{
+    itemName: "Surf And Turf Taco Combo",
+    subCategory: "Side Dish",
+    size: "Regular",
+    price: "250",
+    description: ""
+},{
+    itemName: "Cheesy Enchiladas",
+    subCategory: "Side Dish",
+    size: "Regular",
+    price: "190",
+    description: ""
+},{
+    itemName: "Banditto Burrito",
+    subCategory: "Side Dish",
+    size: "Regular",
+    price: "123",
+    description: ""
+},{
+    itemName: "Quesadilla",
+    subCategory: "Side Dish",
+    size: "Regular",
+    price: "230",
+    description: ""
+},{
     itemName: "Garlic Bread",
-    subCategory: "Soups",
+    subCategory: "Appetizers",
     size: "Half Dozen",
     price: "449.85",
     description: ""
