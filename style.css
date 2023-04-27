@@ -1,0 +1,40 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #f8e2b2; /* Spanish vintage color */
+	color: #333;
+}
+
+header {
+	background-color: #6b4423; /* Spanish vintage color */
+	padding: 20px;
+}
+
+h1 {
+	margin: 0;
+	font-size: 36px;
+	color: #fff;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+nav li {
+	display: inline-block;
+	margin: 0 10px;
+}
+
+nav a {
+	display: block;
+	padding: 10px;
+	color: #fff;
+	text-decoration: none;
+}
+
+nav a:hover {
+	background-color: #8b5a2b
+}
