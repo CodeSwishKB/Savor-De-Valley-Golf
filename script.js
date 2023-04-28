@@ -1,3 +1,4 @@
+/********* DATAS ***********/
 const drinks = [{
     itemName: "Coke",
     subCategory: "Carbonated Drink",
