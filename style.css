@@ -40,7 +40,7 @@ body {
 
 .site-logo img {
   max-height: 100px;
-  /* adjust the height to match your logo */
+  border-radius: 10px;
 }
 
 nav ul {
@@ -51,6 +51,7 @@ nav ul {
   justify-content: flex-end;
   font-style: italic;
   font-size: 20px;
+  padding: 10px;
 }
 
 nav ul li {
@@ -69,4 +70,5 @@ nav ul li a {
 
 nav ul li a:hover {
   text-decoration: underline;
+  color: rgb(219, 219, 138);
 }
