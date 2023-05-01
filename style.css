@@ -12,8 +12,8 @@ body {
   margin: 0;
   padding: 0;
   background-color: #f8e2b2;
-  /* Spanish vintage color */
-  color: #333;
+  color: #333; /* Spanish vintage color */
+  height: 100vh;
 }
 
 /* nav bar */
@@ -79,6 +79,7 @@ nav ul li a:hover {
   margin-top: 170px; /* same as height of header */
 }
 
+
 /* icon  */
 .lines-icon {
   width: 100%;
@@ -110,6 +111,11 @@ nav ul li a:hover {
   bottom: 20px
 }
 
+.second-icon img{
+  width: 79.33px;
+  height: 79.33px;
+}
+
 /* the flex image and description in the index */
 .pics-and-desc-of-resto-container {
   margin-top: 30px;
@@ -119,6 +125,7 @@ nav ul li a:hover {
   align-items: center;
   gap: 30px;
   margin-left: 70px;
+  margin-bottom: 30px;
 }
 
 .components.style {
@@ -168,4 +175,37 @@ nav ul li a:hover {
 
 .img-description {
   text-align: justify;
+}
+
+
+/* FOOTER */
+/* .schedule-list::before {
+  content: "\e602";
+  color: #a7781d;
+  font-size: 21px;
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  position: absolute;
+  top: 0;
+  left: 0;
+} */
+
+.widget-schedule .schedule-separator {
+  display: table-cell;
+}
+
+.widget-schedule .schedule-sep-item {
+  border-bottom: 2px dotted #a8a8a8;
+  display: block;
+}
+
+.widget-schedule .schedule-separator {
+  width: 98%;
 }
