@@ -87,7 +87,8 @@ nav ul li a:hover {
   position: relative;
 }
 
-.lines-icon::before, .lines-icon::after{
+.lines-icon::before,
+.lines-icon::after{
   content: "";
   position: absolute;
   margin: auto;
@@ -159,8 +160,6 @@ nav ul li a:hover {
   transition: transform 0.3s ease;
 }
 
-
-
 .image:hover img {
   transform: rotate(10deg);;
 }
@@ -179,33 +178,81 @@ nav ul li a:hover {
 
 
 /* FOOTER */
-/* .schedule-list::before {
-  content: "\e602";
-  color: #a7781d;
-  font-size: 21px;
-  font-family: 'icomoon';
-  speak: none;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  position: absolute;
-  top: 0;
-  left: 0;
-} */
+.footer-widgets-in {
+  display: flex;
+  justify-content: center;
+}
 
+
+/* for open hours */
+.footer-widgets-area {
+  padding: 84px 0 0 0;
+  margin: 0 -15px;
+}
+
+.footer-widgets-area .widget {
+  display: inline-block;
+  margin-bottom: 0;
+  padding: 0 15px;
+  width: 25%;
+  vertical-align: top;
+}
+
+.widget-schedule .schedule-time {
+  font-family: 'Lora', serif;
+  font-weight: 400;
+  font-size: 13px;
+  color: #000000;
+  width: 1%;
+  white-space: nowrap;
+  padding-left: 5px;
+}
+
+.widget-schedule .schedule-day {
+  font-family: 'Lora', serif;
+  font-weight: 700;
+  font-size: 13px;
+  color: #000000;
+  width: 1%;
+  white-space: nowrap;
+  padding-right: 5px;
+}
+
+.widget-schedule .schedule-list {
+  margin: 0;
+  list-style-type: none;
+  padding-left: 40px;
+  position: relative;
+}
+
+.widget-schedule .schedule-day,
+.widget-schedule .schedule-time,
 .widget-schedule .schedule-separator {
   display: table-cell;
 }
 
 .widget-schedule .schedule-sep-item {
-  border-bottom: 2px dotted #a8a8a8;
+  border-bottom: 2px dotted #154413;
   display: block;
 }
 
 .widget-schedule .schedule-separator {
   width: 98%;
+}
+
+.widget-schedule .schedule-list-item {
+  display: table;
+  margin-bottom: 21px;
+}
+
+/* for contacts */
+.widget-contact .contact-list-item {
+  font-family: 'Lora', serif;
+  font-weight: 400;
+  font-size: 13px;
+  color: #000000;
+  margin-bottom: 33px;
+  padding-left: 39px;
+  list-style: none;
+  position: relative;
 }
