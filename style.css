@@ -288,6 +288,12 @@ nav ul li a:hover {
   padding: 0 15px;
 }
 
+.site-info-in:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
 .copyright {
   font-weight: 400;
   font-size: 13px;
@@ -304,15 +310,27 @@ nav ul li a:hover {
 
 }
 
-.socmed-lists li{
+.socmed-lists li {
+  display: inline;
+  margin-left: 19px;
+}
+
+.socmed-lists {
   list-style: none;
   float: right;
+  color: #ffffff;
   margin: 0;
 }
 
 .socmed-lists li a{
   text-decoration: none;
-  color: white;
-  font-size: 20px;
+  color: #ffffff;
+  font-size: 30px;
+}
+
+.socmed-lists li a:focus,
+.socmed-lists li a:hover {
+    color: #f8e2b2;
+    text-decoration: none;
 }
 
