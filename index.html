@@ -1,27 +1,32 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
 	<meta charset="UTF-8">
-	<title>Savor De Valley Golf</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="/style.css">
+	<link rel="shortcut icon" href="/assets/s-16.png">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
 		integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
 		crossorigin="anonymous" referrerpolicy="no-referrer" />
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="shortcut icon" href="/assets/s-16.png"">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Cookie&family=Lora:wght@500&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
+
+	<title>Savor De Valley Golf</title>
 </head>
 
 <body>
-	<header id=" master-header" class="site-header">
-	<div class="header-container">
-		<div class="site-logo">
-			<a href="/index.html">
-				<img src="/assets/site-logo.jpg" alt="savor_de_valley_golf">
-			</a>
-		</div>
-
+	<!-- NAV BAR -->
+	<section class="header">
 		<nav>
-			<div class="nav-links">
+			<a href="index.html"><img src="/assets/site-logo-2.png" alt=""></a>
+			<div class="nav-links" id="navLinks">
+				<i class="fa fa-times" onclick="hideMenu()"></i>
 				<ul>
 					<li><a href="#">HOME</a></li>
 					<li><a href="#">ABOUT</a></li>
@@ -29,182 +34,69 @@
 					<li><a href="#">CONTACT</a></li>
 				</ul>
 			</div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
 		</nav>
-	</div>
-	</header>
 
+		<div class="text-box">
+			<h1 style="font-family: 'Cookie', cursive; font-weight: normal;">Welcome to Savor De Valley Golf</h1>
+			<p>Nestled in the heart of the picturesque Valley Golf course, Savor de Valley Golf Restaurant is a haven
+				for foodies seeking the perfect blend of exceptional cuisine and breathtaking views. With a menu
+				featuring a range of sumptuous dishes, including authentic Filipino cuisine, Savor de Valley Golf is the
+				perfect destination for those looking to indulge in a truly unforgettable dining experience. From its
+				fresh, locally sourced ingredients to its impeccable service, Savor de Valley Golf is the perfect place
+				to unwind, relax and savor every bite.</p>
 
-	<main id="main" class="site-main">
-		<div class="wrapper">
-			<h2
-				style="display: flex; justify-content: center; color: #0a3009; font-family: 'Cookie', cursive; font-size: 70px; font-weight: normal;">
-				Welcome to Savor De Valley Golf
-			</h2>
+			<a href="" class="hero-btn">Visit Us To Know More</a>
+		</div>
+	</section>
 
-			<!-- FIRST ICON -->
-			<div class=" line-with-icon-center" style="text-align: center;">
-				<div class="lines-icon first-icon">
-					<img src="/assets/lunch-logo-center.png" alt="center-logo">
-				</div>
+	<!-- EXPERIENCE -->
+	<section class="experience">
+		<h1>Experience</h1>
+
+		<div class="row">
+			<div class="exp-col">
+				<img src="/assets/images/AP2.jpg" alt="">
+				<h3>Greens, Trees, and Skyscrapers: Basking in the Valley Golf Ambiance</h3>
+				<p>Tee off amidst the lush greens and towering trees of Valley Golf, while enjoying stunning views of
+					the city skyline and valley mountains. Immerse yourself in the perfect blend of natural beauty and
+					urban charm, and experience a round of golf like no other.</p>
 			</div>
 
-			<!-- 3 PICS CONTAINER -->
-			<div class="pics-and-desc-of-resto-container">
-				<!-- nature -->
-				<div class="pics-and-desc first">
-					<div class="components style" style="margin-top: 20px;">
-						<div class="image"><img src="/assets/images/AP2.jpg" alt=""></div>
-						<div class="header">
-							<h3>Greens, Trees, and Skyscrapers: Basking in the Valley Golf Ambiance</h3>
-							<div class="img-description">
-								<span>Tee off amidst the lush greens and towering trees of Valley Golf, while enjoying
-									stunning views of the city skyline and valley mountains. Immerse yourself in the
-									perfect blend of natural beauty and urban charm, and experience a round of golf like
-									no other.</span>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<!-- resto -->
-				<div class="pics-and-desc second">
-					<div class="components style">
-						<div class="image"><img src="/assets/images/Option7.jpg" alt=""></div>
-						<div class="header">
-							<h3>Unwind and Indulge: Savor de Valley Golf Restaurant's Quality Service and Cuisine</h3>
-							<div class="img-description">
-								<span>Whether you're looking to savor a delicious meal with friends or simply relax with
-									a refreshing drink on the patio, Savor de Valley Golf Restaurant has everything you
-									need to make your dining experience unforgettable. Come and enjoy the best in
-									quality service and cuisine</span>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<!-- foods -->
-				<div class="pics-and-desc third">
-					<div class="components style">
-						<div class="image"><img src="/assets/images/Appetizer And Soups/DOZEN_Chicken Wings.jpg" alt="">
-						</div>
-						<div class="header">
-							<h3>Taste the Philippines: Savor de Valley Golf Restaurant's Sumptuous Dishes, Including
-								Authentic Filipino Cuisine</h3>
-							<div class="img-description">
-								<span>Savor de Valley Golf Restaurant offers an exceptional dining experience that
-									includes a range of sumptuous dishes, including authentic Filipino cuisine. With
-									fresh ingredients and expert preparation, each dish is a masterpiece in culinary
-									excellence.</span>
-							</div>
-						</div>
-					</div>
-				</div>
+			<div class="exp-col">
+				<img src="/assets/images/Option7.jpg" alt="">
+				<h3>Unwind and Indulge: Savor de Valley Golf Restaurant's Quality Service and Cuisine</h3>
+				<p>Whether you're looking to savor a delicious meal with friends or simply relax with a refreshing drink
+					on the patio, Savor de Valley Golf Restaurant has everything you need to make your dining experience
+					unforgettable. Come and enjoy the best in quality service and cuisine</p>
 			</div>
 
-			<!-- SECOND ICON -->
-			<div class=" line-with-icon-center" style="text-align: center;">
-				<div class="lines-icon second-icon">
-					<img src="/assets/icons-tableware-50.png" alt="center-logo">
-				</div>
-			</div>
-
-			<div class="history-container" style="margin: 100px, 0 ,100px , 0;">
-				<h2
-					style="display: flex; justify-content: center; color: #0a3009; font-family: 'Cookie', cursive; font-weight: normal; font-size: 50px;">
-					Our History
-				</h2>
-				<span
-					style="width: 43%; position: relative; left: 500px; text-align: justify; display: block; margin-bottom: 30px; margin-bottom: 50px  ">On
-					April 27, 2023, our restaurant began its journey as a mere school project in our ICT program. Our
-					instructor tasked us to create a website that would showcase the restaurant that we envisioned to
-					build. With a simple combination of HTML elements, CSS rules, and a little bit of JavaScript, six
-					students from Grade 12 ICT - Kyle, Ruffa, Althea, JC, Lloyd, and Justine - worked together to create
-					a website that would eventually become the foundation of our restaurant's online presence. These
-					students put together a menu list that featured a variety of delectable food items, refreshing
-					drinks, and mouth-watering desserts that would be available at our restaurant. What started as a
-					school project has now become a reality, and we can't wait to see what the future holds for our
-					restaurant.</span>
+			<div class="exp-col">
+				<img src="/assets/images/Appetizer And Soups/LARGE_Jumbo Shrimp Cocktail.jpeg" alt="">
+				<h3>Taste the Philippines: Savor de Valley Golf Restaurant's Sumptuous Dishes, Including Authentic
+					Filipino Cuisine</h3>
+				<p>Savor de Valley Golf Restaurant offers an exceptional dining experience that includes a range of
+					sumptuous dishes, including authentic Filipino cuisine. With fresh ingredients and expert
+					preparation, each dish is a masterpiece in culinary excellence.
+				</p>
 			</div>
 		</div>
+	</section>
 
-		<!--  THIRD ICON -->
-		<div class=" line-with-icon-center" style="text-align: center;">
-			<div class="lines-icon second-icon">
-				<img src="/assets/icons-tableware-50.png" alt="center-logo">
-			</div>
-		</div>
 
-		<!-- FOOTER -->
-		<footer class="site-footer">
-			<div class="footer-widgets">
-				<div class="footer-widgets-in">
-					<div class="footer-widgets-area">
-						<aside class="widget widget-schedule">
-							<h1>Open Hours</h1>
-							<ul class="schedule-list">
-								<li class="schedule-list-item">
-									<span class="schedule-day">Lunch</span>
-									<span class="schedule-separator">
-										<span class="schedule-sep-item"></span>
-									</span>
-									<span class="schedule-time">11:00 AM - 2:00 PM</span>
-								</li>
+	<script>
+		// toggle menu
+		var navLinks = document.getElementById("navLinks")
 
-								<li class="schedule-list-item">
-									<span class="schedule-day">Dinner</span>
-									<span class="schedule-separator">
-										<span class="schedule-sep-item"></span>
-									</span>
-									<span class="schedule-time">5:00 PM - 12:00 MN</span>
-								</li>
+		function showMenu() {
+			navLinks.style.right = "0";
+		}
 
-								<li class="schedule-list-item">
-									<span class="schedule-day">Happy Hour</span>
-									<span class="schedule-separator">
-										<span class="schedule-sep-item"></span>
-									</span>
-									<span class="schedule-time">5:00 PM - 7:00 PM</span>
-								</li>
-							</ul>
-						</aside>
+		function hideMenu() {
+			navLinks.style.right = "-200px"
+		}
+	</script>
 
-						<aside class="widget widget-contact">
-							<h1>Contact Us</h1>
-							<ul class="contact-list">
-								<li class="contact-list-item _address">H4RQ+H5X, Cainta, 1900 Lalawigan ng Rizal</li>
-
-								<li class="contact-list-item _telephone">+63 895 565 6556</li>
-
-								<li class="contact-list-item _email">sdvg@restaraunt.com</li>
-							</ul>
-						</aside>
-
-						<aside class="widget widget-text">
-							<div class="textwidget">
-								<iframe
-									src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.133212464005!2d121.135411575051!3d14.591484177299904!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b89c95538169%3A0xe731fd4e7c4bbc39!2sJesus%20Christ&#39;s%20Church%20In%20The%20Valley!5e0!3m2!1sen!2sph!4v1682998876705!5m2!1sen!2sph"
-									width="400" height="300" style="border:0;" allowfullscreen=""></iframe>
-							</div>
-						</aside>
-					</div>
-				</div>
-			</div>
-
-			<div class="site-info">
-				<div class="site-info-in">
-					<p class="copyright">Copyright © 2023 Savor De Valley Golf</p>
-					<div class="socmeds">
-						<ul class="socmed-lists">
-							<li><a href="https://www.facebook.com/profile.php?id=100091996465040&mibextid=ZbWKwL"
-									target="_blank"><img
-										src="https://img.icons8.com/color/48/null/facebook-new.png" /></a></li>
-							<!-- <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li> -->
-						</ul>
-					</div>
-				</div>
-			</div>
-		</footer>
-	</main>
-	</body>
+</body>
 
 </html>
