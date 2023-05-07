@@ -1,4 +1,5 @@
 * {
+  box-sizing: border-box;
   font-family: 'Lora', serif;
   margin: 0;
   padding: 0;
@@ -8,6 +9,7 @@
 /* ----------------------------------------------------------------------------------------------------------------------------------
 NAV BAR
 ------------------------------------------------------------------------------------------------------------------------------------*/
+
 .header {
   min-height: 100vh;
   width: 100%;
@@ -15,6 +17,12 @@ NAV BAR
   background-position: center;
   background-size: cover;
   position: relative;
+}
+
+.header h1 {
+  font-family: 'Cookie', cursive;
+  font-weight: normal;
+  font-size: 80px;
 }
 
 nav {
@@ -269,13 +277,13 @@ TAG-LINE
   padding: 100px 0;
 }
 
-.tag-line h1{
+.tag-line h1 {
   color: #fff;
   margin-bottom: 40px;
   padding: 0;
 }
 
-@media(max-width: 700px){
+@media(max-width: 700px) {
   .tag-line h1 {
     font-size: 24px;
   }
@@ -351,7 +359,7 @@ FOOTER
   margin-bottom: 21px;
 }
 
-.footer h4{
+.footer h4 {
   margin-bottom: 25px;
   margin-top: 30px;
   font-weight: 600;
@@ -391,4 +399,65 @@ FOOTER
 
 .icons i {
   font-size: 24px;
+}
+
+
+/* ----------------------------------------------------------------------------------------------------------------------------------
+ABOUT US PAGE
+-----------------------------------------------------------------------------------------------------------------------------------*/
+.sub-header {
+  height: 50vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(/assets/images/AP2.jpg);
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  color: #fff;
+}
+
+.sub-header h1 {
+  font-family: 'Cookie', cursive;
+  font-weight: normal;
+  font-size: 80px;
+}
+
+.footer-down-about {
+  background-color: #F2F2F2;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-top: 50px;
+  padding: 30px;
+}
+
+.footer-down-about h4 {
+  margin-bottom: 25px;
+  margin-top: 0;
+  font-weight: 600;
+  font-size: 20px;
+  color: #154413;
+}
+
+.mvh {
+  width: 80%;
+  margin: auto;
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+
+.mvh-col {
+  flex-basis: 48%;
+  padding: 30px 2px;
+}
+
+.mvh-col img {
+  width: 100%;
+}
+
+.mvh-col h1 {
+  padding-top: 0;
+}
+
+.mvh-col p {
+  padding: 15px 0 25px;
 }

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="/style.css">
+	<link rel="shortcut icon" href="/assets/s-16.png">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Cookie&family=Lora:wght@500&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
+
+	<title>ABOUT | Savor De Valley Golf</title>
+</head>
+
+<body>
+	<!-- NAV BAR -->
+	<section class="sub-header">
+		<nav>
+			<a href="index.html"><img src="/assets/site-logo-2.png" alt=""></a>
+			<div class="nav-links" id="navLinks">
+				<i class="fa fa-times" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="/index.html">HOME</a></li>
+					<li><a href="/about.html">ABOUT</a></li>
+					<li><a href="#">MENU</a></li>
+					<li><a href="#">CONTACT</a></li>
+				</ul>
+			</div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav>
+
+		<h1>About Us</h1>
+		</div>
+	</section>
+
+	<!-- MISSION, VISION, HISTORY -->
+	<div class="mvh">
+		<div class="row">
+			<div class="mvh-col">
+				<h1>Our History</h1>
+				<p>April 27, 2023, our restaurant began its journey as a mere school project in our ICT program. Our
+					instructor tasked us to create a website that would showcase the restaurant that we envisioned to
+					build. With a simple combination of HTML elements, CSS rules, and a little bit of JavaScript, six
+					students from Grade 12 ICT - Kyle, Ruffa, Althea, JC, Lloyd, and Justine - worked together to create
+					a website that would eventually become the foundation of our restaurant's online presence. These
+					students put together a menu list that featured a variety of delectable food items, refreshing
+					drinks, and mouth-watering desserts that would be available at our restaurant. What started as a
+					school project has now become a reality, and we can't wait to see what the future holds for our
+					restaurant.</p>
+			</div>
+			<div class="mvh-col">
+				<img src="/assets/images/history.jpg" alt="">
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="mvh-col">
+				<img src="/assets/images/mission.jpg" alt="">
+			</div>
+			<div class="mvh-col">
+				<h1>Mission</h1>
+				<p>"At Savor de Valley Golf, our mission is to offer a unique dining experience that combines the
+					pleasures of excellent cuisine with the breathtaking beauty of the golf course. We are dedicated to
+					providing our guests with the highest quality of service, using only the freshest ingredients to
+					create delicious dishes that appeal to a variety of tastes. We strive to foster an inviting
+					atmosphere where guests can relax and enjoy our signature dishes, refreshing beverages, and stunning
+					views of the golf course. Our goal is to provide an unforgettable experience for all of our guests
+					and to create a welcoming community for golfers and food enthusiasts alike."
+				</p>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="mvh-col">
+				<h1>Vision</h1>
+				<p>"At Savor de Valley Golf, we envision a restaurant that becomes the premier destination for golfers
+					and food lovers. We strive to create an atmosphere that is warm and inviting, where guests can enjoy
+					a unique dining experience amidst the natural beauty of the golf course. Our vision is to be known
+					for our exceptional quality of food, our outstanding service, and our dedication to creating an
+					unforgettable dining experience for every guest. We aim to establish ourselves as a cornerstone of
+					the community, providing a place where golfers and food enthusiasts can come together and enjoy the
+					best of both worlds. We believe in building lasting relationships with our guests, and we are
+					committed to exceeding their expectations every time they visit."</p>
+			</div>
+			<div class="mvh-col">
+				<img src="/assets/images/vision.jpg" alt="">
+			</div>
+		</div>
+
+
+	</div>
+
+	<!-- FOOTER -->
+	<section class="footer">
+		<div class="footer-down-about">
+			<h4>Our Social Media Accounts</h4>
+			<div class="icons">
+				<a href="https://www.facebook.com/profile.php?id=100091996465040&mibextid=ZbWKwL" target="_blank"><i class="fa fa-facebook-official"></i></a>
+				<a href=""><i class="fa fa-instagram"></i></a>
+				<a href=""><i class="fa fa-envelope-o"></i></a>
+
+			</div>
+		</div>
+	</section>
+
+	<script>
+		// toggle menu
+		var navLinks = document.getElementById("navLinks")
+
+		function showMenu() {
+			navLinks.style.right = "0";
+		}
+
+		function hideMenu() {
+			navLinks.style.right = "-200px"
+		}
+	</script>
+
+</body>
+
+</html>
