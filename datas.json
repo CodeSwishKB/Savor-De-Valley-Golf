@@ -1,0 +1,185 @@
+[
+    {
+        "category": "Drinks",
+        "itemName": "Coke",
+        "subCategory": "Carbonated Drink",
+        "size": "Can",
+        "price": 25,
+        "description": ""
+    },{
+        "category": "Drinks",
+        "itemName": "Bottled Water",
+        "subCategory": "Carbonated Drink",
+        "size": "Regular",
+        "price": 35,
+        "description": ""
+    }, {
+        "category": "Drinks",
+        "itemName": "Diet Soda",
+        "subCategory": "Carbonated Drink",
+        "size": "Can",
+        "price": 25,
+        "description": ""
+    }, {
+        "category": "Drinks",
+        "itemName": "Lipton",
+        "subCategory": "Carbonated Drink",
+        "size": "Regular",
+        "price": 30,
+        "description": ""
+    }, {
+        "category": "Drinks",
+        "itemName": "Ice Tea",
+        "subCategory": "Carbonated Drink",
+        "size": "Pitcher",
+        "price": 55,
+        "description": ""
+    }, {
+        "category": "Drinks",
+        "itemName": "Double Dutch Shake",
+        "subCategory": "Shakes",
+        "size": "Regular",
+        "price": 85,
+        "description": ""
+    }, {
+        "category": "Drinks",
+        "itemName": "Black Forest Shake",
+        "subCategory": "Shakes",
+        "size": "Regular",
+        "price": 25,
+        "description": ""
+    }, {
+        "category": "Drinks",
+        "itemName": "Banana Shake",
+        "subCategory": "Shakes",
+        "size": "Small",
+        "price": 60,
+        "description": ""
+    }, {
+        "category": "Drinks",
+        "itemName": "Banana Shake",
+        "subCategory": "Shakes",
+        "size": "Medium",
+        "price": 110,
+        "description": ""
+    }, {
+        "category": "Drinks",
+        "itemName": "Banana Shake",
+        "subCategory": "Shakes",
+        "size": "Large",
+        "price": 180,
+        "description": ""
+    }, {
+        "category": "Drinks",
+        "itemName": "Mango Shake",
+        "subCategory": "Shakes",
+        "size": "Small",
+        "price": 60,
+        "description": ""
+    }, {
+        "category": "Drinks",
+        "itemName": "Mango Shake",
+        "subCategory": "Shakes",
+        "size": "Medium",
+        "price": 110,
+        "description": ""
+    }, {
+        "category": "Drinks",
+        "itemName": "Mango Shake",
+        "subCategory": "Shakes",
+        "size": "Large",
+        "price": 180,
+        "description": ""
+    }, {
+        "category": "Drinks",
+        "itemName": "Hot Tea Latte",
+        "subCategory": "Hot Coffee",
+        "size": "Regular",
+        "price": 140,
+        "description": ""
+    }, {
+        "category": "Drinks",
+        "itemName": "Cappuccino",
+        "subCategory": "Hot Coffee",
+        "size": "Regular",
+        "price": 140,
+        "description": ""
+    }, {
+        "category": "Drinks",
+        "itemName": "Brewed Coffee",
+        "subCategory": "Hot Coffee",
+        "size": "Regular",
+        "price": 140,
+        "description": ""
+    }, {
+        "category": "Drinks",
+        "itemName": "Mocha Iced Coffee",
+        "subCategory": "Cold Coffee",
+        "size": "Regular",
+        "price": 120,
+        "description": ""
+    }, {
+        "category": "Drinks",
+        "itemName": "Vanilla Iced Coffee",
+        "subCategory": "Cold Coffee",
+        "size": "Regular",
+        "price": 120,
+        "description": ""
+    }, {
+        "category": "Drinks",
+        "itemName": "Iced Coffee",
+        "subCategory": "Cold Coffee",
+        "size": "Regular",
+        "price": 120,
+        "description": ""
+    },{
+        "category": "Drinks",
+        "itemName": "Alfonso",
+        "subCategory": "Beers",
+        "size": "1 Liter",
+        "price": 650,
+        "description": ""
+    },{
+        "category": "Drinks",
+        "itemName": "Red Horse",
+        "subCategory": "Beers",
+        "size": "1 Liter",
+        "price": 140,
+        "description": ""
+    },{
+        "category": "Drinks",
+        "itemName": "Red Horse",
+        "subCategory": "Bucket",
+        "size": "Beers",
+        "price": 450,
+        "description": ""
+    },{
+        "category": "Drinks",
+        "itemName": "San Miguel Light",
+        "subCategory": "Beers",
+        "size": "Solo",
+        "price": 70,
+        "description": ""
+    },{
+        "category": "Drinks",
+        "itemName": "San Miguel Light",
+        "subCategory": "Beers",
+        "size": "Bucket",
+        "price": 350,
+        "description": ""
+    },{
+        "category": "Drinks",
+        "itemName": "Pale Pilsen",
+        "subCategory": "Beers",
+        "size": "Solo",
+        "price": 70,
+        "description": ""
+    },{
+        "category": "Drinks",
+        "itemName": "Pale Pilsen",
+        "subCategory": "Beers",
+        "size": "Bucket",
+        "price": 350,
+        "description": ""
+    }
+]

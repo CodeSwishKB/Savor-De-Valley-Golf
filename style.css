@@ -408,9 +408,10 @@ ABOUT US PAGE
 .sub-header {
   height: 50vh;
   width: 100%;
-  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(/assets/images/AP2.jpg);
-  background-position: center;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(/assets/images/people.jpg);
+  background-position: center top;
   background-size: cover;
+  background-repeat: no-repeat;
   text-align: center;
   color: #fff;
 }
@@ -460,4 +461,142 @@ ABOUT US PAGE
 
 .mvh-col p {
   padding: 15px 0 25px;
+}
+
+
+/* ----------------------------------------------------------------------------------------------------------------------------------
+CONTACT PAGE
+-----------------------------------------------------------------------------------------------------------------------------------*/
+.sub-header2 {
+  height: 50vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(/assets/images/contact.jpg);
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  color: #fff;
+}
+
+.sub-header2 h1 {
+  font-family: 'Cookie', cursive;
+  font-weight: normal;
+  font-size: 80px;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.row-contacts {
+  display: flex;
+  justify-content: center;
+}
+
+.widget-contact {
+  text-align: center;
+}
+
+.widget-contact .contact-list-item {
+  font-family: 'Lora', serif;
+  font-weight: 400;
+  font-size: 13px;
+  color: #000000;
+  margin-bottom: 33px;
+  padding-left: 39px;
+  list-style: none;
+  text-align: left;
+}
+
+.contact-list-item {
+  position: relative;
+  padding-left: 20px;
+}
+
+.contact-list-item i {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+.contact-list-item._address i {
+  color: black; /* set color for the address icon */
+}
+
+.contact-list-item._telephone i {
+  color: black; /* set color for the telephone icon */
+}
+
+.contact-list-item._email i {
+  color: black; /* set color for the email icon */
+}
+
+
+/* ----------------------------------------------------------------------------------------------------------------------------------
+MENU PAGE
+-----------------------------------------------------------------------------------------------------------------------------------*/
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 0;
+}
+
+.category-btns {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.btn {
+  margin-right: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #eee;
+  cursor: pointer;
+}
+
+.btn.active {
+  background-color: #333;
+  color: #fff;
+}
+
+.menu-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.menu-item {
+  margin: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  width: 300px;
+}
+
+.menu-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.item-info {
+  padding: 20px;
+}
+
+.item-info h3 {
+  margin: 0;
+}
+
+.item-info p {
+  margin: 10px 0 0 0;
+  font-size: 14px;
 }

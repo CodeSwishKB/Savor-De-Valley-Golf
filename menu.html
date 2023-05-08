@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="/style.css">
+	<link rel="shortcut icon" href="/assets/s-16.png">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Cookie&family=Lora:wght@500&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
+
+	<title>MENU | Savor De Valley Golf</title>
+</head>
+
+<body>
+	<!-- NAV BAR -->
+	<section class="sub-header">
+		<nav>
+			<a href="index.html"><img src="/assets/site-logo-2.png" alt=""></a>
+			<div class="nav-links" id="navLinks">
+				<i class="fa fa-times" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="/index.html">HOME</a></li>
+					<li><a href="/about.html">ABOUT</a></li>
+					<li><a href="/menu.html">MENU</a></li>
+					<li><a href="/contact.html">CONTACT</a></li>
+				</ul>
+			</div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav>
+
+		<h1>Menu</h1>
+		</div>
+	</section>
+
+
+	<section class="menu">
+		<div class="filters">
+			<button class="filter-btn active" data-filter="all">All</button>
+			<button class="filter-btn" data-filter="Carbonated Drink">Carbonated Drinks</button>
+		  </div>
+		  <div class="menu-items">
+			<!-- Menu items will be added dynamically -->
+		  </div>
+	</section>
+
+
+	<!-- FOOTER -->
+	<section class="footer">
+		<div class="footer-down-about">
+			<h4>Our Social Media Accounts</h4>
+			<div class="icons">
+				<a href="https://www.facebook.com/profile.php?id=100091996465040&mibextid=ZbWKwL" target="_blank"><i class="fa fa-facebook-official"></i></a>
+				<a href=""><i class="fa fa-instagram"></i></a>
+				<a href=""><i class="fa fa-envelope-o"></i></a>
+
+			</div>
+		</div>
+	</section>
+
+	<script>
+		/*------------------------ toggle menu ---------------------------*/
+		var navLinks = document.getElementById("navLinks")
+
+		function showMenu() {
+			navLinks.style.right = "0";
+		}
+
+		function hideMenu() {
+			navLinks.style.right = "-200px"
+		}
+	</script>
+
+	<script src="/script.js"></script>
+</body>
+
+</html>

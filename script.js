@@ -671,3 +671,47 @@ const dessert = [{
     price: "65",
     description: ""
 },]
+
+
+const menuItems = document.querySelector(".menu-items");
+const filterBtns = document.querySelectorAll(".filter-btn");
+
+window.addEventListener("DOMContentLoaded", function() {
+  displayMenuItems(drinks);
+});
+
+function displayMenuItems(items) {
+  let display = items.map(function(item) {
+    return `
+      <div class="menu-item ${item.subCategory}">
+        <img src="${item.img}" alt="${item.itemName}" class="photo">
+        <div class="item-info">
+          <header>
+            <h4>${item.itemName}</h4>
+            <h4 class="price">₱${item.price}</h4>
+          </header>
+          <p class="item-text">${item.description}</p>
+        </div>
+      </div>
+    `;
+  });
+  display = display.join("");
+  menuItems.innerHTML = display;
+}
+
+filterBtns.forEach(function(btn) {
+  btn.addEventListener("click", function(e) {
+    const category = e.currentTarget.dataset.filter;
+    const menuCategory = document.querySelectorAll(`.menu-item.${category}`);
+
+    menuCategory.forEach(function(item) {
+      item.style.display = "block";
+    });
+    
+    const menuNotCategory = document.querySelectorAll(`.menu-item:not(.${category})`);
+    
+    menuNotCategory.forEach(function(item) {
+      item.style.display = "none";
+    });
+  });
+});
