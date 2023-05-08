@@ -181,5 +181,600 @@
         "size": "Bucket",
         "price": 350,
         "description": ""
+    },{
+        "category": "Food",
+        "itemName": "Pork Adobo",
+        "subCategory": "Main Dish",
+        "size": "Regular",
+        "price": "250",
+        "description": ""
+    },{
+        "category": "Food",
+        "itemName": "Pinoy Chicken Curry",
+        "subCategory": "Main Dish",
+        "size": "Regular",
+        "price": "250",
+        "description": ""
+    },{
+        "category": "Food",
+        "itemName": "Beef Bulalo",
+        "subCategory": "Main Dish",
+        "size": "Regular",
+        "price": "350",
+        "description": ""
+    },{
+        "category": "Food",
+        "itemName": "Pork Menudo",
+        "subCategory": "Main Dish",
+        "size": "Regular",
+        "price": "250",
+        "description": ""
+    },{
+        "category": "Food",
+        "itemName": "Pork Caldereta",
+        "subCategory": "Main Dish",
+        "size": "Regular",
+        "price": "250",
+        "description": ""
+    },{
+        "category": "Food",
+        "itemName": "Chicken Afritada",
+        "subCategory": "Main Dish",
+        "size": "Regular",
+        "price": "239",
+        "description": ""
+    },{
+        "category": "Food",
+        "itemName": "Bicol Express",
+        "subCategory": "Main Dish",
+        "size": "Regular",
+        "price": "239",
+        "description": ""
+    },{
+        "category": "Food",
+        "itemName": "Pork Steak",
+        "subCategory": "Main Dish",
+        "size": "Regular",
+        "price": "250",
+        "description": ""
+    },{
+        "category": "Food",
+        "itemName": "Garlic Butter shrimp",
+        "subCategory": "Main Dish",
+        "size": "Regular",
+        "price": "300",
+        "description": ""
+    },{
+        "category": "Food",
+        "itemName": "Pork Sisig",
+        "subCategory": "Main Dish",
+        "size": "Regular",
+        "price": "295",
+        "description": ""
+    },{
+        "category": "Food",
+        "itemName": "Sinigang na Hipon",
+        "subCategory": "Main Dish",
+        "size": "Regular",
+        "price": "250",
+        "description": ""
+    },{
+        "category": "Food",
+        "itemName": "Sinigang na Baboy",
+        "subCategory": "Main Dish",
+        "size": "Regular",
+        "price": "250",
+        "description": ""
+    },{
+        "category": "Food",
+        "itemName": "Lechon Kawali",
+        "subCategory": "Main Dish",
+        "size": "Regular",
+        "price": "300",
+        "description": ""
+    },{
+        "category": "Food",
+        "itemName": "Beef Kare-Kare",
+        "subCategory": "Main Dish",
+        "size": "Regular",
+        "price": "300",
+        "description": ""
+    },{
+        "category": "Food",
+        "itemName": "Chicken Cordon Bleu",
+        "subCategory": "Main Dish",
+        "size": "Regular",
+        "price": "320",
+        "description": ""
+    },{
+        "category": "Food",
+        "itemName": "Fresh Green Beans",
+        "subCategory": "Side Dish",
+        "size": "Regular",
+        "price": "135",
+        "description": ""
+    },{
+        "category": "Food",
+        "itemName": "Sautéed Zucchini And Squash",
+        "subCategory": "Side Dish",
+        "size": "Regular",
+        "price": "150",
+        "description": ""
+    },{
+        "category": "Food",
+        "itemName": "Roasted Veggies",
+        "subCategory": "Side Dish",
+        "size": "Regular",
+        "price": "150",
+        "description": ""
+    },{
+        "category": "Food",
+        "itemName": "Roasted Broccoli With Sweet Chili Sauce",
+        "subCategory": "Side Dish",
+        "size": "Regular",
+        "price": "145",
+        "description": ""
+    },{
+        "category": "Food",
+        "itemName": "Roasted Ratatouille",
+        "subCategory": "Side Dish",
+        "size": "Regular",
+        "price": "165",
+        "description": ""
+    },{
+        "category": "Food",
+        "itemName": "Pearl Couscous Salad",
+        "subCategory": "Side Dish",
+        "size": "Regular",
+        "price": "190",
+        "description": ""
+    },{
+        "category": "Food",
+        "itemName": "Mediterranean Quinoa Salad",
+        "subCategory": "Side Dish",
+        "size": "Regular",
+        "price": "200",
+        "description": ""
+    },{
+        "category": "Food",
+        "itemName": "Chilaquiles",
+        "subCategory": "Side Dish",
+        "size": "Regular",
+        "price": "178",
+        "description": ""
+    },{
+        "category": "Food",
+        "itemName": "Crockpot Mac And Cheese",
+        "subCategory": "Side Dish",
+        "size": "Regular",
+        "price": "155",
+        "description": ""
+    },{
+        "category": "Food",
+        "itemName": "Filet Mignon Nachos",
+        "subCategory": "Side Dish",
+        "size": "Regular",
+        "price": "198",
+        "description": ""
+    },{
+        "category": "Food",
+        "itemName": "Spicy Shrimp Nacho",
+        "subCategory": "Side Dish",
+        "size": "Regular",
+        "price": "225",
+        "description": ""
+    },{
+        "category": "Food",
+        "itemName": "Surf And Turf Taco Combo",
+        "subCategory": "Side Dish",
+        "size": "Regular",
+        "price": "250",
+        "description": ""
+    },{
+        "category": "Food",
+        "itemName": "Cheesy Enchiladas",
+        "subCategory": "Side Dish",
+        "size": "Regular",
+        "price": "190",
+        "description": ""
+    },{
+        "category": "Food",
+        "itemName": "Banditto Burrito",
+        "subCategory": "Side Dish",
+        "size": "Regular",
+        "price": "123",
+        "description": ""
+    },{
+        "category": "Food",
+        "itemName": "Quesadilla",
+        "subCategory": "Side Dish",
+        "size": "Regular",
+        "price": "230",
+        "description": ""
+    },{
+        "category": "Food",
+        "itemName": "Garlic Bread",
+        "subCategory": "Appetizers",
+        "size": "Half Dozen",
+        "price": "449.85",
+        "description": ""
+    }, {
+        "category": "Food",
+        "itemName": "Chicken Wings",
+        "subCategory": "Appetizers",
+        "size": "Regular",
+        "price": "299.5",
+        "description": ""
+    }, {
+        "category": "Food",
+        "itemName": "Chicken Wings",
+        "subCategory": "Appetizers",
+        "size": "Dozen",
+        "price": "749.75",
+        "description": ""
+    }, {
+        "category": "Food",
+        "itemName": "Beef Sliders",
+        "subCategory": "Appetizers",
+        "size": "Single",
+        "price": "249.50",
+        "description": ""
+    }, {
+        "category": "Food",
+        "itemName": "Beef Sliders",
+        "subCategory": "Appetizers",
+        "size": "Double",
+        "price": "449.85",
+        "description": ""
+    }, {
+        "category": "Food",
+        "itemName": "Fried Zucchini  ",
+        "subCategory": "Appetizers",
+        "size": "Regular",
+        "price": "349.65",
+        "description": ""
+    }, {
+        "category": "Food",
+        "itemName": "Onion Rings  ",
+        "subCategory": "Appetizers",
+        "size": "Regular",
+        "price": "299.50",
+        "description": ""
+    }, {
+        "category": "Food",
+        "itemName": "Jumbo Shrimp Cocktail",
+        "subCategory": "Appetizers",
+        "size": "Regular",
+        "price": "449.85",
+        "description": ""
+    }, {
+        "category": "Food",
+        "itemName": "Jumbo Shrimp Cocktail",
+        "subCategory": "Appetizers",
+        "size": "Large",
+        "price": "749.75",
+        "description": ""
+    }, {
+        "category": "Food",
+        "itemName": "Mozzarella Sticks",
+        "subCategory": "Appetizers",
+        "size": " Regular",
+        "price": "349.65",
+        "description": ""
+    }, {
+        "category": "Food",
+        "itemName": "Tomato Soup",
+        "subCategory": "Soups",
+        "size": "Cup",
+        "price": "179.55",
+        "description": ""
+    }, {
+        "category": "Food",
+        "itemName": "Tomato Soup",
+        "subCategory": "Soups",
+        "size": "Bowl",
+        "price": "269.25",
+        "description": ""
+    }, {
+        "category": "Food",
+        "itemName": "Chicken Noodle Soup",
+        "subCategory": "Soups",
+        "size": "Cup",
+        "price": "224.65",
+        "description": ""
+    }, {
+        "category": "Food",
+        "itemName": "Chicken Noodle Soup",
+        "subCategory": "Soups",
+        "size": " Bowl",
+        "price": "314.35",
+        "description": ""
+    }, {
+        "category": "Food",
+        "itemName": "Garden Salad",
+        "subCategory": "Salad",
+        "size": " Regular",
+        "price": "299.50",
+        "description": ""
+    }, {
+        "category": "Food",
+        "itemName": "Spaghetti with Meatballs",
+        "subCategory": "Pasta",
+        "size": " Regular",
+        "price": "349",
+        "description": ""
+    }, {
+        "category": "Food",
+        "itemName": "Classic Filipino Style Spaghetti",
+        "subCategory": "Pasta",
+        "size": " Regular",
+        "price": "329",
+        "description": ""
+    }, {
+        "category": "Food",
+        "itemName": "Spaghetti with Marinara Sauce",
+        "subCategory": "Pasta",
+        "size": " Regular",
+        "price": "329",
+        "description": ""
+    }, {
+        "category": "Food",
+        "itemName": "Creamy Shrimp Pasta",
+        "subCategory": "Pasta",
+        "size": " Regular",
+        "price": "349",
+        "description": ""
+    }, {
+        "category": "Food",
+        "itemName": "Triple Cheese Pasta",
+        "subCategory": "Pasta",
+        "size": " Regular",
+        "price": "349",
+        "description": ""
+    }, {
+        "category": "Food",
+        "itemName": "Carbonara",
+        "subCategory": "Pasta",
+        "size": " Regular",
+        "price": "329",
+        "description": ""
+    }, {
+        "category": "Food",
+        "itemName": "Parmesan Cheese Pasta",
+        "subCategory": "Pasta",
+        "size": " Regular",
+        "price": "329",
+        "description": ""
+    }, {
+        "category": "Food",
+        "itemName": "Veggie Pasta",
+        "subCategory": "Pasta",
+        "size": " Regular",
+        "price": "315",
+        "description": ""
+    }, {
+        "category": "Food",
+        "itemName": "Veggie Supreme Pizza",
+        "subCategory": "Pasta",
+        "size": " Regular",
+        "price": "375",
+        "description": ""
+    }, {
+        "category": "Food",
+        "itemName": "BBQ Chicken Pizza",
+        "subCategory": "Pasta",
+        "size": " Regular",
+        "price": "375",
+        "description": ""
+    }, {
+        "category": "Food",
+        "itemName": "Meat Lovers",
+        "subCategory": "Pasta",
+        "size": " Regular",
+        "price": "399",
+        "description": ""
+    }, {
+        "category": "Food",
+        "itemName": "Extra Cheesy Pizza",
+        "subCategory": "Pasta",
+        "size": " Regular",
+        "price": "399",
+        "description": ""
+    }, {
+        "category": "Food",
+        "itemName": "Classic Pepperoni Pizza",
+        "subCategory": "Pasta",
+        "size": " Regular",
+        "price": "375",
+        "description": ""
+    }, {
+        "category": "Food",
+        "itemName": "Hawaiian Pizza",
+        "subCategory": "Pasta",
+        "size": " Regular",
+        "price": "375",
+        "description": ""
+    }, {
+        "category": "Food",
+        "itemName": "Chicken & Spinach Pizza",
+        "subCategory": "Pasta",
+        "size": " Regular",
+        "price": "399",
+        "description": ""
+    }, {
+        "category": "Desserts",
+        "itemName": "Mango Float",
+        "subCategory": "Cold",
+        "size": "Regular",
+        "price": "100",
+        "description": ""
+    }, {
+        "category": "Desserts",
+        "itemName": "Yema Cake",
+        "subCategory": "Cake",
+        "size": "Half slice",
+        "price": "145",
+        "description": ""
+    }, {
+        "category": "Desserts",
+        "itemName": "Yema Cake",
+        "subCategory": "Cake",
+        "size": "Whole",
+        "price": "290",
+        "description": ""
+    }, {
+        "category": "Desserts",
+        "itemName": "Brazo De Mercedes",
+        "subCategory": "Cake",
+        "size": "Half slice",
+        "price": "115",
+        "description": ""
+    }, {
+        "category": "Desserts",
+        "itemName": "Brazo De Mercedes",
+        "subCategory": "Cake",
+        "size": "Whole",
+        "price": "230",
+        "description": ""
+    }, {
+        "category": "Desserts",
+        "itemName": "Bibingka",
+        "subCategory": "Hot",
+        "size": "Regular",
+        "price": "65",
+        "description": ""
+    }, {
+        "category": "Desserts",
+        "itemName": "Leche Flan",
+        "subCategory": "Custard",
+        "size": "Regular",
+        "price": "100",
+        "description": ""
+    }, {
+        "category": "Desserts",
+        "itemName": "Buko Salad",
+        "subCategory": "Cold",
+        "size": "Regular",
+        "price": "100",
+        "description": ""
+    }, {
+        "category": "Desserts",
+        "itemName": "Coffee Jelly",
+        "subCategory": "Cold",
+        "size": "Regular",
+        "price": "100",
+        "description": ""
+    }, {
+        "category": "Desserts",
+        "itemName": "Buko Pie",
+        "subCategory": "Cake",
+        "size": "Half slice",
+        "price": "95",
+        "description": ""
+    }, {
+        "category": "Desserts",
+        "itemName": "Buko Pie",
+        "subCategory": "Cake",
+        "size": "Whole",
+        "price": "190",
+        "description": ""
+    }, {
+        "category": "Desserts",
+        "itemName": "Halo - Halo",
+        "subCategory": "Shaved ice",
+        "size": "Small",
+        "price": "50",
+        "description": ""
+    }, {
+        "category": "Desserts",
+        "itemName": "Halo - Halo",
+        "subCategory": "Shaved ice",
+        "size": "Regular",
+        "price": "65",
+        "description": ""
+    }, {
+        "category": "Desserts",
+        "itemName": "Halo - Halo",
+        "subCategory": "Shaved ice",
+        "size": "Large",
+        "price": "70",
+        "description": ""
+    },{
+        "category": "Desserts",
+        "itemName": "Maja Blanca",
+        "subCategory": "Cake",
+        "size": "Half",
+        "price": "75",
+        "description": ""
+    }, {
+        "category": "Desserts",
+        "itemName": "Maja Blanca",
+        "subCategory": "Cake",
+        "size": "Whole",
+        "price": "150",
+        "description": ""
+    }, {
+        "category": "Desserts",
+        "itemName": "Gulaman",
+        "subCategory": "Cold",
+        "size": "Regular",
+        "price": "30",
+        "description": ""
+    }, {
+        "category": "Desserts",
+        "itemName": "Polvoron",
+        "subCategory": "Shortbread",
+        "size": "Regular",
+        "price": "55",
+        "description": ""
+    }, {
+        "category": "Desserts",
+        "itemName": "Churos",
+        "subCategory": "Fried",
+        "size": "Regular",
+        "price": "100",
+        "description": ""
+    }, {
+        "category": "Desserts",
+        "itemName": "Mais Con Hielo",
+        "subCategory": "Shaved ice",
+        "size": "Small",
+        "price": "70",
+        "description": ""
+    }, {
+        "category": "Desserts",
+        "itemName": "Mais Con Hielo",
+        "subCategory": "Shaved ice",
+        "size": "Regular",
+        "price": "80",
+        "description": ""
+    }, {
+        "category": "Desserts",
+        "itemName": "Mais Con Hielo",
+        "subCategory": "Shaved ice",
+        "size": "Large",
+        "price": "90",
+        "description": ""
+    }, {
+        "category": "Desserts",
+        "itemName": "Saging con Hielo",
+        "subCategory": "Shaved ice",
+        "size": "Regular",
+        "price": "55",
+        "description": ""
+    }, {
+        "category": "Desserts",
+        "itemName": "Saging con Hielo",
+        "subCategory": "Shaved ice",
+        "size": "Regular",
+        "price": "60",
+        "description": ""
+    },{
+        "category": "Desserts",
+        "itemName": "Saging con Hielo",
+        "subCategory": "Shaved ice",
+        "size": "Regular",
+        "price": "65",
+        "description": ""
     }
 ]
