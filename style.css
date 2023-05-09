@@ -473,6 +473,7 @@ CONTACT PAGE
   background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(/assets/images/contact.jpg);
   background-position: center;
   background-size: cover;
+  object-fit: cover;
   text-align: center;
   color: #fff;
 }
@@ -541,6 +542,23 @@ CONTACT PAGE
 /* ----------------------------------------------------------------------------------------------------------------------------------
 MENU PAGE
 -----------------------------------------------------------------------------------------------------------------------------------*/
+.sub-header3 {
+  height: 50vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(/assets/images/Dessert/REGULAR_Mango\ Float.jpg);
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+  text-align: center;
+  color: #fff;
+}
+
+.sub-header3 h1 {
+  font-family: 'Cookie', cursive;
+  font-weight: normal;
+  font-size: 80px;
+}
+
 .menu {
   display: flex;
   flex-direction: column;
@@ -550,6 +568,10 @@ MENU PAGE
 
 .category-btns {
   display: flex;
+  margin-bottom: 30px;
+}
+
+.search-bar {
   margin-bottom: 30px;
 }
 

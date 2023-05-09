@@ -4,159 +4,199 @@ const drinks = [{
     subCategory: "Carbonated Drink",
     size: "Can",
     price: 25,
+    imgurl: "assets/images/Drinks/Coke.jpg",
     description: ""
 },{
     itemName: "Bottled Water",
     subCategory: "Carbonated Drink",
     size: "Regular",
     price: 35,
+    imgurl: "assets/images/Drinks/Bottled Water.jpg",
     description: ""
 }, {
     itemName: "Diet Soda",
     subCategory: "Carbonated Drink",
     size: "Can",
     price: 25,
+    imgurl: "assets/images/Drinks/Diet Soda.jpg",
     description: ""
 }, {
     itemName: "Lipton",
     subCategory: "Carbonated Drink",
     size: "Regular",
     price: 30,
+    imgurl: "assets/images/Drinks/",
     description: ""
 }, {
     itemName: "Ice Tea",
     subCategory: "Carbonated Drink",
     size: "Pitcher",
     price: 55,
+    imgurl: "assets/images/Drinks/",
     description: ""
 }, {
     itemName: "Double Dutch Shake",
     subCategory: "Shakes",
     size: "Regular",
     price: 85,
+    imgurl: "assets/images/Drinks/",
     description: ""
 }, {
     itemName: "Black Forest Shake",
     subCategory: "Shakes",
     size: "Regular",
     price: 25,
+    imgurl: "assets/images/Drinks/",
     description: ""
 }, {
     itemName: "Banana Shake",
     subCategory: "Shakes",
     size: "Small",
     price: 60,
+    imgurl: "assets/images/Drinks/",
     description: ""
 }, {
     itemName: "Banana Shake",
     subCategory: "Shakes",
     size: "Medium",
     price: 110,
+    imgurl: "assets/images/Drinks/",
+
     description: ""
 }, {
     itemName: "Banana Shake",
     subCategory: "Shakes",
     size: "Large",
     price: 180,
+    imgurl: "assets/images/Drinks/",
+
     description: ""
 }, {
     itemName: "Mango Shake",
     subCategory: "Shakes",
     size: "Small",
     price: 60,
+    imgurl: "assets/images/Drinks/",
     description: ""
 }, {
     itemName: "Mango Shake",
     subCategory: "Shakes",
     size: "Medium",
     price: 110,
+    imgurl: "assets/images/Drinks/",
+
     description: ""
 }, {
     itemName: "Mango Shake",
     subCategory: "Shakes",
     size: "Large",
     price: 180,
+    imgurl: "assets/images/Drinks/",
+
     description: ""
 }, {
     itemName: "Hot Tea Latte",
     subCategory: "Hot Coffee",
     size: "Regular",
     price: 140,
+    imgurl: "assets/images/Drinks/",
+
     description: ""
 }, {
     itemName: "Cappuccino",
     subCategory: "Hot Coffee",
     size: "Regular",
     price: 140,
+    imgurl: "assets/images/Drinks/",
+
     description: ""
 }, {
     itemName: "Brewed Coffee",
     subCategory: "Hot Coffee",
     size: "Regular",
     price: 140,
+    imgurl: "assets/images/Drinks/",
+
     description: ""
 }, {
     itemName: "Mocha Iced Coffee",
     subCategory: "Cold Coffee",
     size: "Regular",
     price: 120,
+    imgurl: "assets/images/Drinks/",
+
     description: ""
 }, {
     itemName: "Vanilla Iced Coffee",
     subCategory: "Cold Coffee",
     size: "Regular",
     price: 120,
+    imgurl: "assets/images/Drinks/",
+
     description: ""
 }, {
     itemName: "Iced Coffee",
     subCategory: "Cold Coffee",
     size: "Regular",
     price: 120,
+    imgurl: "assets/images/Drinks/",
+
     description: ""
 },{
     itemName: "Alfonso",
     subCategory: "Beers",
     size: "1 Liter",
     price: 650,
+    imgurl: "assets/images/Drinks/",
+
     description: ""
 },{
     itemName: "Red Horse",
     subCategory: "Beers",
     size: "1 Liter",
     price: 140,
+    imgurl: "assets/images/Drinks/",
+
     description: ""
 },{
     itemName: "Red Horse",
     subCategory: "Bucket",
     size: "Beers",
     price: 450,
+    imgurl: "assets/images/Drinks/",
+
     description: ""
 },{
     itemName: "San Miguel Light",
     subCategory: "Beers",
     size: "Solo",
     price: 70,
+    imgurl: "assets/images/Drinks/",
     description: ""
 },{
     itemName: "San Miguel Light",
     subCategory: "Beers",
     size: "Bucket",
     price: 350,
+    imgurl: "assets/images/Drinks/",
+
     description: ""
 },{
     itemName: "Pale Pilsen",
     subCategory: "Beers",
     size: "Solo",
     price: 70,
+    imgurl: "assets/images/Drinks/",
     description: ""
 },{
     itemName: "Pale Pilsen",
     subCategory: "Beers",
     size: "Bucket",
     price: 350,
+    imgurl: "assets/images/Drinks/",
+
     description: ""
 } ]
-console.log(drinks.length)
 
 const foods = [{
     itemName: "Pork Adobo",
@@ -674,44 +714,79 @@ const dessert = [{
 
 
 const menuItems = document.querySelector(".menu-items");
+const searchInputs = document.querySelector(".search-bar input")
 const filterBtns = document.querySelectorAll(".filter-btn");
 
-window.addEventListener("DOMContentLoaded", function() {
+window.addEventListener("DOMContentLoaded", () => {
   displayMenuItems(drinks);
 });
 
+searchInputs.addEventListener('input', () =>{
+    const searchValue = searchInputs.value.toLowerCase();
+    const filteredDrinks = drinks.filter(drink =>  drink.itemName.toLowerCase().includes(searchValue))
+    const filteredFoods = foods.filter(food =>  food.itemName.toLowerCase().includes(searchValue))
+    const filteredDesserts = dessert.filter(dessert =>  dessert.itemName.toLowerCase().includes(searchValue))
+
+    const allItems = filteredDrinks.concat(filteredFoods, filteredDesserts)
+    console.log(allItems)
+
+    menuItems.innerHTML = '';
+
+    // adds all filtered items to item list
+    allItems.forEach(item => {
+      const itemElement = createItemElement(item);
+      menuItems.appendChild(itemElement);
+    });
+});
+
+function createItemElement(item) {
+    const itemElement = document.createElement('div');
+    itemElement.className = `menu-item ${item.subCategory}`;
+    itemElement.innerHTML = `
+      <img src="${item.imgurl}" alt="${item.itemName}" class="photo">
+      <div class="item-info">
+        <header>
+          <h4>${item.itemName}</h4>
+          <h4 class="price">₱${item.price}</h4>
+          <h4>${item.size}</h4>
+        </header>
+        <p class="item-text">${item.description}</p>
+      </div>
+    `;
+    return itemElement;
+  }
+  
+
 function displayMenuItems(items) {
-  let display = items.map(function(item) {
+  let display = items.map(item => {
     return `
       <div class="menu-item ${item.subCategory}">
-        <img src="${item.img}" alt="${item.itemName}" class="photo">
+        <img src="${item.imgurl}" alt="${item.itemName}" class="photo">
         <div class="item-info">
           <header>
             <h4>${item.itemName}</h4>
             <h4 class="price">₱${item.price}</h4>
+            <h4>${item.size}</h4>
           </header>
           <p class="item-text">${item.description}</p>
         </div>
       </div>
     `;
-  });
-  display = display.join("");
+  }).join("");
+
   menuItems.innerHTML = display;
 }
 
-filterBtns.forEach(function(btn) {
-  btn.addEventListener("click", function(e) {
-    const category = e.currentTarget.dataset.filter;
-    const menuCategory = document.querySelectorAll(`.menu-item.${category}`);
-
-    menuCategory.forEach(function(item) {
-      item.style.display = "block";
-    });
-    
-    const menuNotCategory = document.querySelectorAll(`.menu-item:not(.${category})`);
-    
-    menuNotCategory.forEach(function(item) {
-      item.style.display = "none";
-    });
+filterBtns.forEach(btn => {
+    btn.addEventListener("click", e => {
+      const category = e.currentTarget.dataset.filter;
+      const filteredItems = allItems.filter(item => item.category === category);
+  
+      menuItems.innerHTML = '';
+      
+      filteredItems.forEach(item => {
+        const itemElement = createItemElement(item);
+        menuItems.appendChild(itemElement);
+      });
   });
 });
