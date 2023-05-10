@@ -31,7 +31,7 @@ const drinks = [{
     subCategory: "Carbonated Drink",
     size: "Regular",
     price: 30,
-    imgurl: "assets/images/Drinks/",
+    imgurl: "assets/images/Drinks/Lipton.jpg",
     category: "drinks",
     all: "all",
     description: ""
@@ -40,7 +40,7 @@ const drinks = [{
     subCategory: "Carbonated Drink",
     size: "Pitcher",
     price: 55,
-    imgurl: "assets/images/Drinks/",
+    imgurl: "assets/images/Drinks/Ice Tea.jpg",
     category: "drinks",
     all: "all",
     description: ""
@@ -49,7 +49,7 @@ const drinks = [{
     subCategory: "Shakes",
     size: "Regular",
     price: 85,
-    imgurl: "assets/images/Drinks/",
+    imgurl: "assets/images/Drinks/Double Dutch Shake.jpg",
     category: "drinks",
     all: "all",
     description: ""
@@ -58,7 +58,7 @@ const drinks = [{
     subCategory: "Shakes",
     size: "Regular",
     price: 25,
-    imgurl: "assets/images/Drinks/",
+    imgurl: "assets/images/Drinks/Black Forest Shake.jpg",
     category: "drinks",
     all: "all",
     description: ""
@@ -67,7 +67,7 @@ const drinks = [{
     subCategory: "Shakes",
     size: "Small",
     price: 60,
-    imgurl: "assets/images/Drinks/",
+    imgurl: "assets/images/Drinks/SMALL_Banana Shake.jpg",
     category: "drinks",
     all: "all",
     description: ""
@@ -76,8 +76,7 @@ const drinks = [{
     subCategory: "Shakes",
     size: "Medium",
     price: 110,
-    imgurl: "assets/images/Drinks/",
-
+    imgurl: "assets/images/Drinks/MEDIUM_Banana Shake.jpg",
     category: "drinks",
     all: "all",
     description: ""
@@ -86,8 +85,7 @@ const drinks = [{
     subCategory: "Shakes",
     size: "Large",
     price: 180,
-    imgurl: "assets/images/Drinks/",
-
+    imgurl: "assets/images/Drinks/LARGE_Banana Shake.jpg",
     category: "drinks",
     all: "all",
     description: ""
@@ -96,7 +94,7 @@ const drinks = [{
     subCategory: "Shakes",
     size: "Small",
     price: 60,
-    imgurl: "assets/images/Drinks/",
+    imgurl: "assets/images/Drinks/SMALL_Mango Shake.jpg",
     category: "drinks",
     all: "all",
     description: ""
@@ -105,7 +103,7 @@ const drinks = [{
     subCategory: "Shakes",
     size: "Medium",
     price: 110,
-    imgurl: "assets/images/Drinks/",
+    imgurl: "assets/images/Drinks/MEDIUM_Mango Shake.jpg",
     category: "drinks",
     all: "all",
     description: ""
@@ -114,7 +112,7 @@ const drinks = [{
     subCategory: "Shakes",
     size: "Large",
     price: 180,
-    imgurl: "assets/images/Drinks/",
+    imgurl: "assets/images/Drinks/LARGE_Mango Shake.jpg",
     category: "drinks",
     all: "all",
     description: ""
@@ -123,7 +121,7 @@ const drinks = [{
     subCategory: "Hot Coffee",
     size: "Regular",
     price: 140,
-    imgurl: "assets/images/Drinks/",
+    imgurl: "assets/images/Drinks/Hot Tea Latte.jpg",
     category: "drinks",
     all: "all",
     description: ""
@@ -132,7 +130,7 @@ const drinks = [{
     subCategory: "Hot Coffee",
     size: "Regular",
     price: 140,
-    imgurl: "assets/images/Drinks/",
+    imgurl: "assets/images/Drinks/Cappuccino.jpeg",
     category: "drinks",
     all: "all",
     description: ""
@@ -141,7 +139,7 @@ const drinks = [{
     subCategory: "Hot Coffee",
     size: "Regular",
     price: 140,
-    imgurl: "assets/images/Drinks/",
+    imgurl: "assets/images/Drinks/Brewed Coffee.jpg",
     category: "drinks",
     all: "all",
     description: ""
@@ -150,7 +148,7 @@ const drinks = [{
     subCategory: "Cold Coffee",
     size: "Regular",
     price: 120,
-    imgurl: "assets/images/Drinks/",
+    imgurl: "assets/images/Drinks/Mocha Ice Coffee.jpg",
     category: "drinks",
     all: "all",
     description: ""
@@ -159,7 +157,7 @@ const drinks = [{
     subCategory: "Cold Coffee",
     size: "Regular",
     price: 120,
-    imgurl: "assets/images/Drinks/",
+    imgurl: "assets/images/Drinks/Vanilla Ice Coffee.jpg",
     category: "drinks",
     all: "all",
     description: ""
@@ -168,8 +166,7 @@ const drinks = [{
     subCategory: "Cold Coffee",
     size: "Regular",
     price: 120,
-    imgurl: "assets/images/Drinks/",
-
+    imgurl: "assets/images/Drinks/Ice Coffee.jpg",
     category: "drinks",
     all: "all",
     description: ""
@@ -178,8 +175,7 @@ const drinks = [{
     subCategory: "Beers",
     size: "1 Liter",
     price: 650,
-    imgurl: "assets/images/Drinks/",
-
+    imgurl: "assets/images/Drinks/Alfonso.jpg",
     category: "drinks",
     all: "all",
     description: ""
@@ -188,7 +184,7 @@ const drinks = [{
     subCategory: "Beers",
     size: "1 Liter",
     price: 140,
-    imgurl: "assets/images/Drinks/",
+    imgurl: "assets/images/Drinks/Red Horse.png",
     category: "drinks",
     all: "all",
     description: ""
@@ -197,7 +193,7 @@ const drinks = [{
     subCategory: "Bucket",
     size: "Beers",
     price: 450,
-    imgurl: "assets/images/Drinks/",
+    imgurl: "assets/images/Drinks/BUCKET_Red Horse.jpg",
     category: "drinks",
     all: "all",
     description: ""
@@ -206,7 +202,7 @@ const drinks = [{
     subCategory: "Beers",
     size: "Solo",
     price: 70,
-    imgurl: "assets/images/Drinks/",
+    imgurl: "assets/images/Drinks/SOLO_San Miguel Light.jpg",
     category: "drinks",
     all: "all",
     description: ""
@@ -215,7 +211,7 @@ const drinks = [{
     subCategory: "Beers",
     size: "Bucket",
     price: 350,
-    imgurl: "assets/images/Drinks/",
+    imgurl: "assets/images/Drinks/BUCKET_San Miguel Light.jpg",
     category: "drinks",
     all: "all",
     description: ""
@@ -224,7 +220,7 @@ const drinks = [{
     subCategory: "Beers",
     size: "Solo",
     price: 70,
-    imgurl: "assets/images/Drinks/",
+    imgurl: "assets/images/Drinks/SOLO_Pale Pilsen.png",
     category: "drinks",
     all: "all",
     description: ""
@@ -233,7 +229,7 @@ const drinks = [{
     subCategory: "Beers",
     size: "Bucket",
     price: 350,
-    imgurl: "assets/images/Drinks/",
+    imgurl: "assets/images/Drinks/BUCKET_Pale Pilsen.jpg",
     category: "drinks",
     all: "all",
     description: ""
@@ -995,6 +991,9 @@ filterBtns.forEach(btn => {
       const all = e.currentTarget.dataset.filter;
       const filteredItems = allItems.filter(item => item.category === category);
       const itemAll = allItems.filter(item => item.all === all)
+      
+      filterBtns.forEach(btn => btn.classList.remove('active'));
+      e.currentTarget.classList.add('active');
 
       menuItems.innerHTML = '';
       

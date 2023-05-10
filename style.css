@@ -5,6 +5,10 @@
   padding: 0;
 }
 
+* p {
+  font-size: 20px;
+}
+
 
 /* ----------------------------------------------------------------------------------------------------------------------------------
 NAV BAR
@@ -32,10 +36,10 @@ nav {
   align-items: center;
 }
 
-nav a img:hover {
+/* nav a img:hover {
   transition: 0.3s;
   box-shadow: 0 0 20px 0px rgba(255, 255, 255, 0.876);
-}
+} */
 
 .nav-links {
   flex: 1;
@@ -408,10 +412,10 @@ ABOUT US PAGE
 .sub-header {
   height: 50vh;
   width: 100%;
-  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(/assets/images/people.jpg);
-  background-position: center top;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(/assets/HAHAHAHAHAHAHHHAHA.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center calc(18%);
   text-align: center;
   color: #fff;
 }
@@ -622,3 +626,37 @@ MENU PAGE
   margin: 10px 0 0 0;
   font-size: 14px;
 }
+
+/* Style for the search input */
+input[type="text"] {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+/* Style for the filter buttons */
+.filter-btn {
+  background-color: #fff;
+  color: #333;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.filter-btn.active {
+  background-color: #0a300b;
+  color: #fff;
+}
+
+.filter-btn:hover {
+  background-color: #ddd;
+}
+
