@@ -5,195 +5,237 @@ const drinks = [{
     size: "Can",
     price: 25,
     imgurl: "assets/images/Drinks/Coke.jpg",
+    category: "drinks",
+    all: "all",
     description: ""
 },{
     itemName: "Bottled Water",
     subCategory: "Carbonated Drink",
     size: "Regular",
     price: 35,
-    imgurl: "assets/images/Drinks/BottledWater.jpg",
+    imgurl: "assets/images/Drinks/Bottled Water.jpg",
+    category: "drinks",
+    all: "all",
     description: ""
 }, {
     itemName: "Diet Soda",
     subCategory: "Carbonated Drink",
     size: "Can",
     price: 25,
-    imgurl: "assets/images/Drinks/DietSoda.jpg",
+    imgurl: "assets/images/Drinks/Diet Soda.jpg",
+    category: "drinks",
+    all: "all",
     description: ""
 }, {
     itemName: "Lipton",
     subCategory: "Carbonated Drink",
     size: "Regular",
     price: 30,
-    imgurl: "assets/images/Drinks/Lipton.jpg",
+    imgurl: "assets/images/Drinks/",
+    category: "drinks",
+    all: "all",
     description: ""
 }, {
     itemName: "Ice Tea",
     subCategory: "Carbonated Drink",
     size: "Pitcher",
     price: 55,
-    imgurl: "assets/images/Drinks/IceTea.jpg",
+    imgurl: "assets/images/Drinks/",
+    category: "drinks",
+    all: "all",
     description: ""
 }, {
     itemName: "Double Dutch Shake",
     subCategory: "Shakes",
     size: "Regular",
     price: 85,
-    imgurl: "assets/images/Drinks/DoubleDutchShake.jpg",
+    imgurl: "assets/images/Drinks/",
+    category: "drinks",
+    all: "all",
     description: ""
 }, {
     itemName: "Black Forest Shake",
     subCategory: "Shakes",
     size: "Regular",
     price: 25,
-    imgurl: "assets/images/Drinks/BlackForestShake.jpg",
+    imgurl: "assets/images/Drinks/",
+    category: "drinks",
+    all: "all",
     description: ""
 }, {
     itemName: "Banana Shake",
     subCategory: "Shakes",
     size: "Small",
     price: 60,
-    imgurl: "assets/images/Drinks/SMALL_BananaShake.jpg",
+    imgurl: "assets/images/Drinks/",
+    category: "drinks",
+    all: "all",
     description: ""
 }, {
     itemName: "Banana Shake",
     subCategory: "Shakes",
     size: "Medium",
     price: 110,
-    imgurl: "assets/images/Drinks/MEDIUM_BananaShake.jpg",
+    imgurl: "assets/images/Drinks/",
 
+    category: "drinks",
+    all: "all",
     description: ""
 }, {
     itemName: "Banana Shake",
     subCategory: "Shakes",
     size: "Large",
     price: 180,
-    imgurl: "assets/images/Drinks/LARGE_BananaShake.jpg",
+    imgurl: "assets/images/Drinks/",
 
+    category: "drinks",
+    all: "all",
     description: ""
 }, {
     itemName: "Mango Shake",
     subCategory: "Shakes",
     size: "Small",
     price: 60,
-    imgurl: "assets/images/Drinks/SMALL_MangoShake.jpg",
+    imgurl: "assets/images/Drinks/",
+    category: "drinks",
+    all: "all",
     description: ""
 }, {
     itemName: "Mango Shake",
     subCategory: "Shakes",
     size: "Medium",
     price: 110,
-    imgurl: "assets/images/Drinks/MEDIUM_MangoShake.jpg",
-
+    imgurl: "assets/images/Drinks/",
+    category: "drinks",
+    all: "all",
     description: ""
 }, {
     itemName: "Mango Shake",
     subCategory: "Shakes",
     size: "Large",
     price: 180,
-    imgurl: "assets/images/Drinks/LARGE_MangoShake.jpg",
-
+    imgurl: "assets/images/Drinks/",
+    category: "drinks",
+    all: "all",
     description: ""
 }, {
     itemName: "Hot Tea Latte",
     subCategory: "Hot Coffee",
     size: "Regular",
     price: 140,
-    imgurl: "assets/images/Drinks/HotTeaLatte.jpg",
-
+    imgurl: "assets/images/Drinks/",
+    category: "drinks",
+    all: "all",
     description: ""
 }, {
     itemName: "Cappuccino",
     subCategory: "Hot Coffee",
     size: "Regular",
     price: 140,
-    imgurl: "assets/images/Drinks/Cappuccino.jpeg",
-
+    imgurl: "assets/images/Drinks/",
+    category: "drinks",
+    all: "all",
     description: ""
 }, {
     itemName: "Brewed Coffee",
     subCategory: "Hot Coffee",
     size: "Regular",
     price: 140,
-    imgurl: "assets/images/Drinks/BrewedCoffee.jpg",
-
+    imgurl: "assets/images/Drinks/",
+    category: "drinks",
+    all: "all",
     description: ""
 }, {
     itemName: "Mocha Iced Coffee",
     subCategory: "Cold Coffee",
     size: "Regular",
     price: 120,
-    imgurl: "assets/images/Drinks/MochaIceCoffee.jpg",
-
+    imgurl: "assets/images/Drinks/",
+    category: "drinks",
+    all: "all",
     description: ""
 }, {
     itemName: "Vanilla Iced Coffee",
     subCategory: "Cold Coffee",
     size: "Regular",
     price: 120,
-    imgurl: "assets/images/Drinks/VanillaIceCoffee.jpg",
-
+    imgurl: "assets/images/Drinks/",
+    category: "drinks",
+    all: "all",
     description: ""
 }, {
     itemName: "Iced Coffee",
     subCategory: "Cold Coffee",
     size: "Regular",
     price: 120,
-    imgurl: "assets/images/Drinks/IceCoffee.jpg",
+    imgurl: "assets/images/Drinks/",
 
+    category: "drinks",
+    all: "all",
     description: ""
 },{
     itemName: "Alfonso",
     subCategory: "Beers",
     size: "1 Liter",
     price: 650,
-    imgurl: "assets/images/Drinks/Alfonso.jpg",
+    imgurl: "assets/images/Drinks/",
 
+    category: "drinks",
+    all: "all",
     description: ""
 },{
     itemName: "Red Horse",
     subCategory: "Beers",
     size: "1 Liter",
     price: 140,
-    imgurl: "assets/images/Drinks/RedHorse.png",
-
+    imgurl: "assets/images/Drinks/",
+    category: "drinks",
+    all: "all",
     description: ""
 },{
     itemName: "Red Horse",
     subCategory: "Bucket",
     size: "Beers",
     price: 450,
-    imgurl: "assets/images/Drinks/BUCKET_RedHorse.jpg",
-
+    imgurl: "assets/images/Drinks/",
+    category: "drinks",
+    all: "all",
     description: ""
 },{
     itemName: "San Miguel Light",
     subCategory: "Beers",
     size: "Solo",
     price: 70,
-    imgurl: "assets/images/Drinks/SOLO_SanMiguelLight.jpg",
+    imgurl: "assets/images/Drinks/",
+    category: "drinks",
+    all: "all",
     description: ""
 },{
     itemName: "San Miguel Light",
     subCategory: "Beers",
     size: "Bucket",
     price: 350,
-    imgurl: "assets/images/Drinks/BUCKET_SanMiguelLight.jpg",
-
+    imgurl: "assets/images/Drinks/",
+    category: "drinks",
+    all: "all",
     description: ""
 },{
     itemName: "Pale Pilsen",
     subCategory: "Beers",
     size: "Solo",
     price: 70,
-    imgurl: "assets/images/Drinks/SOLO_PalePilsen.png",
+    imgurl: "assets/images/Drinks/",
+    category: "drinks",
+    all: "all",
     description: ""
 },{
     itemName: "Pale Pilsen",
     subCategory: "Beers",
     size: "Bucket",
     price: 350,
-    imgurl: "assets/images/Drinks/BUCKET_PalePilsen.jpg",
+    imgurl: "assets/images/Drinks/",
+    category: "drinks",
+    all: "all",
     description: ""
 } ]
 
@@ -202,420 +244,480 @@ const foods = [{
     subCategory: "Main Dish",
     size: "Regular",
     price: "250",
-    imgurl: "assets/images/MainDish/PorkAdobo.jpg",
+    category: "foods",
+    all: "all",
     description: ""
 },{
     itemName: "Pinoy Chicken Curry",
     subCategory: "Main Dish",
     size: "Regular",
     price: "250",
-    imgurl: "assets/images/MainDish/PinoyChickenCurry.jpg",
+    category: "foods",
+    all: "all",
     description: ""
 },{
     itemName: "Beef Bulalo",
     subCategory: "Main Dish",
     size: "Regular",
     price: "350",
-    imgurl: "assets/images/MainDish/BeefBulalo.jpg",
+    category: "foods",
+    all: "all",
     description: ""
 },{
     itemName: "Pork Menudo",
     subCategory: "Main Dish",
     size: "Regular",
     price: "250",
-    imgurl: "assets/images/MainDish/PorkMenudo.jpg",
+    category: "foods",
+    all: "all",
     description: ""
 },{
     itemName: "Pork Caldereta",
     subCategory: "Main Dish",
     size: "Regular",
     price: "250",
-    imgurl: "assets/images/MainDish/PorkCaldereta.png",
+    category: "foods",
+    all: "all",
     description: ""
 },{
     itemName: "Chicken Afritada",
     subCategory: "Main Dish",
     size: "Regular",
     price: "239",
-    imgurl: "assets/images/MainDish/ChickenAfritada.jpg",
+    category: "foods",
+    all: "all",
     description: ""
 },{
     itemName: "Bicol Express",
     subCategory: "Main Dish",
     size: "Regular",
     price: "239",
-    imgurl: "assets/images/MainDish/BicolExpress.jpg",
+    category: "foods",
+    all: "all",
     description: ""
 },{
     itemName: "Pork Steak",
     subCategory: "Main Dish",
     size: "Regular",
     price: "250",
-    imgurl: "assets/images/MainDish/PorkSteak.jpg",
+    category: "foods",
+    all: "all",
     description: ""
 },{
     itemName: "Garlic Butter shrimp",
     subCategory: "Main Dish",
     size: "Regular",
     price: "300",
-    imgurl: "assets/images/MainDish/GarlicButtershrimp.jpg",
+    category: "foods",
+    all: "all",
     description: ""
 },{
     itemName: "Pork Sisig",
     subCategory: "Main Dish",
     size: "Regular",
     price: "295",
-    imgurl: "assets/images/MainDish/PorkSisig.jpg",
+    category: "foods",
+    all: "all",
     description: ""
 },{
     itemName: "Sinigang na Hipon",
     subCategory: "Main Dish",
     size: "Regular",
     price: "250",
-    imgurl: "assets/images/MainDish/SinigangnaHipon.jpg",
+    category: "foods",
+    all: "all",
     description: ""
 },{
     itemName: "Sinigang na Baboy",
     subCategory: "Main Dish",
     size: "Regular",
     price: "250",
-    imgurl: "assets/images/MainDish/SinigangnaBaboy.jpg",
+    category: "foods",
+    all: "all",
     description: ""
 },{
     itemName: "Lechon Kawali",
     subCategory: "Main Dish",
     size: "Regular",
     price: "300",
-    imgurl: "assets/images/MainDish/LechonKawali.jpg",
+    category: "foods",
+    all: "all",
     description: ""
 },{
     itemName: "Beef Kare-Kare",
     subCategory: "Main Dish",
     size: "Regular",
     price: "300",
-    imgurl: "assets/images/MainDish/BeefKare-Kare.jpg",
+    category: "foods",
+    all: "all",
     description: ""
 },{
     itemName: "Chicken Cordon Bleu",
     subCategory: "Main Dish",
     size: "Regular",
     price: "320",
-    imgurl: "assets/images/MainDish/ChickenCordonBleu.jpg",
+    category: "foods",
+    all: "all",
     description: ""
 },{
     itemName: "Fresh Green Beans",
     subCategory: "Side Dish",
     size: "Regular",
     price: "135",
-    imgurl: "assets/images/SideDish/FreshGreenBeans.jpg",
+    category: "foods",
+    all: "all",
     description: ""
 },{
     itemName: "Sautéed Zucchini And Squash",
     subCategory: "Side Dish",
     size: "Regular",
     price: "150",
-    imgurl: "assets/images/SideDish/SautéedZucchiniAndSquash.jpg",
+    category: "foods",
+    all: "all",
     description: ""
 },{
     itemName: "Roasted Veggies",
     subCategory: "Side Dish",
     size: "Regular",
     price: "150",
-    imgurl: "assets/images/SideDish/RoastedVeggies.jpg",
+    category: "foods",
+    all: "all",
     description: ""
 },{
     itemName: "Roasted Broccoli With Sweet Chili Sauce",
     subCategory: "Side Dish",
     size: "Regular",
     price: "145",
-    imgurl: "assets/images/SideDish/RoastedBroccoliWithSweetChiliSauce.jpg",
+    category: "foods",
+    all: "all",
     description: ""
 },{
     itemName: "Roasted Ratatouille",
     subCategory: "Side Dish",
     size: "Regular",
     price: "165",
-    imgurl: "assets/images/SideDish/RoastedRatatouille.jpg",
+    category: "foods",
+    all: "all",
     description: ""
 },{
     itemName: "Pearl Couscous Salad",
     subCategory: "Side Dish",
     size: "Regular",
     price: "190",
-    imgurl: "assets/images/SideDish/PearlCouscousSalad.jpg",
+    category: "foods",
+    all: "all",
     description: ""
 },{
     itemName: "Mediterranean Quinoa Salad",
     subCategory: "Side Dish",
     size: "Regular",
     price: "200",
-    imgurl: "assets/images/SideDish/MediterraneanQuinoaSalad.jpg",
+    category: "foods",
+    all: "all",
     description: ""
 },{
     itemName: "Chilaquiles",
     subCategory: "Side Dish",
     size: "Regular",
     price: "178",
-    imgurl: "assets/images/SideDish/Chilaquiles.jpg",
+    category: "foods",
+    all: "all",
     description: ""
 },{
     itemName: "Crockpot Mac And Cheese",
     subCategory: "Side Dish",
     size: "Regular",
     price: "155",
-    imgurl: "assets/images/SideDish/CrockpotMacAndCheese.jpg",
+    category: "foods",
+    all: "all",
     description: ""
 },{
     itemName: "Filet Mignon Nachos",
     subCategory: "Side Dish",
     size: "Regular",
     price: "198",
-    imgurl: "assets/images/SideDish/FiletMignonNachos.jpg",
+    category: "foods",
+    all: "all",
     description: ""
 },{
     itemName: "Spicy Shrimp Nacho",
     subCategory: "Side Dish",
     size: "Regular",
     price: "225",
-    imgurl: "assets/images/SideDish/SpicyShrimpNacho.jpg",
+    category: "foods",
+    all: "all",
     description: ""
 },{
     itemName: "Surf And Turf Taco Combo",
     subCategory: "Side Dish",
     size: "Regular",
     price: "250",
-    imgurl: "assets/images/SideDish/SurfAndTurfTacoCombo.jpg",
+    category: "foods",
+    all: "all",
     description: ""
 },{
     itemName: "Cheesy Enchiladas",
     subCategory: "Side Dish",
     size: "Regular",
     price: "190",
-    imgurl: "assets/images/SideDish/CheesyEnchiladas.jpg",
+    category: "foods",
+    all: "all",
     description: ""
 },{
     itemName: "Banditto Burrito",
     subCategory: "Side Dish",
     size: "Regular",
     price: "123",
-    imgurl: "assets/images/SideDish/BandittoBurrito.jpeg",
+    category: "foods",
+    all: "all",
     description: ""
 },{
     itemName: "Quesadilla",
     subCategory: "Side Dish",
     size: "Regular",
     price: "230",
-    imgurl: "assets/images/SideDish/Quesadilla.jpeg",
+    category: "foods",
+    all: "all",
     description: ""
 },{
     itemName: "Garlic Bread",
     subCategory: "Appetizers",
     size: "Half Dozen",
     price: "449.85",
-    imgurl: "assets/images/ApetizersAndSoup/GarlicBread.jpg",
+    category: "foods",
+    all: "all",
     description: ""
 }, {
     itemName: "Chicken Wings",
     subCategory: "Appetizers",
     size: "Regular",
     price: "299.5",
-    imgurl: "assets/images/ApetizersAndSoup/",
+    category: "foods",
+    all: "all",
     description: ""
 }, {
     itemName: "Chicken Wings",
     subCategory: "Appetizers",
     size: "Dozen",
     price: "749.75",
-    imgurl: "assets/images/ApetizersAndSoup/DOZEN_ChickenWings.jpg",
+    category: "foods",
+    all: "all",
     description: ""
 }, {
     itemName: "Beef Sliders",
     subCategory: "Appetizers",
     size: "Single",
     price: "249.50",
-    imgurl: "assets/images/ApetizersAndSoup/SINGLE_BeefSliders.jpg",
+    category: "foods",
+    all: "all",
     description: ""
 }, {
     itemName: "Beef Sliders",
     subCategory: "Appetizers",
     size: "Double",
     price: "449.85",
-    imgurl: "assets/images/ApetizersAndSoup/DOUBLE_BeefSliders.jpg",
+    category: "foods",
+    all: "all",
     description: ""
 }, {
     itemName: "Fried Zucchini  ",
     subCategory: "Appetizers",
     size: "Regular",
     price: "349.65",
-    imgurl: "assets/images/ApetizersAndSoup/FriedZucchini.jpeg",
+    category: "foods",
+    all: "all",
     description: ""
 }, {
     itemName: "Onion Rings  ",
     subCategory: "Appetizers",
     size: "Regular",
     price: "299.50",
-    imgurl: "assets/images/ApetizersAndSoup/OnionRings.jpg",
+    category: "foods",
+    all: "all",
     description: ""
 }, {
     itemName: "Jumbo Shrimp Cocktail",
     subCategory: "Appetizers",
     size: "Regular",
     price: "449.85",
-    imgurl: "assets/images/ApetizersAndSoup/REGULAR_JumboShrimpCocktail.jpg",
+    category: "foods",
+    all: "all",
     description: ""
 }, {
     itemName: "Jumbo Shrimp Cocktail",
     subCategory: "Appetizers",
     size: "Large",
     price: "749.75",
-    imgurl: "assets/images/ApetizersAndSoup/LARGE_JumboShrimpCocktail.jpeg",
+    category: "foods",
+    all: "all",
     description: ""
 }, {
     itemName: "Mozzarella Sticks",
     subCategory: "Appetizers",
     size: " Regular",
     price: "349.65",
-    imgurl: "assets/images/ApetizersAndSoup/MozzarellaSticks.jpeg",
+    category: "foods",
+    all: "all",
     description: ""
 }, {
     itemName: "Tomato Soup",
     subCategory: "Soups",
     size: "Cup",
     price: "179.55",
-    imgurl: "assets/images/ApetizersAndSoup/CUP_TomatoSoup.jpg",
+    category: "foods",
+    all: "all",
     description: ""
 }, {
     itemName: "Tomato Soup",
     subCategory: "Soups",
     size: "Bowl",
     price: "269.25",
-    imgurl: "assets/images/ApetizersAndSoup/BOWL_TomatoSoup.png",
+    category: "foods",
+    all: "all",
     description: ""
 }, {
     itemName: "Chicken Noodle Soup",
     subCategory: "Soups",
     size: "Cup",
     price: "224.65",
-    imgurl: "assets/images/ApetizersAndSoup/CUP_ChickenNoodleSoup.jpg",
+    category: "foods",
+    all: "all",
     description: ""
 }, {
     itemName: "Chicken Noodle Soup",
     subCategory: "Soups",
     size: " Bowl",
     price: "314.35",
-    imgurl: "assets/images/ApetizersAndSoup/BOWL_ChickenNoodleSoup.jpg",
+    category: "foods",
+    all: "all",
     description: ""
 }, {
     itemName: "Garden Salad",
     subCategory: "Salad",
     size: " Regular",
     price: "299.50",
-    imgurl: "assets/images/ApetizersAndSoup/GardenSalad.jpg",
+    category: "foods",
+    all: "all",
     description: ""
 }, {
     itemName: "Spaghetti with Meatballs",
     subCategory: "Pasta",
     size: " Regular",
     price: "349",
-    imgurl: "assets/images/PastaandPizza/SpaghettiwithMeatballs.jpg",
+    category: "foods",
+    all: "all",
     description: ""
 }, {
     itemName: "Classic Filipino Style Spaghetti",
     subCategory: "Pasta",
     size: " Regular",
     price: "329",
-    imgurl: "assets/images/PastaandPizza/ClassicFilipinoStyleSpaghetti.jpg",
+    category: "foods",
+    all: "all",
     description: ""
 }, {
     itemName: "Spaghetti with Marinara Sauce",
     subCategory: "Pasta",
     size: " Regular",
     price: "329",
-    imgurl: "assets/images/PastaandPizza/SpaghettiwithMarinaraSauce.jpg",
+    category: "foods",
+    all: "all",
     description: ""
 }, {
     itemName: "Creamy Shrimp Pasta",
     subCategory: "Pasta",
     size: " Regular",
     price: "349",
-    imgurl: "assets/images/PastaandPizza/CreamyShrimpPasta.jpg",
+    category: "foods",
+    all: "all",
     description: ""
 }, {
     itemName: "Triple Cheese Pasta",
     subCategory: "Pasta",
     size: " Regular",
     price: "349",
-    imgurl: "assets/images/PastaandPizza/TripleCheesePasta.jpg",
+    category: "foods",
+    all: "all",
     description: ""
 }, {
     itemName: "Carbonara",
     subCategory: "Pasta",
     size: " Regular",
     price: "329",
-    imgurl: "assets/images/PastaandPizza/Carbonara.jpg",
+    category: "foods",
+    all: "all",
     description: ""
 }, {
     itemName: "Parmesan Cheese Pasta",
     subCategory: "Pasta",
     size: " Regular",
     price: "329",
-    imgurl: "assets/images/PastaandPizza/ParmesanCheesePasta.jpg",
+    category: "foods",
+    all: "all",
     description: ""
 }, {
     itemName: "Veggie Pasta",
     subCategory: "Pasta",
     size: " Regular",
     price: "315",
-    imgurl: "assets/images/PastaandPizza/VeggiePasta.jpg",
+    category: "foods",
+    all: "all",
     description: ""
 }, {
     itemName: "Veggie Supreme Pizza",
     subCategory: "Pasta",
     size: " Regular",
     price: "375",
-    imgurl: "assets/images/PastaandPizza/VeggieSupremePizza.jpg",
+    category: "foods",
+    all: "all",
     description: ""
 }, {
     itemName: "BBQ Chicken Pizza",
     subCategory: "Pasta",
     size: " Regular",
     price: "375",
-    imgurl: "assets/images/PastaandPizza/BBQChickenPizza.jpg",
+    category: "foods",
+    all: "all",
     description: ""
 }, {
     itemName: "Meat Lovers",
     subCategory: "Pasta",
     size: " Regular",
     price: "399",
-    imgurl: "assets/images/PastaandPizza/MeatLovers.jpg",
+    category: "foods",
+    all: "all",
     description: ""
 }, {
     itemName: "Extra Cheesy Pizza",
     subCategory: "Pasta",
     size: " Regular",
     price: "399",
-    imgurl: "assets/images/PastaandPizza/ExtraCheesyPizza.jpeg",
+    category: "foods",
+    all: "all",
     description: ""
 }, {
     itemName: "Classic Pepperoni Pizza",
     subCategory: "Pasta",
     size: " Regular",
     price: "375",
-    imgurl: "assets/images/PastaandPizza/ClassicPepperoniPizza.jpg",
+    category: "foods",
+    all: "all",
     description: ""
 }, {
     itemName: "Hawaiian Pizza",
     subCategory: "Pasta",
     size: " Regular",
     price: "375",
-    imgurl: "assets/images/PastaandPizza/HawaiianPizza.jpg",
+    category: "foods",
+    all: "all",
     description: ""
 }, {
     itemName: "Chicken & Spinach Pizza",
     subCategory: "Pasta",
     size: " Regular",
     price: "399",
-    imgurl: "assets/images/PastaandPizza/Chicken _ SpinachPizza.jpg",
+    category: "foods",
+    all: "all",
     description: ""
 },]
 
@@ -624,175 +726,200 @@ const dessert = [{
     subCategory: "Cold",
     size: "Regular",
     price: "100",
-    imgurl: "assets/images/Desssert/REGULAR_MangoFloat.jpg",
+    category: "desserts",
+    all: "all",
     description: ""
 }, {
     itemName: "Yema Cake",
     subCategory: "Cake",
     size: "Half slice",
     price: "145",
-    imgurl: "assets/images/Desssert/SLICE_YemaCake.jpg",
+    category: "desserts",
+    all: "all",
     description: ""
 }, {
     itemName: "Yema Cake",
     subCategory: "Cake",
     size: "Whole",
     price: "290",
-    imgurl: "assets/images/Desssert/WHOLE_YemaCake.jpeg",
+    category: "desserts",
+    all: "all",
     description: ""
 }, {
     itemName: "Brazo De Mercedes",
     subCategory: "Cake",
     size: "Half slice",
     price: "115",
-    imgurl: "assets/images/Desssert/SLICE_BrazoDeMercedes.jpg",
+    category: "desserts",
+    all: "all",
     description: ""
 }, {
     itemName: "Brazo De Mercedes",
     subCategory: "Cake",
     size: "Whole",
     price: "230",
-    imgurl: "assets/images/Desssert/WHOLE_BrazoDeMercedes.jpg",
+    category: "desserts",
+    all: "all",
     description: ""
 }, {
     itemName: "Bibingka",
     subCategory: "Hot",
     size: "Regular",
     price: "65",
-    imgurl: "assets/images/Desssert/Bibingka.jpg",
+    category: "desserts",
+    all: "all",
     description: ""
 }, {
     itemName: "Leche Flan",
     subCategory: "Custard",
     size: "Regular",
     price: "100",
-    imgurl: "assets/images/Desssert/LecheFlan.jpg",
+    category: "desserts",
+    all: "all",
     description: ""
 }, {
     itemName: "Buko Salad",
     subCategory: "Cold",
     size: "Regular",
     price: "100",
-    imgurl: "assets/images/Desssert/BukoSalad.jpg",
+    category: "desserts",
+    all: "all",
     description: ""
 }, {
     itemName: "Coffee Jelly",
     subCategory: "Cold",
     size: "Regular",
     price: "100",
-    imgurl: "assets/images/Desssert/CoffeeJelly.jpg",
+    category: "desserts",
+    all: "all",
     description: ""
 }, {
     itemName: "Buko Pie",
     subCategory: "Cake",
     size: "Half slice",
     price: "95",
-    imgurl: "assets/images/Desssert/SLICE_BukoPie.jpg",
+    category: "desserts",
+    all: "all",
     description: ""
 }, {
     itemName: "Buko Pie",
     subCategory: "Cake",
     size: "Whole",
     price: "190",
-    imgurl: "assets/images/Desssert/WHOLE_BukoPie.jpg",
+    category: "desserts",
+    all: "all",
     description: ""
 }, {
     itemName: "Halo - Halo",
     subCategory: "Shaved ice",
     size: "Small",
     price: "50",
-    imgurl: "assets/images/Desssert/SMALL_Halo-Halo.jpg",
+    category: "desserts",
+    all: "all",
     description: ""
 }, {
     itemName: "Halo - Halo",
     subCategory: "Shaved ice",
     size: "Regular",
     price: "65",
-    imgurl: "assets/images/Desssert/MEDIUM_Halo-Halo.jpg",
+    category: "desserts",
+    all: "all",
     description: ""
 }, {
     itemName: "Halo - Halo",
     subCategory: "Shaved ice",
     size: "Large",
     price: "70",
-    imgurl: "assets/images/Desssert/LARGE_Halo-Halo.png",
+    category: "desserts",
+    all: "all",
     description: ""
 },{
     itemName: "Maja Blanca",
     subCategory: "Cake",
     size: "Half",
     price: "75",
-    imgurl: "assets/images/Desssert/HALF_Maja Blanca.jpg",
+    category: "desserts",
+    all: "all",
     description: ""
 }, {
     itemName: "Maja Blanca",
     subCategory: "Cake",
     size: "Whole",
     price: "150",
-    imgurl: "assets/images/Desssert/WHOLE_MajaBlanca.jpg",
+    category: "desserts",
+    all: "all",
     description: ""
 }, {
     itemName: "Gulaman",
     subCategory: "Cold",
     size: "Regular",
     price: "30",
-    imgurl: "assets/images/Desssert/Gulaman.jpeg",
+    category: "desserts",
+    all: "all",
     description: ""
 }, {
     itemName: "Polvoron",
     subCategory: "Shortbread",
     size: "Regular",
     price: "55",
-    imgurl: "assets/images/Desssert/Polvoron.jpg",
+    category: "desserts",
+    all: "all",
     description: ""
 }, {
     itemName: "Churos",
     subCategory: "Fried",
     size: "Regular",
     price: "100",
-    imgurl: "assets/images/Desssert/Churos.jpg",
+    category: "desserts",
+    all: "all",
     description: ""
 }, {
     itemName: "Mais Con Hielo",
     subCategory: "Shaved ice",
     size: "Small",
     price: "70",
-    imgurl: "assets/images/Desssert/SMALL_MaisConHielo.jpg",
+    category: "desserts",
+    all: "all",
     description: ""
 }, {
     itemName: "Mais Con Hielo",
     subCategory: "Shaved ice",
     size: "Regular",
     price: "80",
-    imgurl: "assets/images/Desssert/REGULAR_MaisConHielo.jpg",
+    category: "desserts",
+    all: "all",
     description: ""
 }, {
     itemName: "Mais Con Hielo",
     subCategory: "Shaved ice",
     size: "Large",
     price: "90",
-    imgurl: "assets/images/Desssert/LARGE_MaisConHielo.jpg",
+    category: "desserts",
+    all: "all",
     description: ""
 }, {
     itemName: "Saging con Hielo",
     subCategory: "Shaved ice",
-    size: "Small",
+    size: "Regular",
     price: "55",
-    imgurl: "assets/images/Desssert/SMALL_SagingConHielo.jpg",
+    category: "desserts",
+    all: "all",
     description: ""
 }, {
     itemName: "Saging con Hielo",
     subCategory: "Shaved ice",
     size: "Regular",
     price: "60",
-    imgurl: "assets/images/Desssert/MEDIUM_SagingconHielo.jpg",
+    category: "desserts",
+    all: "all",
     description: ""
 },{
     itemName: "Saging con Hielo",
     subCategory: "Shaved ice",
-    size: "Large",
+    size: "Regular",
     price: "65",
-    imgurl: "assets/images/Desssert/LARGE_SagingconHielo.jpg",
+    category: "desserts",
+    all: "all",
     description: ""
 },]
 
