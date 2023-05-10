@@ -796,13 +796,15 @@ const dessert = [{
     description: ""
 },]
 
+let allItems = [ ...foods, ...drinks, ...dessert]
 
 const menuItems = document.querySelector(".menu-items");
 const searchInputs = document.querySelector(".search-bar input")
 const filterBtns = document.querySelectorAll(".filter-btn");
 
 window.addEventListener("DOMContentLoaded", () => {
-  displayMenuItems(drinks);
+  displayMenuItems(allItems);
+
 });
 
 searchInputs.addEventListener('input', () =>{
@@ -812,7 +814,6 @@ searchInputs.addEventListener('input', () =>{
     const filteredDesserts = dessert.filter(dessert =>  dessert.itemName.toLowerCase().includes(searchValue))
 
     const allItems = filteredDrinks.concat(filteredFoods, filteredDesserts)
-    console.log(allItems)
 
     menuItems.innerHTML = '';
 
@@ -864,11 +865,18 @@ function displayMenuItems(items) {
 filterBtns.forEach(btn => {
     btn.addEventListener("click", e => {
       const category = e.currentTarget.dataset.filter;
+      const all = e.currentTarget.dataset.filter;
       const filteredItems = allItems.filter(item => item.category === category);
-  
+      const itemAll = allItems.filter(item => item.all === all)
+
       menuItems.innerHTML = '';
       
       filteredItems.forEach(item => {
+        const itemElement = createItemElement(item);
+        menuItems.appendChild(itemElement);
+      });
+
+      itemAll.forEach(item => {
         const itemElement = createItemElement(item);
         menuItems.appendChild(itemElement);
       });
