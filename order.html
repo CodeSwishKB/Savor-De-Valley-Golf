@@ -15,12 +15,12 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
 
-	<title>MENU | Savor De Valley Golf</title>
+	<title>ONLINE-ORDER | Savor De Valley Golf</title>
 </head>
 
 <body>
 	<!-- NAV BAR -->
-	<section class="sub-header2">
+	<section class="sub-header3">
 		<nav>
 			<a href="index.html"><img src="/assets/site-logo-2-removebg.png" alt=""></a>
 			<div class="nav-links" id="navLinks">
@@ -36,12 +36,29 @@
 			<i class="fa fa-bars" onclick="showMenu()"></i>
 		</nav>
 
-		<h1>Our Menu List</h1>
+		<h1>Order Online For Your Cravings</h1>
 		</div>
 	</section>
 
 
-	<!-- MENU-LIST IN PDF -->
+	<section class="menu">
+		<div class="filters">
+			<div class="search-bar">
+				<input type="text" placeholder="Search...">
+			</div>
+			<button class="filter-btn active" data-filter="all">All</button>
+			<button class="filter-btn" data-filter="foods">Foods</button>
+			<button class="filter-btn" data-filter="drinks">Drinks</button>
+			<button class="filter-btn" data-filter="desserts">Desserts</button>
+		</div>
+		<div class="menu-items">
+			<!-- Menu items will be added dynamically -->
+		</div>
+	</section>
+
+	<a href="#" class="to-top">
+		<i class="fa fa-chevron-up"></i>
+	</a>
 
 
 	<!-- FOOTER -->
@@ -49,7 +66,8 @@
 		<div class="footer-down-about">
 			<h4>Our Social Media Accounts</h4>
 			<div class="icons">
-				<a href="https://www.facebook.com/profile.php?id=100091996465040&mibextid=ZbWKwL" target="_blank"><i class="fa fa-facebook-official"></i></a>
+				<a href="https://www.facebook.com/profile.php?id=100091996465040&mibextid=ZbWKwL" target="_blank"><i
+						class="fa fa-facebook-official"></i></a>
 				<a href=""><i class="fa fa-instagram"></i></a>
 				<a href=""><i class="fa fa-envelope-o"></i></a>
 
@@ -57,10 +75,6 @@
 		</div>
 	</section>
 
-	<a href="#" class="to-top">
-		<i class="fa fa-chevron-up"></i>
-	</a>
-	
 	<script>
 		/*------------------------ toggle menu ---------------------------*/
 		var navLinks = document.getElementById("navLinks")
@@ -74,6 +88,7 @@
 		}
 	</script>
 
+	<script src="/script.js"></script>
 </body>
 
 </html>

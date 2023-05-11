@@ -240,6 +240,7 @@ const foods = [{
     subCategory: "Main Dish",
     size: "Regular",
     price: "250",
+    imgurl: "assets/images/MainDish/Pork Adobo.jpg",
     category: "foods",
     all: "all",
     description: ""
@@ -248,6 +249,7 @@ const foods = [{
     subCategory: "Main Dish",
     size: "Regular",
     price: "250",
+    imgurl: "assets/images/MainDish/Pinoy Chicken Curry.jpg",
     category: "foods",
     all: "all",
     description: ""
@@ -256,6 +258,7 @@ const foods = [{
     subCategory: "Main Dish",
     size: "Regular",
     price: "350",
+    imgurl: "assets/images/MainDish/Beef Bulalo.jpg",
     category: "foods",
     all: "all",
     description: ""
@@ -264,6 +267,7 @@ const foods = [{
     subCategory: "Main Dish",
     size: "Regular",
     price: "250",
+    imgurl: "assets/images/MainDish/Pork Menudo.jpg",
     category: "foods",
     all: "all",
     description: ""
@@ -272,6 +276,7 @@ const foods = [{
     subCategory: "Main Dish",
     size: "Regular",
     price: "250",
+    imgurl: "assets/images/MainDish/Pork Caldereta.png",
     category: "foods",
     all: "all",
     description: ""
@@ -280,6 +285,7 @@ const foods = [{
     subCategory: "Main Dish",
     size: "Regular",
     price: "239",
+    imgurl: "assets/images/MainDish/Chicken Afritada.jpg",
     category: "foods",
     all: "all",
     description: ""
@@ -288,6 +294,7 @@ const foods = [{
     subCategory: "Main Dish",
     size: "Regular",
     price: "239",
+    imgurl: "assets/images/MainDish/Bicol Express.jpg",
     category: "foods",
     all: "all",
     description: ""
@@ -296,6 +303,7 @@ const foods = [{
     subCategory: "Main Dish",
     size: "Regular",
     price: "250",
+    imgurl: "assets/images/MainDish/Pork Steak.jpg",
     category: "foods",
     all: "all",
     description: ""
@@ -304,6 +312,7 @@ const foods = [{
     subCategory: "Main Dish",
     size: "Regular",
     price: "300",
+    imgurl: "assets/images/MainDish/Garlic Butter shrimp.jpg",
     category: "foods",
     all: "all",
     description: ""
@@ -312,6 +321,7 @@ const foods = [{
     subCategory: "Main Dish",
     size: "Regular",
     price: "295",
+    imgurl: "assets/images/MainDish/Pork Sisig.jpg",
     category: "foods",
     all: "all",
     description: ""
@@ -320,6 +330,7 @@ const foods = [{
     subCategory: "Main Dish",
     size: "Regular",
     price: "250",
+    imgurl: "assets/images/MainDish/Sinigang na Hipon.jpg",
     category: "foods",
     all: "all",
     description: ""
@@ -328,6 +339,7 @@ const foods = [{
     subCategory: "Main Dish",
     size: "Regular",
     price: "250",
+    imgurl: "assets/images/MainDish/Sinigang na Baboy.jpg",
     category: "foods",
     all: "all",
     description: ""
@@ -336,6 +348,7 @@ const foods = [{
     subCategory: "Main Dish",
     size: "Regular",
     price: "300",
+    imgurl: "assets/images/MainDish/LechonKawali.jpg",
     category: "foods",
     all: "all",
     description: ""
@@ -344,6 +357,7 @@ const foods = [{
     subCategory: "Main Dish",
     size: "Regular",
     price: "300",
+    imgurl: "assets/images/MainDish/Beef Kare-Kare.jpg",
     category: "foods",
     all: "all",
     description: ""
@@ -352,6 +366,7 @@ const foods = [{
     subCategory: "Main Dish",
     size: "Regular",
     price: "320",
+    imgurl: "assets/images/MainDish/Chicken Cordon Bleu.jpg",
     category: "foods",
     all: "all",
     description: ""
@@ -360,6 +375,7 @@ const foods = [{
     subCategory: "Side Dish",
     size: "Regular",
     price: "135",
+    imgurl: "assets/images/SideDish/FreshGreenBeans.jpg",
     category: "foods",
     all: "all",
     description: ""
@@ -368,6 +384,7 @@ const foods = [{
     subCategory: "Side Dish",
     size: "Regular",
     price: "150",
+    imgurl: "assets/images/SideDish/SautéedZucchiniAndSquash.jpg",
     category: "foods",
     all: "all",
     description: ""
@@ -376,6 +393,7 @@ const foods = [{
     subCategory: "Side Dish",
     size: "Regular",
     price: "150",
+    imgurl: "assets/images/SideDish/RoastedVeggies.jpg",
     category: "foods",
     all: "all",
     description: ""
@@ -384,6 +402,7 @@ const foods = [{
     subCategory: "Side Dish",
     size: "Regular",
     price: "145",
+    imgurl: "assets/images/SideDish/RoastedBroccoliWithSweetChiliSauce.jpg",
     category: "foods",
     all: "all",
     description: ""
@@ -392,6 +411,7 @@ const foods = [{
     subCategory: "Side Dish",
     size: "Regular",
     price: "165",
+    imgurl: "assets/images/SideDish/RoastedRatatouille.jpg",
     category: "foods",
     all: "all",
     description: ""
@@ -400,6 +420,7 @@ const foods = [{
     subCategory: "Side Dish",
     size: "Regular",
     price: "190",
+    imgurl: "assets/images/SideDish/PearlCouscousSalad.jpg",
     category: "foods",
     all: "all",
     description: ""
@@ -408,6 +429,7 @@ const foods = [{
     subCategory: "Side Dish",
     size: "Regular",
     price: "200",
+    imgurl: "assets/images/SideDish/MediterraneanQuinoaSalad.jpg",
     category: "foods",
     all: "all",
     description: ""
@@ -416,6 +438,7 @@ const foods = [{
     subCategory: "Side Dish",
     size: "Regular",
     price: "178",
+    imgurl: "assets/images/SideDish/Chilaquiles.jpg",
     category: "foods",
     all: "all",
     description: ""
@@ -424,6 +447,7 @@ const foods = [{
     subCategory: "Side Dish",
     size: "Regular",
     price: "155",
+    imgurl: "assets/images/SideDish/Crockpot Mac And Cheese.jpg",
     category: "foods",
     all: "all",
     description: ""
@@ -432,6 +456,7 @@ const foods = [{
     subCategory: "Side Dish",
     size: "Regular",
     price: "198",
+    imgurl: "assets/images/SideDish/Filet Mignon Nachos.jpg",
     category: "foods",
     all: "all",
     description: ""
@@ -440,6 +465,7 @@ const foods = [{
     subCategory: "Side Dish",
     size: "Regular",
     price: "225",
+    imgurl: "assets/images/SideDish/Spicy Shrimp Nacho.jpg",
     category: "foods",
     all: "all",
     description: ""
@@ -448,6 +474,7 @@ const foods = [{
     subCategory: "Side Dish",
     size: "Regular",
     price: "250",
+    imgurl: "assets/images/SideDish/Surf And Turf Taco Combo.jpg",
     category: "foods",
     all: "all",
     description: ""
@@ -456,6 +483,7 @@ const foods = [{
     subCategory: "Side Dish",
     size: "Regular",
     price: "190",
+    imgurl: "assets/images/SideDish/Cheesy Enchiladas.jpg",
     category: "foods",
     all: "all",
     description: ""
@@ -464,6 +492,7 @@ const foods = [{
     subCategory: "Side Dish",
     size: "Regular",
     price: "123",
+    imgurl: "assets/images/SideDish/Banditto Burrito.jpeg",
     category: "foods",
     all: "all",
     description: ""
@@ -472,6 +501,7 @@ const foods = [{
     subCategory: "Side Dish",
     size: "Regular",
     price: "230",
+    imgurl: "assets/images/SideDish/Quesadilla.jpeg",
     category: "foods",
     all: "all",
     description: ""
@@ -480,6 +510,7 @@ const foods = [{
     subCategory: "Appetizers",
     size: "Half Dozen",
     price: "449.85",
+    imgurl: "assets/images/AppetizerAndSoups/Garlic Bread.jpg",
     category: "foods",
     all: "all",
     description: ""
@@ -488,6 +519,7 @@ const foods = [{
     subCategory: "Appetizers",
     size: "Regular",
     price: "299.5",
+    imgurl: "assets/images/AppetizerAndSoups/chicken_wing_regular.jpg",
     category: "foods",
     all: "all",
     description: ""
@@ -496,6 +528,7 @@ const foods = [{
     subCategory: "Appetizers",
     size: "Dozen",
     price: "749.75",
+    imgurl: "assets/images/AppetizerAndSoups/DOZEN_Chicken Wings.jpg",
     category: "foods",
     all: "all",
     description: ""
@@ -504,6 +537,7 @@ const foods = [{
     subCategory: "Appetizers",
     size: "Single",
     price: "249.50",
+    imgurl: "assets/images/AppetizerAndSoups/SINGLE_Beef Sliders.jpg",
     category: "foods",
     all: "all",
     description: ""
@@ -512,14 +546,16 @@ const foods = [{
     subCategory: "Appetizers",
     size: "Double",
     price: "449.85",
+    imgurl: "assets/images/AppetizerAndSoups/DOUBLE_Beef Sliders.jpg",
     category: "foods",
     all: "all",
     description: ""
 }, {
-    itemName: "Fried Zucchini  ",
+    itemName: "Fried Zucchini",
     subCategory: "Appetizers",
     size: "Regular",
     price: "349.65",
+    imgurl: "assets/images/AppetizerAndSoups/Fried Zucchini.jpeg",
     category: "foods",
     all: "all",
     description: ""
@@ -528,6 +564,7 @@ const foods = [{
     subCategory: "Appetizers",
     size: "Regular",
     price: "299.50",
+    imgurl: "assets/images/AppetizerAndSoups/Onion Rings.jpg",
     category: "foods",
     all: "all",
     description: ""
@@ -536,6 +573,7 @@ const foods = [{
     subCategory: "Appetizers",
     size: "Regular",
     price: "449.85",
+    imgurl: "assets/images/AppetizerAndSoups/REGULAR_Jumbo Shrimp Cocktail.jpg",
     category: "foods",
     all: "all",
     description: ""
@@ -544,6 +582,7 @@ const foods = [{
     subCategory: "Appetizers",
     size: "Large",
     price: "749.75",
+    imgurl: "assets/images/AppetizerAndSoups/LARGE_Jumbo Shrimp Cocktail.jpeg",
     category: "foods",
     all: "all",
     description: ""
@@ -552,6 +591,7 @@ const foods = [{
     subCategory: "Appetizers",
     size: " Regular",
     price: "349.65",
+    imgurl: "assets/images/AppetizerAndSoups/mozzarella_sticks_regular.jpg",
     category: "foods",
     all: "all",
     description: ""
@@ -560,6 +600,7 @@ const foods = [{
     subCategory: "Soups",
     size: "Cup",
     price: "179.55",
+    imgurl: "assets/images/AppetizerAndSoups/CUP_Tomato Soup.jpg",
     category: "foods",
     all: "all",
     description: ""
@@ -568,6 +609,7 @@ const foods = [{
     subCategory: "Soups",
     size: "Bowl",
     price: "269.25",
+    imgurl: "assets/images/AppetizerAndSoups/BOWL_Tomato Soup.png",
     category: "foods",
     all: "all",
     description: ""
@@ -576,6 +618,7 @@ const foods = [{
     subCategory: "Soups",
     size: "Cup",
     price: "224.65",
+    imgurl: "assets/images/AppetizerAndSoups/CUP_Chicken Noodle Soup.jpg",
     category: "foods",
     all: "all",
     description: ""
@@ -584,6 +627,7 @@ const foods = [{
     subCategory: "Soups",
     size: " Bowl",
     price: "314.35",
+    imgurl: "assets/images/AppetizerAndSoups/BOWL_Chicken Noodle Soup.jpg",
     category: "foods",
     all: "all",
     description: ""
@@ -592,6 +636,7 @@ const foods = [{
     subCategory: "Salad",
     size: " Regular",
     price: "299.50",
+    imgurl: "assets/images/AppetizerAndSoups/Garden Salad.jpg",
     category: "foods",
     all: "all",
     description: ""
@@ -600,6 +645,7 @@ const foods = [{
     subCategory: "Pasta",
     size: " Regular",
     price: "349",
+    imgurl: "assets/images/PastaandPizza/Spaghetti with Meatballs.jpg",
     category: "foods",
     all: "all",
     description: ""
@@ -608,6 +654,7 @@ const foods = [{
     subCategory: "Pasta",
     size: " Regular",
     price: "329",
+    imgurl: "assets/images/PastaandPizza/Classic Filipino Style Spaghetti.jpg",
     category: "foods",
     all: "all",
     description: ""
@@ -616,6 +663,7 @@ const foods = [{
     subCategory: "Pasta",
     size: " Regular",
     price: "329",
+    imgurl: "assets/images/PastaandPizza/Spaghetti with Marinara Sauce.jpg",
     category: "foods",
     all: "all",
     description: ""
@@ -624,6 +672,7 @@ const foods = [{
     subCategory: "Pasta",
     size: " Regular",
     price: "349",
+    imgurl: "assets/images/PastaandPizza/Creamy Shrimp Pasta.jpg",
     category: "foods",
     all: "all",
     description: ""
@@ -632,6 +681,7 @@ const foods = [{
     subCategory: "Pasta",
     size: " Regular",
     price: "349",
+    imgurl: "assets/images/PastaandPizza/Triple Cheese Pasta.jpg",
     category: "foods",
     all: "all",
     description: ""
@@ -640,6 +690,7 @@ const foods = [{
     subCategory: "Pasta",
     size: " Regular",
     price: "329",
+    imgurl: "assets/images/PastaandPizza/Carbonara.jpg",
     category: "foods",
     all: "all",
     description: ""
@@ -648,6 +699,7 @@ const foods = [{
     subCategory: "Pasta",
     size: " Regular",
     price: "329",
+    imgurl: "assets/images/PastaandPizza/Parmesan Cheese Pasta.jpg",
     category: "foods",
     all: "all",
     description: ""
@@ -656,6 +708,7 @@ const foods = [{
     subCategory: "Pasta",
     size: " Regular",
     price: "315",
+    imgurl: "assets/images/PastaandPizza/Veggie Pasta.jpg",
     category: "foods",
     all: "all",
     description: ""
@@ -664,6 +717,7 @@ const foods = [{
     subCategory: "Pasta",
     size: " Regular",
     price: "375",
+    imgurl: "assets/images/PastaandPizza/Veggie Supreme Pizza.jpg",
     category: "foods",
     all: "all",
     description: ""
@@ -672,6 +726,7 @@ const foods = [{
     subCategory: "Pasta",
     size: " Regular",
     price: "375",
+    imgurl: "assets/images/PastaandPizza/BBQ Chicken Pizza.jpg",
     category: "foods",
     all: "all",
     description: ""
@@ -680,6 +735,7 @@ const foods = [{
     subCategory: "Pasta",
     size: " Regular",
     price: "399",
+    imgurl: "assets/images/PastaandPizza/Meat Lovers.jpg",
     category: "foods",
     all: "all",
     description: ""
@@ -688,6 +744,7 @@ const foods = [{
     subCategory: "Pasta",
     size: " Regular",
     price: "399",
+    imgurl: "assets/images/PastaandPizza/Extra Cheesy Pizza.jpeg",
     category: "foods",
     all: "all",
     description: ""
@@ -696,6 +753,7 @@ const foods = [{
     subCategory: "Pasta",
     size: " Regular",
     price: "375",
+    imgurl: "assets/images/PastaandPizza/Classic Pepperoni Pizza.jpg",
     category: "foods",
     all: "all",
     description: ""
@@ -704,6 +762,7 @@ const foods = [{
     subCategory: "Pasta",
     size: " Regular",
     price: "375",
+    imgurl: "assets/images/PastaandPizza/Hawaiian Pizza.jpg",
     category: "foods",
     all: "all",
     description: ""
@@ -712,6 +771,7 @@ const foods = [{
     subCategory: "Pasta",
     size: " Regular",
     price: "399",
+    imgurl: "assets/images/PastaandPizza/Chicken _ Spinach Pizza.jpg",
     category: "foods",
     all: "all",
     description: ""
@@ -722,6 +782,7 @@ const dessert = [{
     subCategory: "Cold",
     size: "Regular",
     price: "100",
+    imgurl: "assets/images/Dessert/REGULAR_Mango Float.jpg",
     category: "desserts",
     all: "all",
     description: ""
@@ -730,6 +791,7 @@ const dessert = [{
     subCategory: "Cake",
     size: "Half slice",
     price: "145",
+    imgurl: "assets/images/Dessert/SLICE_Yema Cake.jpg",
     category: "desserts",
     all: "all",
     description: ""
@@ -738,6 +800,7 @@ const dessert = [{
     subCategory: "Cake",
     size: "Whole",
     price: "290",
+    imgurl: "assets/images/Dessert/WHOLE_Yema Cake.jpeg",
     category: "desserts",
     all: "all",
     description: ""
@@ -746,6 +809,7 @@ const dessert = [{
     subCategory: "Cake",
     size: "Half slice",
     price: "115",
+    imgurl: "assets/images/Dessert/SLICE_Brazo De Mercedes.jpg",
     category: "desserts",
     all: "all",
     description: ""
@@ -754,6 +818,7 @@ const dessert = [{
     subCategory: "Cake",
     size: "Whole",
     price: "230",
+    imgurl: "assets/images/Dessert/WHOLE_Brazo De Mercedes.jpg",
     category: "desserts",
     all: "all",
     description: ""
@@ -762,6 +827,7 @@ const dessert = [{
     subCategory: "Hot",
     size: "Regular",
     price: "65",
+    imgurl: "assets/images/Dessert/Bibingka.jpg",
     category: "desserts",
     all: "all",
     description: ""
@@ -770,6 +836,7 @@ const dessert = [{
     subCategory: "Custard",
     size: "Regular",
     price: "100",
+    imgurl: "assets/images/Dessert/Leche Flan.jpg",
     category: "desserts",
     all: "all",
     description: ""
@@ -778,6 +845,7 @@ const dessert = [{
     subCategory: "Cold",
     size: "Regular",
     price: "100",
+    imgurl: "assets/images/Dessert/Buko Salad.jpg",
     category: "desserts",
     all: "all",
     description: ""
@@ -786,6 +854,7 @@ const dessert = [{
     subCategory: "Cold",
     size: "Regular",
     price: "100",
+    imgurl: "assets/images/Dessert/Coffee Jelly.jpg",
     category: "desserts",
     all: "all",
     description: ""
@@ -794,6 +863,7 @@ const dessert = [{
     subCategory: "Cake",
     size: "Half slice",
     price: "95",
+    imgurl: "assets/images/Dessert/SLICE_Buko Pie.jpg",
     category: "desserts",
     all: "all",
     description: ""
@@ -802,6 +872,7 @@ const dessert = [{
     subCategory: "Cake",
     size: "Whole",
     price: "190",
+    imgurl: "assets/images/Dessert/WHOLE_Buko Pie.jpg",
     category: "desserts",
     all: "all",
     description: ""
@@ -810,6 +881,7 @@ const dessert = [{
     subCategory: "Shaved ice",
     size: "Small",
     price: "50",
+    imgurl: "assets/images/Dessert/SMALL_Halo - Halo.jpg",
     category: "desserts",
     all: "all",
     description: ""
@@ -818,6 +890,7 @@ const dessert = [{
     subCategory: "Shaved ice",
     size: "Regular",
     price: "65",
+    imgurl: "assets/images/Dessert/MEDIUM_Halo - Halo.jpg",
     category: "desserts",
     all: "all",
     description: ""
@@ -826,6 +899,7 @@ const dessert = [{
     subCategory: "Shaved ice",
     size: "Large",
     price: "70",
+    imgurl: "assets/images/Dessert/LARGEHalo - Halo.png",
     category: "desserts",
     all: "all",
     description: ""
@@ -834,6 +908,7 @@ const dessert = [{
     subCategory: "Cake",
     size: "Half",
     price: "75",
+    imgurl: "assets/images/Dessert/HALF_Maja Blanca.jpg",
     category: "desserts",
     all: "all",
     description: ""
@@ -842,6 +917,7 @@ const dessert = [{
     subCategory: "Cake",
     size: "Whole",
     price: "150",
+    imgurl: "assets/images/Dessert/WHOLE_Maja Blanca.jpg",
     category: "desserts",
     all: "all",
     description: ""
@@ -850,6 +926,7 @@ const dessert = [{
     subCategory: "Cold",
     size: "Regular",
     price: "30",
+    imgurl: "assets/images/Dessert/Gulaman.jpeg",
     category: "desserts",
     all: "all",
     description: ""
@@ -858,6 +935,7 @@ const dessert = [{
     subCategory: "Shortbread",
     size: "Regular",
     price: "55",
+    imgurl: "assets/images/Dessert/Polvoron.jpg",
     category: "desserts",
     all: "all",
     description: ""
@@ -866,6 +944,7 @@ const dessert = [{
     subCategory: "Fried",
     size: "Regular",
     price: "100",
+    imgurl: "assets/images/Dessert/Churos.jpg",
     category: "desserts",
     all: "all",
     description: ""
@@ -874,6 +953,7 @@ const dessert = [{
     subCategory: "Shaved ice",
     size: "Small",
     price: "70",
+    imgurl: "assets/images/Dessert/SMALL_Mais Con Hielo.jpg",
     category: "desserts",
     all: "all",
     description: ""
@@ -882,6 +962,7 @@ const dessert = [{
     subCategory: "Shaved ice",
     size: "Regular",
     price: "80",
+    imgurl: "assets/images/Dessert/REGULAR_Mais Con Hielo.jpg",
     category: "desserts",
     all: "all",
     description: ""
@@ -890,6 +971,7 @@ const dessert = [{
     subCategory: "Shaved ice",
     size: "Large",
     price: "90",
+    imgurl: "assets/images/Dessert/LARGE_Mais Con Hielo.jpg",
     category: "desserts",
     all: "all",
     description: ""
@@ -898,6 +980,7 @@ const dessert = [{
     subCategory: "Shaved ice",
     size: "Regular",
     price: "55",
+    imgurl: "assets/images/Dessert/SMALL_Saging Con Hielo.jpg",
     category: "desserts",
     all: "all",
     description: ""
@@ -906,14 +989,16 @@ const dessert = [{
     subCategory: "Shaved ice",
     size: "Regular",
     price: "60",
+    imgurl: "assets/images/Dessert/MEDIUM_Saging con Hielo.jpg",
     category: "desserts",
     all: "all",
     description: ""
 },{
     itemName: "Saging con Hielo",
     subCategory: "Shaved ice",
-    size: "Regular",
+    size: "Large",
     price: "65",
+    imgurl: "assets/images/Dessert/LARGE_Saging con Hielo.jpg",
     category: "desserts",
     all: "all",
     description: ""
@@ -947,6 +1032,7 @@ searchInputs.addEventListener('input', () =>{
     });
 });
 
+
 function createItemElement(item) {
     const itemElement = document.createElement('div');
     itemElement.className = `menu-item ${item.subCategory}`;
@@ -959,6 +1045,7 @@ function createItemElement(item) {
           <h4>${item.size}</h4>
         </header>
         <p class="item-text">${item.description}</p>
+        <button class="order-btn">Order</button>
       </div>
     `;
     return itemElement;
@@ -977,6 +1064,7 @@ function displayMenuItems(items) {
             <h4>${item.size}</h4>
           </header>
           <p class="item-text">${item.description}</p>
+          <button class="order-btn">Order</button> 
         </div>
       </div>
     `;
@@ -984,6 +1072,7 @@ function displayMenuItems(items) {
 
   menuItems.innerHTML = display;
 }
+
 
 filterBtns.forEach(btn => {
     btn.addEventListener("click", e => {
