@@ -9,6 +9,10 @@
   font-size: 20px;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* to-top button */
 .to-top{
   background: #0a300b;
@@ -26,7 +30,13 @@
   text-decoration: none;
   opacity: 0;
   pointer-events: none;
-  transition: all .4s;
+  transition: all 0.4s;
+}
+
+.to-top.active{
+  bottom: 32px;
+  pointer-events: auto;
+  opacity: 1;
 }
 
 /* ----------------------------------------------------------------------------------------------------------------------------------
