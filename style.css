@@ -675,6 +675,31 @@ input[type="text"] {
   color: #333;
 }
 
+.search-bar{
+  display: flex;
+}
+
+/* item-cart style */
+.util i{
+  font-size: 18px;
+  margin: 0 16px;
+  border: 1px solid #0a300b;
+  padding: 8px 16px;
+  color: #0a300b;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.util i:hover{
+  color: white;
+  background: #0a300b;
+}
+
+.util i:active{
+  color: white;
+  background: #0a300b;
+}
+
 /* Style for the filter buttons */
 .filter-btn {
   background-color: #fff;
@@ -686,6 +711,7 @@ input[type="text"] {
   cursor: pointer;
   transition: all 0.3s ease;
 }
+
 
 .filter-btn.active {
   background-color: #0a300b;

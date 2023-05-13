@@ -14,7 +14,7 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
-	<script src="/script.js" defer></script>
+	<script type="module" src="/script.js" defer></script>
 	<title>ONLINE-ORDER | Savor De Valley Golf</title>
 </head>
 
@@ -45,6 +45,9 @@
 		<div class="filters">
 			<div class="search-bar">
 				<input type="text" placeholder="Search...">
+				<div class="util">
+					<i class="fa fa-cart-plus" id="cart-plus"> 0 Items</i>
+				</div>
 			</div>
 			<button class="filter-btn active" data-filter="all">All</button>
 			<button class="filter-btn" data-filter="foods">Foods</button>
@@ -52,7 +55,63 @@
 			<button class="filter-btn" data-filter="desserts">Desserts</button>
 		</div>
 		<div class="menu-items">
-			<!-- Menu items will be added dynamically -->
+			<div id="appetizers">
+				<p id="category-name">Appetizers</p>
+			</div>
+			<div id="beers">
+				<p id="category-name">Beers</p>
+			</div>
+			<div id="cake">
+				<p id="category-name">Cakes</p>
+			</div>
+			<div id="carbonate-drink">
+				<p id="category-name">Carbonated Drinks</p>
+			</div>
+			<div id="cold">
+				<p id="category-name">Colds</p>
+			</div>
+			<div id="cold-coffee">
+				<p id="category-name">Cold Coffees</p>
+			</div>
+			<div id="custard">
+				<p id="category-name">Custards</p>
+			</div>
+			<div id="fried">
+				<p id="category-name">Frieds</p>
+			</div>
+			<div id="hot">
+				<p id="category-name">Hots</p>
+			</div>
+			<div id="hot-coffee">
+				<p id="category-name">Hot Coffees</p>
+			</div>
+			<div id="main-dish">
+				<p id="category-name">Main Dishes</p>
+			</div>
+			<div id="pasta">
+				<p id="category-name">Pastas</p>
+			</div>
+			<div id="pizza">
+				<p id="category-name">Pizzas</p>
+			</div>
+			<div id="salad">
+				<p id="category-name">Salads</p>
+			</div>
+			<div id="shakes">
+				<p id="category-name">Shakes</p>
+			</div>
+			<div id="shaved-ice">
+				<p id="category-name">Shaved Ices</p>
+			</div>
+			<div id="short-bread">
+				<p id="category-name">Short Breads</p>
+			</div>
+			<div id="side-dish">
+				<p id="category-name">Side Dishes</p>
+			</div>
+			<div id="soups">
+				<p id="category-name">Soups</p>
+			</div>
 		</div>
 	</section>
 
