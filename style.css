@@ -503,10 +503,10 @@ CONTACT PAGE
 .sub-header2 {
   height: 50vh;
   width: 100%;
-  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(/assets/images/contact.jpg);
-  background-position: center;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(/assets/menu-pdf-banner.png);
   background-size: cover;
-  object-fit: cover;
+  background-repeat: no-repeat;
+  background-position: center calc(80%);
   text-align: center;
   color: #fff;
 }
@@ -515,6 +515,28 @@ CONTACT PAGE
   font-family: 'Cookie', cursive;
   font-weight: normal;
   font-size: 80px;
+}
+
+.menu-pdf {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+.menu-pdf a {
+  background-color: #0a300b;
+  color: #FFF;
+  padding: 20px 40px;
+  border-radius: 5px;
+  font-size: 20px;
+  text-decoration: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.menu-pdf a:hover {
+  background-color: #F7D72D;
+  color: #222222;
 }
 
 .contacts {
@@ -573,7 +595,7 @@ CONTACT PAGE
 
 
 /* ----------------------------------------------------------------------------------------------------------------------------------
-MENU PAGE
+MENU & ORDER PAGE
 -----------------------------------------------------------------------------------------------------------------------------------*/
 .sub-header3 {
   height: 50vh;
@@ -592,11 +614,35 @@ MENU PAGE
   font-size: 80px;
 }
 
-.menu {
+.filters {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 40px 0;
+}
+
+#category-name {
+  margin: 10px;
+  font-size: 35px;
+  color: #0a300b;
+}
+
+.subCategoryName {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: start;
+  align-items: end;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.menu-items-container{
+  display: fel;
+}
+
+#category-name {
+  display: block;
 }
 
 .category-btns {
@@ -620,12 +666,6 @@ MENU PAGE
 .btn.active {
   background-color: #333;
   color: #fff;
-}
-
-.menu-items {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
 }
 
 .menu-item {
