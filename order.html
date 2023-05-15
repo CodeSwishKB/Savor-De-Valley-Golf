@@ -5,7 +5,8 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="/style.css">
+	<link rel="stylesheet" href="/css/style.css">
+	<link rel="stylesheet" href="/css/master.css">
 	<link rel="shortcut icon" href="/assets/s-16.png">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -55,66 +56,43 @@
 			<button class="filter-btn" data-filter="desserts">Desserts</button>
 		</div>
 		<div class="menu-items">
-			<div id="appetizers">
-				<p id="category-name">Appetizers</p>
-			</div>
-			<div id="beers">
-				<p id="category-name">Beers</p>
-			</div>
-			<div id="cake">
-				<p id="category-name">Cakes</p>
-			</div>
-			<div id="carbonate-drink">
-				<p id="category-name">Carbonated Drinks</p>
-			</div>
-			<div id="cold">
-				<p id="category-name">Colds</p>
-			</div>
-			<div id="cold-coffee">
-				<p id="category-name">Cold Coffees</p>
-			</div>
-			<div id="custard">
-				<p id="category-name">Custards</p>
-			</div>
-			<div id="fried">
-				<p id="category-name">Frieds</p>
-			</div>
-			<div id="hot">
-				<p id="category-name">Hots</p>
-			</div>
-			<div id="hot-coffee">
-				<p id="category-name">Hot Coffees</p>
-			</div>
-			<div id="main-dish">
-				<p id="category-name">Main Dishes</p>
-			</div>
-			<div id="pasta">
-				<p id="category-name">Pastas</p>
-			</div>
-			<div id="pizza">
-				<p id="category-name">Pizzas</p>
-			</div>
-			<div id="salad">
-				<p id="category-name">Salads</p>
-			</div>
-			<div id="shakes">
-				<p id="category-name">Shakes</p>
-			</div>
-			<div id="shaved-ice">
-				<p id="category-name">Shaved Ices</p>
-			</div>
-			<div id="short-bread">
-				<p id="category-name">Short Breads</p>
-			</div>
-			<div id="side-dish">
-				<p id="category-name">Side Dishes</p>
-			</div>
-			<div id="soups">
-				<p id="category-name">Soups</p>
-			</div>
 		</div>
 	</section>
 
+	<div id="cart-page" class="toggle-cart">
+		<p id="cart-title">Cart Items</p>
+		<p id="m-total-amount">Total Amount : ₱ 100</p>
+		<table>
+			<thead>
+				<td>Item</td>
+				<td>Name</td>
+				<td>Quantity</td>
+				<td>Price</td>
+			</thead>
+			<tbody id="table-body">
+				<tr>
+					<td>
+						<img src="/assets/images/Dessert/Buko Salad.jpg" alt="">
+					</td>
+					<td>Buko Salad</td>
+					<td>
+						<button class="decrease-item">-</button>
+						<span>1</span>
+						<button class="increase-item">+</button>
+					</td>
+					<td>10</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+
+	<div id="checkout" class="toggle-cart">
+		<p id="total-item">Total Item : 5</p>
+		<p id="total-price">Total Amount : $ 50</p>
+		<p id="delivery">Free Delivery above ₱ 2000</p>
+		<button class="cart-checkout">Checkout</button>
+	</div>
+	
 	<a href="#" class="to-top">
 		<i class="fa fa-chevron-up"></i>
 	</a>

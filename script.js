@@ -96,6 +96,12 @@ filterBtns.forEach(btn => {
 
       menuItems.innerHTML = '';
       
+      menuItems.classList.add('filtering');
+
+      setTimeout(() => {
+        menuItems.classList.remove('filtering');
+      }, 550);
+
       filteredItems.forEach(item => {
         const itemElement = createItemElement(item);
         menuItems.appendChild(itemElement);
