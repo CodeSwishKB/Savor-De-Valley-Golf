@@ -8,7 +8,8 @@ export const drinks = [{
     imgurl: "assets/images/Drinks/Coke.jpg",
     category: "drinks",
     all: "all",
-    description: ""
+    description: "",
+    quantity: 1,
 },{
     id: 2,
     itemName: "Bottled Water",
@@ -18,7 +19,8 @@ export const drinks = [{
     imgurl: "assets/images/Drinks/Bottled Water.jpg",
     category: "drinks",
     all: "all",
-    description: ""
+    description: "",
+    quantity: 1,
 }, {
     id: 3,
     itemName: "Diet Soda",
@@ -28,7 +30,8 @@ export const drinks = [{
     imgurl: "assets/images/Drinks/Diet Soda.jpg",
     category: "drinks",
     all: "all",
-    description: ""
+    description: "",
+    quantity: 1,
 }, {
     id: 4,
     itemName: "Lipton",
@@ -38,7 +41,8 @@ export const drinks = [{
     imgurl: "assets/images/Drinks/Lipton.jpg",
     category: "drinks",
     all: "all",
-    description: ""
+    description: "",
+    quantity: 1,
 }, {
     id: 5,
     itemName: "Ice Tea",
@@ -48,7 +52,8 @@ export const drinks = [{
     imgurl: "assets/images/Drinks/Ice Tea.jpg",
     category: "drinks",
     all: "all",
-    description: ""
+    description: "",
+    quantity: 1,
 }, {
     id: 6,
     itemName: "Double Dutch Shake",
@@ -58,7 +63,8 @@ export const drinks = [{
     imgurl: "assets/images/Drinks/Double Dutch Shake.jpg",
     category: "drinks",
     all: "all",
-    description: ""
+    description: "",
+    quantity: 1,
 }, {
     id: 7,
     itemName: "Black Forest Shake",
@@ -68,7 +74,8 @@ export const drinks = [{
     imgurl: "assets/images/Drinks/Black Forest Shake.jpg",
     category: "drinks",
     all: "all",
-    description: ""
+    description: "",
+    quantity: 1,
 }, {
     id: 8,
     itemName: "Banana Shake",
@@ -78,7 +85,8 @@ export const drinks = [{
     imgurl: "assets/images/Drinks/SMALL_Banana Shake.jpg",
     category: "drinks",
     all: "all",
-    description: ""
+    description: "",
+    quantity: 1,
 }, {
     id: 9,
     itemName: "Banana Shake",
@@ -88,7 +96,8 @@ export const drinks = [{
     imgurl: "assets/images/Drinks/MEDIUM_Banana Shake.jpg",
     category: "drinks",
     all: "all",
-    description: ""
+    description: "",
+    quantity: 1,
 }, {
     id: 10,
     itemName: "Banana Shake",
@@ -98,7 +107,8 @@ export const drinks = [{
     imgurl: "assets/images/Drinks/LARGE_Banana Shake.jpg",
     category: "drinks",
     all: "all",
-    description: ""
+    description: "",
+    quantity: 1,
 }, {
     id: 11,
     itemName: "Mango Shake",
@@ -108,7 +118,8 @@ export const drinks = [{
     imgurl: "assets/images/Drinks/SMALL_Mango Shake.jpg",
     category: "drinks",
     all: "all",
-    description: ""
+    description: "",
+    quantity: 1,
 }, {
     id: 12,
     itemName: "Mango Shake",
@@ -118,7 +129,8 @@ export const drinks = [{
     imgurl: "assets/images/Drinks/MEDIUM_Mango Shake.jpg",
     category: "drinks",
     all: "all",
-    description: ""
+    description: "",
+    quantity: 1,
 }, {
     id: 13,
     itemName: "Mango Shake",
@@ -128,7 +140,8 @@ export const drinks = [{
     imgurl: "assets/images/Drinks/LARGE_Mango Shake.jpg",
     category: "drinks",
     all: "all",
-    description: ""
+    description: "",
+    quantity: 1,
 }, {
     id: 14,
     itemName: "Hot Tea Latte",
@@ -138,7 +151,8 @@ export const drinks = [{
     imgurl: "assets/images/Drinks/Hot Tea Latte.jpg",
     category: "drinks",
     all: "all",
-    description: ""
+    description: "",
+    quantity: 1,
 }, {
     id: 15,
     itemName: "Cappuccino",
@@ -148,7 +162,8 @@ export const drinks = [{
     imgurl: "assets/images/Drinks/Cappuccino.jpeg",
     category: "drinks",
     all: "all",
-    description: ""
+    description: "",
+    quantity: 1,
 }, {
     id: 16,
     itemName: "Brewed Coffee",
@@ -158,7 +173,8 @@ export const drinks = [{
     imgurl: "assets/images/Drinks/Brewed Coffee.jpg",
     category: "drinks",
     all: "all",
-    description: ""
+    description: "",
+    quantity: 1,
 }, {
     id: 17,
     itemName: "Mocha Iced Coffee",
@@ -168,7 +184,8 @@ export const drinks = [{
     imgurl: "assets/images/Drinks/Mocha Ice Coffee.jpg",
     category: "drinks",
     all: "all",
-    description: ""
+    description: "",
+    quantity: 1,
 }, {
     id: 18,
     itemName: "Vanilla Iced Coffee",
@@ -178,7 +195,8 @@ export const drinks = [{
     imgurl: "assets/images/Drinks/Vanilla Ice Coffee.jpg",
     category: "drinks",
     all: "all",
-    description: ""
+    description: "",
+    quantity: 1,
 }, {
     id: 19,
     itemName: "Iced Coffee",
@@ -188,7 +206,8 @@ export const drinks = [{
     imgurl: "assets/images/Drinks/Ice Coffee.jpg",
     category: "drinks",
     all: "all",
-    description: ""
+    description: "",
+    quantity: 1,
 },{
     id: 20,
     itemName: "Alfonso",
@@ -198,7 +217,8 @@ export const drinks = [{
     imgurl: "assets/images/Drinks/Alfonso.jpg",
     category: "drinks",
     all: "all",
-    description: ""
+    description: "",
+    quantity: 1,
 },{
     id: 21,
     itemName: "Red Horse",
@@ -208,7 +228,8 @@ export const drinks = [{
     imgurl: "assets/images/Drinks/Red Horse.png",
     category: "drinks",
     all: "all",
-    description: ""
+    description: "",
+    quantity: 1,
 },{
     id: 22,
     itemName: "Red Horse",
@@ -218,7 +239,8 @@ export const drinks = [{
     imgurl: "assets/images/Drinks/BUCKET_Red Horse.jpg",
     category: "drinks",
     all: "all",
-    description: ""
+    description: "",
+    quantity: 1,
 },{
     id: 23,
     itemName: "San Miguel Light",
@@ -228,7 +250,8 @@ export const drinks = [{
     imgurl: "assets/images/Drinks/SOLO_San Miguel Light.jpg",
     category: "drinks",
     all: "all",
-    description: ""
+    description: "",
+    quantity: 1,
 },{
     id: 24,
     itemName: "San Miguel Light",
@@ -238,7 +261,8 @@ export const drinks = [{
     imgurl: "assets/images/Drinks/BUCKET_San Miguel Light.jpg",
     category: "drinks",
     all: "all",
-    description: ""
+    description: "",
+    quantity: 1,
 },{
     id: 25,
     itemName: "Pale Pilsen",
@@ -248,7 +272,8 @@ export const drinks = [{
     imgurl: "assets/images/Drinks/SOLO_Pale Pilsen.png",
     category: "drinks",
     all: "all",
-    description: ""
+    description: "",
+    quantity: 1,
 },{
     id: 26,
     itemName: "Pale Pilsen",
@@ -258,7 +283,8 @@ export const drinks = [{
     imgurl: "assets/images/Drinks/BUCKET_Pale Pilsen.jpg",
     category: "drinks",
     all: "all",
-    description: ""
+    description: "",
+    quantity: 1,
 } ]
 
 export const foods = [{
@@ -266,11 +292,12 @@ export const foods = [{
     itemName: "Pork Adobo",
     subCategory: "Main Dish",
     size: "Regular",
-    price: "250",
+    price: 250,
     imgurl: "assets/images/MainDish/Pork Adobo.jpg",
     category: "foods",
     all: "all",
-    description: ""
+    description: "",
+    quantity: 1,
 },{
     id: 28,
     itemName: "Pinoy Chicken Curry",
@@ -280,7 +307,8 @@ export const foods = [{
     imgurl: "assets/images/MainDish/Pinoy Chicken Curry.jpg",
     category: "foods",
     all: "all",
-    description: ""
+    description: "",
+    quantity: 1,
 },{
     id: 29,
     itemName: "Beef Bulalo",
@@ -290,7 +318,8 @@ export const foods = [{
     imgurl: "assets/images/MainDish/Beef Bulalo.jpg",
     category: "foods",
     all: "all",
-    description: ""
+    description: "",
+    quantity: 1,
 },{
     id: 30,
     itemName: "Pork Menudo",
@@ -300,7 +329,8 @@ export const foods = [{
     imgurl: "assets/images/MainDish/Pork Menudo.jpg",
     category: "foods",
     all: "all",
-    description: ""
+    description: "",
+    quantity: 1,
 },{
     id: 31,
     itemName: "Pork Caldereta",
@@ -310,7 +340,8 @@ export const foods = [{
     imgurl: "assets/images/MainDish/Pork Caldereta.png",
     category: "foods",
     all: "all",
-    description: ""
+    description: "",
+    quantity: 1,
 },{
     id: 32,
     itemName: "Chicken Afritada",
@@ -320,7 +351,8 @@ export const foods = [{
     imgurl: "assets/images/MainDish/Chicken Afritada.jpg",
     category: "foods",
     all: "all",
-    description: ""
+    description: "",
+    quantity: 1,
 },{
     id: 33,
     itemName: "Bicol Express",
@@ -330,7 +362,8 @@ export const foods = [{
     imgurl: "assets/images/MainDish/Bicol Express.jpg",
     category: "foods",
     all: "all",
-    description: ""
+    description: "",
+    quantity: 1,
 },{
     id: 35,
     itemName: "Pork Steak",
@@ -340,7 +373,8 @@ export const foods = [{
     imgurl: "assets/images/MainDish/Pork Steak.jpg",
     category: "foods",
     all: "all",
-    description: ""
+    description: "",
+    quantity: 1,
 },{
     id: 36,
     itemName: "Garlic Butter shrimp",
@@ -350,7 +384,8 @@ export const foods = [{
     imgurl: "assets/images/MainDish/Garlic Butter shrimp.jpg",
     category: "foods",
     all: "all",
-    description: ""
+    description: "",
+    quantity: 1,
 },{
     id: 37,
     itemName: "Pork Sisig",
@@ -360,7 +395,8 @@ export const foods = [{
     imgurl: "assets/images/MainDish/Pork Sisig.jpg",
     category: "foods",
     all: "all",
-    description: ""
+    description: "",
+    quantity: 1,
 },{
     id: 1,
     itemName: "Sinigang na Hipon",
@@ -370,7 +406,8 @@ export const foods = [{
     imgurl: "assets/images/MainDish/Sinigang na Hipon.jpg",
     category: "foods",
     all: "all",
-    description: ""
+    description: "",
+    quantity: 1,
 },{
     id: 38,
     itemName: "Sinigang na Baboy",
@@ -380,7 +417,8 @@ export const foods = [{
     imgurl: "assets/images/MainDish/Sinigang na Baboy.jpg",
     category: "foods",
     all: "all",
-    description: ""
+    description: "",
+    quantity: 1,
 },{
     id: 39,
     itemName: "Lechon Kawali",
@@ -390,7 +428,8 @@ export const foods = [{
     imgurl: "assets/images/MainDish/LechonKawali.jpg",
     category: "foods",
     all: "all",
-    description: ""
+    description: "",
+    quantity: 1,
 },{
     id: 40,
     itemName: "Beef Kare-Kare",
@@ -400,7 +439,8 @@ export const foods = [{
     imgurl: "assets/images/MainDish/Beef Kare-Kare.jpg",
     category: "foods",
     all: "all",
-    description: ""
+    description: "",
+    quantity: 1,
 },{
     id: 41,
     itemName: "Chicken Cordon Bleu",
@@ -410,7 +450,8 @@ export const foods = [{
     imgurl: "assets/images/MainDish/Chicken Cordon Bleu.jpg",
     category: "foods",
     all: "all",
-    description: ""
+    description: "",
+    quantity: 1,
 },{
     id: 42,
     itemName: "Fresh Green Beans",
@@ -420,7 +461,8 @@ export const foods = [{
     imgurl: "assets/images/SideDish/FreshGreenBeans.jpg",
     category: "foods",
     all: "all",
-    description: ""
+    description: "",
+    quantity: 1,
 },{
     id: 43,
     itemName: "Sautéed Zucchini And Squash",
@@ -430,7 +472,8 @@ export const foods = [{
     imgurl: "assets/images/SideDish/SautéedZucchiniAndSquash.jpg",
     category: "foods",
     all: "all",
-    description: ""
+    description: "",
+    quantity: 1,
 },{
     id: 44,
     itemName: "Roasted Veggies",
@@ -440,7 +483,8 @@ export const foods = [{
     imgurl: "assets/images/SideDish/RoastedVeggies.jpg",
     category: "foods",
     all: "all",
-    description: ""
+    description: "",
+    quantity: 1,
 },{
     id: 45,
     itemName: "Roasted Broccoli With Sweet Chili Sauce",
@@ -450,7 +494,8 @@ export const foods = [{
     imgurl: "assets/images/SideDish/RoastedBroccoliWithSweetChiliSauce.jpg",
     category: "foods",
     all: "all",
-    description: ""
+    description: "",
+    quantity: 1,
 },{
     id: 46,
     itemName: "Roasted Ratatouille",
@@ -460,7 +505,8 @@ export const foods = [{
     imgurl: "assets/images/SideDish/RoastedRatatouille.jpg",
     category: "foods",
     all: "all",
-    description: ""
+    description: "",
+    quantity: 1,
 },{
     id: 47,
     itemName: "Pearl Couscous Salad",
@@ -470,7 +516,8 @@ export const foods = [{
     imgurl: "assets/images/SideDish/PearlCouscousSalad.jpg",
     category: "foods",
     all: "all",
-    description: ""
+    description: "",
+    quantity: 1,
 },{
     id: 48,
     itemName: "Mediterranean Quinoa Salad",
@@ -480,7 +527,8 @@ export const foods = [{
     imgurl: "assets/images/SideDish/MediterraneanQuinoaSalad.jpg",
     category: "foods",
     all: "all",
-    description: ""
+    description: "",
+    quantity: 1,
 },{
     id: 49,
     itemName: "Chilaquiles",
@@ -490,7 +538,8 @@ export const foods = [{
     imgurl: "assets/images/SideDish/Chilaquiles.jpg",
     category: "foods",
     all: "all",
-    description: ""
+    description: "",
+    quantity: 1,
 },{
     id: 50,
     itemName: "Crockpot Mac And Cheese",
@@ -500,7 +549,8 @@ export const foods = [{
     imgurl: "assets/images/SideDish/Crockpot Mac And Cheese.jpg",
     category: "foods",
     all: "all",
-    description: ""
+    description: "",
+    quantity: 1,
 },{
     id: 51,
     itemName: "Filet Mignon Nachos",
@@ -510,7 +560,8 @@ export const foods = [{
     imgurl: "assets/images/SideDish/Filet Mignon Nachos.jpg",
     category: "foods",
     all: "all",
-    description: ""
+    description: "",
+    quantity: 1,
 },{
     id: 52,
     itemName: "Spicy Shrimp Nacho",
@@ -520,7 +571,8 @@ export const foods = [{
     imgurl: "assets/images/SideDish/Spicy Shrimp Nacho.jpg",
     category: "foods",
     all: "all",
-    description: ""
+    description: "",
+    quantity: 1,
 },{
     id: 53,
     itemName: "Surf And Turf Taco Combo",
@@ -530,7 +582,8 @@ export const foods = [{
     imgurl: "assets/images/SideDish/Surf And Turf Taco Combo.jpg",
     category: "foods",
     all: "all",
-    description: ""
+    description: "",
+    quantity: 1,
 },{
     id: 54,
     itemName: "Cheesy Enchiladas",
@@ -540,7 +593,8 @@ export const foods = [{
     imgurl: "assets/images/SideDish/Cheesy Enchiladas.jpg",
     category: "foods",
     all: "all",
-    description: ""
+    description: "",
+    quantity: 1,
 },{
     id: 55,
     itemName: "Banditto Burrito",
@@ -550,7 +604,8 @@ export const foods = [{
     imgurl: "assets/images/SideDish/Banditto Burrito.jpeg",
     category: "foods",
     all: "all",
-    description: ""
+    description: "",
+    quantity: 1,
 },{
     id: 56,
     itemName: "Quesadilla",
@@ -560,7 +615,8 @@ export const foods = [{
     imgurl: "assets/images/SideDish/Quesadilla.jpeg",
     category: "foods",
     all: "all",
-    description: ""
+    description: "",
+    quantity: 1,
 },{
     id: 57,
     itemName: "Garlic Bread",
@@ -570,7 +626,8 @@ export const foods = [{
     imgurl: "assets/images/AppetizerAndSoups/Garlic Bread.jpg",
     category: "foods",
     all: "all",
-    description: ""
+    description: "",
+    quantity: 1,
 }, {
     id: 58,
     itemName: "Chicken Wings",
@@ -580,7 +637,8 @@ export const foods = [{
     imgurl: "assets/images/AppetizerAndSoups/chicken_wing_regular.jpg",
     category: "foods",
     all: "all",
-    description: ""
+    description: "",
+    quantity: 1,
 }, {
     id: 59,
     itemName: "Chicken Wings",
@@ -590,7 +648,8 @@ export const foods = [{
     imgurl: "assets/images/AppetizerAndSoups/DOZEN_Chicken Wings.jpg",
     category: "foods",
     all: "all",
-    description: ""
+    description: "",
+    quantity: 1,
 }, {
     id: 60,
     itemName: "Beef Sliders",
@@ -600,7 +659,8 @@ export const foods = [{
     imgurl: "assets/images/AppetizerAndSoups/SINGLE_Beef Sliders.jpg",
     category: "foods",
     all: "all",
-    description: ""
+    description: "",
+    quantity: 1,
 }, {
     id: 61,
     itemName: "Beef Sliders",
@@ -610,7 +670,8 @@ export const foods = [{
     imgurl: "assets/images/AppetizerAndSoups/DOUBLE_Beef Sliders.jpg",
     category: "foods",
     all: "all",
-    description: ""
+    description: "",
+    quantity: 1,
 }, {
     id: 62,
     itemName: "Fried Zucchini",
@@ -620,7 +681,8 @@ export const foods = [{
     imgurl: "assets/images/AppetizerAndSoups/Fried Zucchini.jpeg",
     category: "foods",
     all: "all",
-    description: ""
+    description: "",
+    quantity: 1,
 }, {
     id: 63,
     itemName: "Onion Rings  ",
@@ -630,7 +692,8 @@ export const foods = [{
     imgurl: "assets/images/AppetizerAndSoups/Onion Rings.jpg",
     category: "foods",
     all: "all",
-    description: ""
+    description: "",
+    quantity: 1,
 }, {
     id: 64,
     itemName: "Jumbo Shrimp Cocktail",
@@ -640,7 +703,8 @@ export const foods = [{
     imgurl: "assets/images/AppetizerAndSoups/REGULAR_Jumbo Shrimp Cocktail.jpg",
     category: "foods",
     all: "all",
-    description: ""
+    description: "",
+    quantity: 1,
 }, {
     id: 65,
     itemName: "Jumbo Shrimp Cocktail",
@@ -650,7 +714,8 @@ export const foods = [{
     imgurl: "assets/images/AppetizerAndSoups/LARGE_Jumbo Shrimp Cocktail.jpeg",
     category: "foods",
     all: "all",
-    description: ""
+    description: "",
+    quantity: 1,
 }, {
     id: 66,
     itemName: "Mozzarella Sticks",
@@ -660,7 +725,8 @@ export const foods = [{
     imgurl: "assets/images/AppetizerAndSoups/mozzarella_sticks_regular.jpg",
     category: "foods",
     all: "all",
-    description: ""
+    description: "",
+    quantity: 1,
 }, {
     id: 67,
     itemName: "Tomato Soup",
@@ -670,7 +736,8 @@ export const foods = [{
     imgurl: "assets/images/AppetizerAndSoups/CUP_Tomato Soup.jpg",
     category: "foods",
     all: "all",
-    description: ""
+    description: "",
+    quantity: 1,
 }, {
     id: 68,
     itemName: "Tomato Soup",
@@ -680,7 +747,8 @@ export const foods = [{
     imgurl: "assets/images/AppetizerAndSoups/BOWL_Tomato Soup.png",
     category: "foods",
     all: "all",
-    description: ""
+    description: "",
+    quantity: 1,
 }, {
     id: 69,
     itemName: "Chicken Noodle Soup",
@@ -690,7 +758,8 @@ export const foods = [{
     imgurl: "assets/images/AppetizerAndSoups/CUP_Chicken Noodle Soup.jpg",
     category: "foods",
     all: "all",
-    description: ""
+    description: "",
+    quantity: 1,
 }, {
     id: 70,
     itemName: "Chicken Noodle Soup",
@@ -700,7 +769,8 @@ export const foods = [{
     imgurl: "assets/images/AppetizerAndSoups/BOWL_Chicken Noodle Soup.jpg",
     category: "foods",
     all: "all",
-    description: ""
+    description: "",
+    quantity: 1,
 }, {
     id: 71,
     itemName: "Garden Salad",
@@ -710,7 +780,8 @@ export const foods = [{
     imgurl: "assets/images/AppetizerAndSoups/Garden Salad.jpg",
     category: "foods",
     all: "all",
-    description: ""
+    description: "",
+    quantity: 1,
 }, {
     id: 72,
     itemName: "Spaghetti with Meatballs",
@@ -720,7 +791,8 @@ export const foods = [{
     imgurl: "assets/images/PastaandPizza/Spaghetti with Meatballs.jpg",
     category: "foods",
     all: "all",
-    description: ""
+    description: "",
+    quantity: 1,
 }, {
     id: 73,
     itemName: "Classic Filipino Style Spaghetti",
@@ -730,7 +802,8 @@ export const foods = [{
     imgurl: "assets/images/PastaandPizza/Classic Filipino Style Spaghetti.jpg",
     category: "foods",
     all: "all",
-    description: ""
+    description: "",
+    quantity: 1,
 }, {
     id: 74,
     itemName: "Spaghetti with Marinara Sauce",
@@ -740,7 +813,8 @@ export const foods = [{
     imgurl: "assets/images/PastaandPizza/Spaghetti with Marinara Sauce.jpg",
     category: "foods",
     all: "all",
-    description: ""
+    description: "",
+    quantity: 1,
 }, {
     id: 75,
     itemName: "Creamy Shrimp Pasta",
@@ -750,7 +824,8 @@ export const foods = [{
     imgurl: "assets/images/PastaandPizza/Creamy Shrimp Pasta.jpg",
     category: "foods",
     all: "all",
-    description: ""
+    description: "",
+    quantity: 1,
 }, {
     id: 76,
     itemName: "Triple Cheese Pasta",
@@ -760,7 +835,8 @@ export const foods = [{
     imgurl: "assets/images/PastaandPizza/Triple Cheese Pasta.jpg",
     category: "foods",
     all: "all",
-    description: ""
+    description: "",
+    quantity: 1,
 }, {
     id: 77,
     itemName: "Carbonara",
@@ -770,7 +846,8 @@ export const foods = [{
     imgurl: "assets/images/PastaandPizza/Carbonara.jpg",
     category: "foods",
     all: "all",
-    description: ""
+    description: "",
+    quantity: 1,
 }, {
     id: 78,
     itemName: "Parmesan Cheese Pasta",
@@ -780,7 +857,8 @@ export const foods = [{
     imgurl: "assets/images/PastaandPizza/Parmesan Cheese Pasta.jpg",
     category: "foods",
     all: "all",
-    description: ""
+    description: "",
+    quantity: 1,
 }, {
     id: 79,
     itemName: "Veggie Pasta",
@@ -790,7 +868,8 @@ export const foods = [{
     imgurl: "assets/images/PastaandPizza/Veggie Pasta.jpg",
     category: "foods",
     all: "all",
-    description: ""
+    description: "",
+    quantity: 1,
 }, {
     id: 80,
     itemName: "Veggie Supreme Pizza",
@@ -800,7 +879,8 @@ export const foods = [{
     imgurl: "assets/images/PastaandPizza/Veggie Supreme Pizza.jpg",
     category: "foods",
     all: "all",
-    description: ""
+    description: "",
+    quantity: 1,
 }, {
     id: 81,
     itemName: "BBQ Chicken Pizza",
@@ -810,7 +890,8 @@ export const foods = [{
     imgurl: "assets/images/PastaandPizza/BBQ Chicken Pizza.jpg",
     category: "foods",
     all: "all",
-    description: ""
+    description: "",
+    quantity: 1,
 }, {
     id: 82,
     itemName: "Meat Lovers",
@@ -820,7 +901,8 @@ export const foods = [{
     imgurl: "assets/images/PastaandPizza/Meat Lovers.jpg",
     category: "foods",
     all: "all",
-    description: ""
+    description: "",
+    quantity: 1,
 }, {
     id: 83,
     itemName: "Extra Cheesy Pizza",
@@ -830,7 +912,8 @@ export const foods = [{
     imgurl: "assets/images/PastaandPizza/Extra Cheesy Pizza.jpeg",
     category: "foods",
     all: "all",
-    description: ""
+    description: "",
+    quantity: 1,
 }, {
     id: 84,
     itemName: "Classic Pepperoni Pizza",
@@ -840,7 +923,8 @@ export const foods = [{
     imgurl: "assets/images/PastaandPizza/Classic Pepperoni Pizza.jpg",
     category: "foods",
     all: "all",
-    description: ""
+    description: "",
+    quantity: 1,
 }, {
     id: 85,
     itemName: "Hawaiian Pizza",
@@ -850,7 +934,8 @@ export const foods = [{
     imgurl: "assets/images/PastaandPizza/Hawaiian Pizza.jpg",
     category: "foods",
     all: "all",
-    description: ""
+    description: "",
+    quantity: 1,
 }, {
     id: 86,
     itemName: "Chicken & Spinach Pizza",
@@ -860,7 +945,8 @@ export const foods = [{
     imgurl: "assets/images/PastaandPizza/Chicken _ Spinach Pizza.jpg",
     category: "foods",
     all: "all",
-    description: ""
+    description: "",
+    quantity: 1,
 },]
 
 export const dessert = [{
@@ -872,7 +958,8 @@ export const dessert = [{
     imgurl: "assets/images/Dessert/REGULAR_Mango Float.jpg",
     category: "desserts",
     all: "all",
-    description: ""
+    description: "",
+    quantity: 1,
 }, {
     id: 88,
     itemName: "Yema Cake",
@@ -882,7 +969,8 @@ export const dessert = [{
     imgurl: "assets/images/Dessert/SLICE_Yema Cake.jpg",
     category: "desserts",
     all: "all",
-    description: ""
+    description: "",
+    quantity: 1,
 }, {
     id: 89,
     itemName: "Yema Cake",
@@ -892,7 +980,8 @@ export const dessert = [{
     imgurl: "assets/images/Dessert/WHOLE_Yema Cake.jpeg",
     category: "desserts",
     all: "all",
-    description: ""
+    description: "",
+    quantity: 1,
 }, {
     id: 90,
     itemName: "Brazo De Mercedes",
@@ -902,7 +991,8 @@ export const dessert = [{
     imgurl: "assets/images/Dessert/SLICE_Brazo De Mercedes.jpg",
     category: "desserts",
     all: "all",
-    description: ""
+    description: "",
+    quantity: 1,
 }, {
     id: 91,
     itemName: "Brazo De Mercedes",
@@ -912,7 +1002,8 @@ export const dessert = [{
     imgurl: "assets/images/Dessert/WHOLE_Brazo De Mercedes.jpg",
     category: "desserts",
     all: "all",
-    description: ""
+    description: "",
+    quantity: 1,
 }, {
     id: 92,
     itemName: "Bibingka",
@@ -922,7 +1013,8 @@ export const dessert = [{
     imgurl: "assets/images/Dessert/Bibingka.jpg",
     category: "desserts",
     all: "all",
-    description: ""
+    description: "",
+    quantity: 1,
 }, {
     id: 93,
     itemName: "Leche Flan",
@@ -932,7 +1024,8 @@ export const dessert = [{
     imgurl: "assets/images/Dessert/Leche Flan.jpg",
     category: "desserts",
     all: "all",
-    description: ""
+    description: "",
+    quantity: 1,
 }, {
     id: 94,
     itemName: "Buko Salad",
@@ -942,7 +1035,8 @@ export const dessert = [{
     imgurl: "assets/images/Dessert/Buko Salad.jpg",
     category: "desserts",
     all: "all",
-    description: ""
+    description: "",
+    quantity: 1,
 }, {
     id: 95,
     itemName: "Coffee Jelly",
@@ -952,7 +1046,8 @@ export const dessert = [{
     imgurl: "assets/images/Dessert/Coffee Jelly.jpg",
     category: "desserts",
     all: "all",
-    description: ""
+    description: "",
+    quantity: 1,
 }, {
     id: 96,
     itemName: "Buko Pie",
@@ -962,7 +1057,8 @@ export const dessert = [{
     imgurl: "assets/images/Dessert/SLICE_Buko Pie.jpg",
     category: "desserts",
     all: "all",
-    description: ""
+    description: "",
+    quantity: 1,
 }, {
     id: 97,
     itemName: "Buko Pie",
@@ -972,7 +1068,8 @@ export const dessert = [{
     imgurl: "assets/images/Dessert/WHOLE_Buko Pie.jpg",
     category: "desserts",
     all: "all",
-    description: ""
+    description: "",
+    quantity: 1,
 }, {
     id: 98,
     itemName: "Halo - Halo",
@@ -982,7 +1079,8 @@ export const dessert = [{
     imgurl: "assets/images/Dessert/SMALL_Halo - Halo.jpg",
     category: "desserts",
     all: "all",
-    description: ""
+    description: "",
+    quantity: 1,
 }, {
     id: 99,
     itemName: "Halo - Halo",
@@ -992,7 +1090,8 @@ export const dessert = [{
     imgurl: "assets/images/Dessert/MEDIUM_Halo - Halo.jpg",
     category: "desserts",
     all: "all",
-    description: ""
+    description: "",
+    quantity: 1,
 }, {
     id: 100,
     itemName: "Halo - Halo",
@@ -1002,7 +1101,8 @@ export const dessert = [{
     imgurl: "assets/images/Dessert/LARGEHalo - Halo.png",
     category: "desserts",
     all: "all",
-    description: ""
+    description: "",
+    quantity: 1,
 },{
     id: 101,
     itemName: "Maja Blanca",
@@ -1012,7 +1112,8 @@ export const dessert = [{
     imgurl: "assets/images/Dessert/HALF_Maja Blanca.jpg",
     category: "desserts",
     all: "all",
-    description: ""
+    description: "",
+    quantity: 1,
 }, {
     id: 102,
     itemName: "Maja Blanca",
@@ -1022,7 +1123,8 @@ export const dessert = [{
     imgurl: "assets/images/Dessert/WHOLE_Maja Blanca.jpg",
     category: "desserts",
     all: "all",
-    description: ""
+    description: "",
+    quantity: 1,
 }, {
     id: 103,
     itemName: "Gulaman",
@@ -1032,7 +1134,8 @@ export const dessert = [{
     imgurl: "assets/images/Dessert/Gulaman.jpeg",
     category: "desserts",
     all: "all",
-    description: ""
+    description: "",
+    quantity: 1,
 }, {
     id: 104,
     itemName: "Polvoron",
@@ -1042,7 +1145,8 @@ export const dessert = [{
     imgurl: "assets/images/Dessert/Polvoron.jpg",
     category: "desserts",
     all: "all",
-    description: ""
+    description: "",
+    quantity: 1,
 }, {
     id: 105,
     itemName: "Churos",
@@ -1052,7 +1156,8 @@ export const dessert = [{
     imgurl: "assets/images/Dessert/Churos.jpg",
     category: "desserts",
     all: "all",
-    description: ""
+    description: "",
+    quantity: 1,
 }, {
     id: 106,
     itemName: "Mais Con Hielo",
@@ -1062,7 +1167,8 @@ export const dessert = [{
     imgurl: "assets/images/Dessert/SMALL_Mais Con Hielo.jpg",
     category: "desserts",
     all: "all",
-    description: ""
+    description: "",
+    quantity: 1,
 }, {
     id: 107,
     itemName: "Mais Con Hielo",
@@ -1072,7 +1178,8 @@ export const dessert = [{
     imgurl: "assets/images/Dessert/REGULAR_Mais Con Hielo.jpg",
     category: "desserts",
     all: "all",
-    description: ""
+    description: "",
+    quantity: 1,
 }, {
     id: 108,
     itemName: "Mais Con Hielo",
@@ -1082,7 +1189,8 @@ export const dessert = [{
     imgurl: "assets/images/Dessert/LARGE_Mais Con Hielo.jpg",
     category: "desserts",
     all: "all",
-    description: ""
+    description: "",
+    quantity: 1,
 }, {
     id: 109,
     itemName: "Saging con Hielo",
@@ -1092,7 +1200,8 @@ export const dessert = [{
     imgurl: "assets/images/Dessert/SMALL_Saging Con Hielo.jpg",
     category: "desserts",
     all: "all",
-    description: ""
+    description: "",
+    quantity: 1,
 }, {
     id: 110,
     itemName: "Saging con Hielo",
@@ -1102,7 +1211,8 @@ export const dessert = [{
     imgurl: "assets/images/Dessert/MEDIUM_Saging con Hielo.jpg",
     category: "desserts",
     all: "all",
-    description: ""
+    description: "",
+    quantity: 1,
 },{
     id: 111,
     itemName: "Saging con Hielo",
@@ -1112,7 +1222,8 @@ export const dessert = [{
     imgurl: "assets/images/Dessert/LARGE_Saging con Hielo.jpg",
     category: "desserts",
     all: "all",
-    description: ""
+    description: "",
+    quantity: 1,
 },]
 
 
