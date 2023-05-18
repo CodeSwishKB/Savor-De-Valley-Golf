@@ -1,5 +1,6 @@
 /********* DATAS ***********/
 export const drinks = [{
+    id: 1,
     itemName: "Coke",
     subCategory: "Carbonated Drink",
     size: "Can",
@@ -9,6 +10,7 @@ export const drinks = [{
     all: "all",
     description: ""
 },{
+    id: 2,
     itemName: "Bottled Water",
     subCategory: "Carbonated Drink",
     size: "Regular",
@@ -18,6 +20,7 @@ export const drinks = [{
     all: "all",
     description: ""
 }, {
+    id: 3,
     itemName: "Diet Soda",
     subCategory: "Carbonated Drink",
     size: "Can",
@@ -27,6 +30,7 @@ export const drinks = [{
     all: "all",
     description: ""
 }, {
+    id: 4,
     itemName: "Lipton",
     subCategory: "Carbonated Drink",
     size: "Regular",
@@ -36,6 +40,7 @@ export const drinks = [{
     all: "all",
     description: ""
 }, {
+    id: 5,
     itemName: "Ice Tea",
     subCategory: "Carbonated Drink",
     size: "Pitcher",
@@ -45,6 +50,7 @@ export const drinks = [{
     all: "all",
     description: ""
 }, {
+    id: 6,
     itemName: "Double Dutch Shake",
     subCategory: "Shakes",
     size: "Regular",
@@ -54,6 +60,7 @@ export const drinks = [{
     all: "all",
     description: ""
 }, {
+    id: 7,
     itemName: "Black Forest Shake",
     subCategory: "Shakes",
     size: "Regular",
@@ -63,6 +70,7 @@ export const drinks = [{
     all: "all",
     description: ""
 }, {
+    id: 8,
     itemName: "Banana Shake",
     subCategory: "Shakes",
     size: "Small",
@@ -72,6 +80,7 @@ export const drinks = [{
     all: "all",
     description: ""
 }, {
+    id: 9,
     itemName: "Banana Shake",
     subCategory: "Shakes",
     size: "Medium",
@@ -81,6 +90,7 @@ export const drinks = [{
     all: "all",
     description: ""
 }, {
+    id: 10,
     itemName: "Banana Shake",
     subCategory: "Shakes",
     size: "Large",
@@ -90,6 +100,7 @@ export const drinks = [{
     all: "all",
     description: ""
 }, {
+    id: 11,
     itemName: "Mango Shake",
     subCategory: "Shakes",
     size: "Small",
@@ -99,6 +110,7 @@ export const drinks = [{
     all: "all",
     description: ""
 }, {
+    id: 12,
     itemName: "Mango Shake",
     subCategory: "Shakes",
     size: "Medium",
@@ -108,6 +120,7 @@ export const drinks = [{
     all: "all",
     description: ""
 }, {
+    id: 13,
     itemName: "Mango Shake",
     subCategory: "Shakes",
     size: "Large",
@@ -117,6 +130,7 @@ export const drinks = [{
     all: "all",
     description: ""
 }, {
+    id: 14,
     itemName: "Hot Tea Latte",
     subCategory: "Hot Coffee",
     size: "Regular",
@@ -126,6 +140,7 @@ export const drinks = [{
     all: "all",
     description: ""
 }, {
+    id: 15,
     itemName: "Cappuccino",
     subCategory: "Hot Coffee",
     size: "Regular",
@@ -135,6 +150,7 @@ export const drinks = [{
     all: "all",
     description: ""
 }, {
+    id: 16,
     itemName: "Brewed Coffee",
     subCategory: "Hot Coffee",
     size: "Regular",
@@ -144,6 +160,7 @@ export const drinks = [{
     all: "all",
     description: ""
 }, {
+    id: 17,
     itemName: "Mocha Iced Coffee",
     subCategory: "Cold Coffee",
     size: "Regular",
@@ -153,6 +170,7 @@ export const drinks = [{
     all: "all",
     description: ""
 }, {
+    id: 18,
     itemName: "Vanilla Iced Coffee",
     subCategory: "Cold Coffee",
     size: "Regular",
@@ -162,6 +180,7 @@ export const drinks = [{
     all: "all",
     description: ""
 }, {
+    id: 19,
     itemName: "Iced Coffee",
     subCategory: "Cold Coffee",
     size: "Regular",
@@ -171,6 +190,7 @@ export const drinks = [{
     all: "all",
     description: ""
 },{
+    id: 20,
     itemName: "Alfonso",
     subCategory: "Beers",
     size: "1 Liter",
@@ -180,6 +200,7 @@ export const drinks = [{
     all: "all",
     description: ""
 },{
+    id: 21,
     itemName: "Red Horse",
     subCategory: "Beers",
     size: "1 Liter",
@@ -189,6 +210,7 @@ export const drinks = [{
     all: "all",
     description: ""
 },{
+    id: 22,
     itemName: "Red Horse",
     subCategory: "Bucket",
     size: "Beers",
@@ -198,6 +220,7 @@ export const drinks = [{
     all: "all",
     description: ""
 },{
+    id: 23,
     itemName: "San Miguel Light",
     subCategory: "Beers",
     size: "Solo",
@@ -207,6 +230,7 @@ export const drinks = [{
     all: "all",
     description: ""
 },{
+    id: 24,
     itemName: "San Miguel Light",
     subCategory: "Beers",
     size: "Bucket",
@@ -216,6 +240,7 @@ export const drinks = [{
     all: "all",
     description: ""
 },{
+    id: 25,
     itemName: "Pale Pilsen",
     subCategory: "Beers",
     size: "Solo",
@@ -225,6 +250,7 @@ export const drinks = [{
     all: "all",
     description: ""
 },{
+    id: 26,
     itemName: "Pale Pilsen",
     subCategory: "Beers",
     size: "Bucket",
@@ -236,6 +262,7 @@ export const drinks = [{
 } ]
 
 export const foods = [{
+    id: 27,
     itemName: "Pork Adobo",
     subCategory: "Main Dish",
     size: "Regular",
@@ -245,24 +272,27 @@ export const foods = [{
     all: "all",
     description: ""
 },{
+    id: 28,
     itemName: "Pinoy Chicken Curry",
     subCategory: "Main Dish",
     size: "Regular",
-    price: "250",
+    price: 250,
     imgurl: "assets/images/MainDish/Pinoy Chicken Curry.jpg",
     category: "foods",
     all: "all",
     description: ""
 },{
+    id: 29,
     itemName: "Beef Bulalo",
     subCategory: "Main Dish",
     size: "Regular",
-    price: "350",
+    price: 350,
     imgurl: "assets/images/MainDish/Beef Bulalo.jpg",
     category: "foods",
     all: "all",
     description: ""
 },{
+    id: 30,
     itemName: "Pork Menudo",
     subCategory: "Main Dish",
     size: "Regular",
@@ -272,6 +302,7 @@ export const foods = [{
     all: "all",
     description: ""
 },{
+    id: 31,
     itemName: "Pork Caldereta",
     subCategory: "Main Dish",
     size: "Regular",
@@ -281,6 +312,7 @@ export const foods = [{
     all: "all",
     description: ""
 },{
+    id: 32,
     itemName: "Chicken Afritada",
     subCategory: "Main Dish",
     size: "Regular",
@@ -290,6 +322,7 @@ export const foods = [{
     all: "all",
     description: ""
 },{
+    id: 33,
     itemName: "Bicol Express",
     subCategory: "Main Dish",
     size: "Regular",
@@ -299,6 +332,7 @@ export const foods = [{
     all: "all",
     description: ""
 },{
+    id: 35,
     itemName: "Pork Steak",
     subCategory: "Main Dish",
     size: "Regular",
@@ -308,6 +342,7 @@ export const foods = [{
     all: "all",
     description: ""
 },{
+    id: 36,
     itemName: "Garlic Butter shrimp",
     subCategory: "Main Dish",
     size: "Regular",
@@ -317,6 +352,7 @@ export const foods = [{
     all: "all",
     description: ""
 },{
+    id: 37,
     itemName: "Pork Sisig",
     subCategory: "Main Dish",
     size: "Regular",
@@ -326,6 +362,7 @@ export const foods = [{
     all: "all",
     description: ""
 },{
+    id: 1,
     itemName: "Sinigang na Hipon",
     subCategory: "Main Dish",
     size: "Regular",
@@ -335,6 +372,7 @@ export const foods = [{
     all: "all",
     description: ""
 },{
+    id: 38,
     itemName: "Sinigang na Baboy",
     subCategory: "Main Dish",
     size: "Regular",
@@ -344,6 +382,7 @@ export const foods = [{
     all: "all",
     description: ""
 },{
+    id: 39,
     itemName: "Lechon Kawali",
     subCategory: "Main Dish",
     size: "Regular",
@@ -353,6 +392,7 @@ export const foods = [{
     all: "all",
     description: ""
 },{
+    id: 40,
     itemName: "Beef Kare-Kare",
     subCategory: "Main Dish",
     size: "Regular",
@@ -362,6 +402,7 @@ export const foods = [{
     all: "all",
     description: ""
 },{
+    id: 41,
     itemName: "Chicken Cordon Bleu",
     subCategory: "Main Dish",
     size: "Regular",
@@ -371,6 +412,7 @@ export const foods = [{
     all: "all",
     description: ""
 },{
+    id: 42,
     itemName: "Fresh Green Beans",
     subCategory: "Side Dish",
     size: "Regular",
@@ -380,6 +422,7 @@ export const foods = [{
     all: "all",
     description: ""
 },{
+    id: 43,
     itemName: "Sautéed Zucchini And Squash",
     subCategory: "Side Dish",
     size: "Regular",
@@ -389,6 +432,7 @@ export const foods = [{
     all: "all",
     description: ""
 },{
+    id: 44,
     itemName: "Roasted Veggies",
     subCategory: "Side Dish",
     size: "Regular",
@@ -398,6 +442,7 @@ export const foods = [{
     all: "all",
     description: ""
 },{
+    id: 45,
     itemName: "Roasted Broccoli With Sweet Chili Sauce",
     subCategory: "Side Dish",
     size: "Regular",
@@ -407,6 +452,7 @@ export const foods = [{
     all: "all",
     description: ""
 },{
+    id: 46,
     itemName: "Roasted Ratatouille",
     subCategory: "Side Dish",
     size: "Regular",
@@ -416,6 +462,7 @@ export const foods = [{
     all: "all",
     description: ""
 },{
+    id: 47,
     itemName: "Pearl Couscous Salad",
     subCategory: "Side Dish",
     size: "Regular",
@@ -425,6 +472,7 @@ export const foods = [{
     all: "all",
     description: ""
 },{
+    id: 48,
     itemName: "Mediterranean Quinoa Salad",
     subCategory: "Side Dish",
     size: "Regular",
@@ -434,6 +482,7 @@ export const foods = [{
     all: "all",
     description: ""
 },{
+    id: 49,
     itemName: "Chilaquiles",
     subCategory: "Side Dish",
     size: "Regular",
@@ -443,6 +492,7 @@ export const foods = [{
     all: "all",
     description: ""
 },{
+    id: 50,
     itemName: "Crockpot Mac And Cheese",
     subCategory: "Side Dish",
     size: "Regular",
@@ -452,6 +502,7 @@ export const foods = [{
     all: "all",
     description: ""
 },{
+    id: 51,
     itemName: "Filet Mignon Nachos",
     subCategory: "Side Dish",
     size: "Regular",
@@ -461,6 +512,7 @@ export const foods = [{
     all: "all",
     description: ""
 },{
+    id: 52,
     itemName: "Spicy Shrimp Nacho",
     subCategory: "Side Dish",
     size: "Regular",
@@ -470,6 +522,7 @@ export const foods = [{
     all: "all",
     description: ""
 },{
+    id: 53,
     itemName: "Surf And Turf Taco Combo",
     subCategory: "Side Dish",
     size: "Regular",
@@ -479,6 +532,7 @@ export const foods = [{
     all: "all",
     description: ""
 },{
+    id: 54,
     itemName: "Cheesy Enchiladas",
     subCategory: "Side Dish",
     size: "Regular",
@@ -488,6 +542,7 @@ export const foods = [{
     all: "all",
     description: ""
 },{
+    id: 55,
     itemName: "Banditto Burrito",
     subCategory: "Side Dish",
     size: "Regular",
@@ -497,6 +552,7 @@ export const foods = [{
     all: "all",
     description: ""
 },{
+    id: 56,
     itemName: "Quesadilla",
     subCategory: "Side Dish",
     size: "Regular",
@@ -506,6 +562,7 @@ export const foods = [{
     all: "all",
     description: ""
 },{
+    id: 57,
     itemName: "Garlic Bread",
     subCategory: "Appetizers",
     size: "Half Dozen",
@@ -515,6 +572,7 @@ export const foods = [{
     all: "all",
     description: ""
 }, {
+    id: 58,
     itemName: "Chicken Wings",
     subCategory: "Appetizers",
     size: "Regular",
@@ -524,6 +582,7 @@ export const foods = [{
     all: "all",
     description: ""
 }, {
+    id: 59,
     itemName: "Chicken Wings",
     subCategory: "Appetizers",
     size: "Dozen",
@@ -533,6 +592,7 @@ export const foods = [{
     all: "all",
     description: ""
 }, {
+    id: 60,
     itemName: "Beef Sliders",
     subCategory: "Appetizers",
     size: "Single",
@@ -542,6 +602,7 @@ export const foods = [{
     all: "all",
     description: ""
 }, {
+    id: 61,
     itemName: "Beef Sliders",
     subCategory: "Appetizers",
     size: "Double",
@@ -551,6 +612,7 @@ export const foods = [{
     all: "all",
     description: ""
 }, {
+    id: 62,
     itemName: "Fried Zucchini",
     subCategory: "Appetizers",
     size: "Regular",
@@ -560,6 +622,7 @@ export const foods = [{
     all: "all",
     description: ""
 }, {
+    id: 63,
     itemName: "Onion Rings  ",
     subCategory: "Appetizers",
     size: "Regular",
@@ -569,6 +632,7 @@ export const foods = [{
     all: "all",
     description: ""
 }, {
+    id: 64,
     itemName: "Jumbo Shrimp Cocktail",
     subCategory: "Appetizers",
     size: "Regular",
@@ -578,6 +642,7 @@ export const foods = [{
     all: "all",
     description: ""
 }, {
+    id: 65,
     itemName: "Jumbo Shrimp Cocktail",
     subCategory: "Appetizers",
     size: "Large",
@@ -587,6 +652,7 @@ export const foods = [{
     all: "all",
     description: ""
 }, {
+    id: 66,
     itemName: "Mozzarella Sticks",
     subCategory: "Appetizers",
     size: " Regular",
@@ -596,6 +662,7 @@ export const foods = [{
     all: "all",
     description: ""
 }, {
+    id: 67,
     itemName: "Tomato Soup",
     subCategory: "Soups",
     size: "Cup",
@@ -605,6 +672,7 @@ export const foods = [{
     all: "all",
     description: ""
 }, {
+    id: 68,
     itemName: "Tomato Soup",
     subCategory: "Soups",
     size: "Bowl",
@@ -614,6 +682,7 @@ export const foods = [{
     all: "all",
     description: ""
 }, {
+    id: 69,
     itemName: "Chicken Noodle Soup",
     subCategory: "Soups",
     size: "Cup",
@@ -623,6 +692,7 @@ export const foods = [{
     all: "all",
     description: ""
 }, {
+    id: 70,
     itemName: "Chicken Noodle Soup",
     subCategory: "Soups",
     size: " Bowl",
@@ -632,6 +702,7 @@ export const foods = [{
     all: "all",
     description: ""
 }, {
+    id: 71,
     itemName: "Garden Salad",
     subCategory: "Salad",
     size: " Regular",
@@ -641,6 +712,7 @@ export const foods = [{
     all: "all",
     description: ""
 }, {
+    id: 72,
     itemName: "Spaghetti with Meatballs",
     subCategory: "Pasta",
     size: " Regular",
@@ -650,6 +722,7 @@ export const foods = [{
     all: "all",
     description: ""
 }, {
+    id: 73,
     itemName: "Classic Filipino Style Spaghetti",
     subCategory: "Pasta",
     size: " Regular",
@@ -659,6 +732,7 @@ export const foods = [{
     all: "all",
     description: ""
 }, {
+    id: 74,
     itemName: "Spaghetti with Marinara Sauce",
     subCategory: "Pasta",
     size: " Regular",
@@ -668,6 +742,7 @@ export const foods = [{
     all: "all",
     description: ""
 }, {
+    id: 75,
     itemName: "Creamy Shrimp Pasta",
     subCategory: "Pasta",
     size: " Regular",
@@ -677,6 +752,7 @@ export const foods = [{
     all: "all",
     description: ""
 }, {
+    id: 76,
     itemName: "Triple Cheese Pasta",
     subCategory: "Pasta",
     size: " Regular",
@@ -686,6 +762,7 @@ export const foods = [{
     all: "all",
     description: ""
 }, {
+    id: 77,
     itemName: "Carbonara",
     subCategory: "Pasta",
     size: " Regular",
@@ -695,6 +772,7 @@ export const foods = [{
     all: "all",
     description: ""
 }, {
+    id: 78,
     itemName: "Parmesan Cheese Pasta",
     subCategory: "Pasta",
     size: " Regular",
@@ -704,6 +782,7 @@ export const foods = [{
     all: "all",
     description: ""
 }, {
+    id: 79,
     itemName: "Veggie Pasta",
     subCategory: "Pasta",
     size: " Regular",
@@ -713,6 +792,7 @@ export const foods = [{
     all: "all",
     description: ""
 }, {
+    id: 80,
     itemName: "Veggie Supreme Pizza",
     subCategory: "Pizza",
     size: " Regular",
@@ -722,6 +802,7 @@ export const foods = [{
     all: "all",
     description: ""
 }, {
+    id: 81,
     itemName: "BBQ Chicken Pizza",
     subCategory: "Pizza",
     size: " Regular",
@@ -731,6 +812,7 @@ export const foods = [{
     all: "all",
     description: ""
 }, {
+    id: 82,
     itemName: "Meat Lovers",
     subCategory: "Pizza",
     size: " Regular",
@@ -740,6 +822,7 @@ export const foods = [{
     all: "all",
     description: ""
 }, {
+    id: 83,
     itemName: "Extra Cheesy Pizza",
     subCategory: "Pizza",
     size: " Regular",
@@ -749,6 +832,7 @@ export const foods = [{
     all: "all",
     description: ""
 }, {
+    id: 84,
     itemName: "Classic Pepperoni Pizza",
     subCategory: "Pizza",
     size: " Regular",
@@ -758,6 +842,7 @@ export const foods = [{
     all: "all",
     description: ""
 }, {
+    id: 85,
     itemName: "Hawaiian Pizza",
     subCategory: "Pizza",
     size: " Regular",
@@ -767,6 +852,7 @@ export const foods = [{
     all: "all",
     description: ""
 }, {
+    id: 86,
     itemName: "Chicken & Spinach Pizza",
     subCategory: "Pizza",
     size: " Regular",
@@ -778,6 +864,7 @@ export const foods = [{
 },]
 
 export const dessert = [{
+    id: 87,
     itemName: "Mango Float",
     subCategory: "Cold",
     size: "Regular",
@@ -787,6 +874,7 @@ export const dessert = [{
     all: "all",
     description: ""
 }, {
+    id: 88,
     itemName: "Yema Cake",
     subCategory: "Cake",
     size: "Half slice",
@@ -796,6 +884,7 @@ export const dessert = [{
     all: "all",
     description: ""
 }, {
+    id: 89,
     itemName: "Yema Cake",
     subCategory: "Cake",
     size: "Whole",
@@ -805,6 +894,7 @@ export const dessert = [{
     all: "all",
     description: ""
 }, {
+    id: 90,
     itemName: "Brazo De Mercedes",
     subCategory: "Cake",
     size: "Half slice",
@@ -814,6 +904,7 @@ export const dessert = [{
     all: "all",
     description: ""
 }, {
+    id: 91,
     itemName: "Brazo De Mercedes",
     subCategory: "Cake",
     size: "Whole",
@@ -823,6 +914,7 @@ export const dessert = [{
     all: "all",
     description: ""
 }, {
+    id: 92,
     itemName: "Bibingka",
     subCategory: "Hot",
     size: "Regular",
@@ -832,6 +924,7 @@ export const dessert = [{
     all: "all",
     description: ""
 }, {
+    id: 93,
     itemName: "Leche Flan",
     subCategory: "Custard",
     size: "Regular",
@@ -841,6 +934,7 @@ export const dessert = [{
     all: "all",
     description: ""
 }, {
+    id: 94,
     itemName: "Buko Salad",
     subCategory: "Cold",
     size: "Regular",
@@ -850,6 +944,7 @@ export const dessert = [{
     all: "all",
     description: ""
 }, {
+    id: 95,
     itemName: "Coffee Jelly",
     subCategory: "Cold",
     size: "Regular",
@@ -859,6 +954,7 @@ export const dessert = [{
     all: "all",
     description: ""
 }, {
+    id: 96,
     itemName: "Buko Pie",
     subCategory: "Cake",
     size: "Half slice",
@@ -868,6 +964,7 @@ export const dessert = [{
     all: "all",
     description: ""
 }, {
+    id: 97,
     itemName: "Buko Pie",
     subCategory: "Cake",
     size: "Whole",
@@ -877,6 +974,7 @@ export const dessert = [{
     all: "all",
     description: ""
 }, {
+    id: 98,
     itemName: "Halo - Halo",
     subCategory: "Shaved ice",
     size: "Small",
@@ -886,6 +984,7 @@ export const dessert = [{
     all: "all",
     description: ""
 }, {
+    id: 99,
     itemName: "Halo - Halo",
     subCategory: "Shaved ice",
     size: "Regular",
@@ -895,6 +994,7 @@ export const dessert = [{
     all: "all",
     description: ""
 }, {
+    id: 100,
     itemName: "Halo - Halo",
     subCategory: "Shaved ice",
     size: "Large",
@@ -904,6 +1004,7 @@ export const dessert = [{
     all: "all",
     description: ""
 },{
+    id: 101,
     itemName: "Maja Blanca",
     subCategory: "Cake",
     size: "Half",
@@ -913,6 +1014,7 @@ export const dessert = [{
     all: "all",
     description: ""
 }, {
+    id: 102,
     itemName: "Maja Blanca",
     subCategory: "Cake",
     size: "Whole",
@@ -922,6 +1024,7 @@ export const dessert = [{
     all: "all",
     description: ""
 }, {
+    id: 103,
     itemName: "Gulaman",
     subCategory: "Cold",
     size: "Regular",
@@ -931,6 +1034,7 @@ export const dessert = [{
     all: "all",
     description: ""
 }, {
+    id: 104,
     itemName: "Polvoron",
     subCategory: "Shortbread",
     size: "Regular",
@@ -940,6 +1044,7 @@ export const dessert = [{
     all: "all",
     description: ""
 }, {
+    id: 105,
     itemName: "Churos",
     subCategory: "Fried",
     size: "Regular",
@@ -949,6 +1054,7 @@ export const dessert = [{
     all: "all",
     description: ""
 }, {
+    id: 106,
     itemName: "Mais Con Hielo",
     subCategory: "Shaved ice",
     size: "Small",
@@ -958,6 +1064,7 @@ export const dessert = [{
     all: "all",
     description: ""
 }, {
+    id: 107,
     itemName: "Mais Con Hielo",
     subCategory: "Shaved ice",
     size: "Regular",
@@ -967,6 +1074,7 @@ export const dessert = [{
     all: "all",
     description: ""
 }, {
+    id: 108,
     itemName: "Mais Con Hielo",
     subCategory: "Shaved ice",
     size: "Large",
@@ -976,6 +1084,7 @@ export const dessert = [{
     all: "all",
     description: ""
 }, {
+    id: 109,
     itemName: "Saging con Hielo",
     subCategory: "Shaved ice",
     size: "Regular",
@@ -985,6 +1094,7 @@ export const dessert = [{
     all: "all",
     description: ""
 }, {
+    id: 110,
     itemName: "Saging con Hielo",
     subCategory: "Shaved ice",
     size: "Regular",
@@ -994,6 +1104,7 @@ export const dessert = [{
     all: "all",
     description: ""
 },{
+    id: 111,
     itemName: "Saging con Hielo",
     subCategory: "Shaved ice",
     size: "Large",
@@ -1003,3 +1114,5 @@ export const dessert = [{
     all: "all",
     description: ""
 },]
+
+
