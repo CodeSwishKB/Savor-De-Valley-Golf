@@ -161,15 +161,15 @@ function cartItems() {
     var span = document.createElement('span')
     span.innerText = item.quantity
     var btn2 = document.createElement('button')
-    btn1.setAttribute('class', 'increase-item')
-    btn1.innerHTML = '+'
+    btn2.setAttribute('class', 'increase-item')
+    btn2.innerText = '+'
 
     rowData3.appendChild(btn1)
     rowData3.appendChild(span)
     rowData3.appendChild(btn2)
 
     var rowData4 = document.createElement('td')
-    rowData4.innerText = item.price;
+    rowData4.innerText = `₱${item.price}`;
 
     tableRow.appendChild(rowData1)
     tableRow.appendChild(rowData2)
@@ -194,10 +194,10 @@ function incrementItem() {
   let itemToInc = this.parentNode.previousSibling.innerText
   console.log(itemToInc)
 
-  var incObj = cartData.find(element => element.itemName = itemToInc)
+  var incObj = cartData.find(element => element.itemName == itemToInc)
   incObj.quantity += 1
 
-  currentPrice = (incObj.price * incObj.quantity - incObj.price * (incObj.quantity - 1)) / (incObj.quantity)
+  currentPrice = (incObj.price * incObj.quantity - incObj.price * (incObj.quantity - 1)) / (incObj.quantity - 1)
 
   incObj.price = currentPrice * incObj.quantity
   totalAmount()
@@ -211,9 +211,13 @@ function decrementItem() {
   let itemToDec = this.parentNode.previousSibling.innerText;
   let decObj = cartData.find(element => element.itemName == itemToDec)
   let ind = cartData.indexOf(decObj)
+  console.log(ind)
 
   if (decObj.quantity > 1) {
-    currentPrice = (decObj.price * decObj.quantity - decObj * price * (decObj.quantity - 1)) / decObj.quantity
+    currentPrice = (decObj.price * decObj.quantity - decObj.price * (decObj.quantity - 1)) / (decObj.quantity);
+    decObj.quantity -= 1;
+    decObj.price = currentPrice * decObj.quantity;
+
   } else {
     document.getElementById(decObj.id).classList.remove('active')
     cartData.splice(ind, 1)
@@ -229,7 +233,7 @@ function decrementItem() {
       document.getElementById('checkout').classList.toggle('cart-toggle')
       flag = false
       alert("Currently no item in cart")
-
+      console.log(flag)
     }
   }
   totalAmount()
@@ -241,7 +245,13 @@ function totalAmount() {
   cartData.map(item => {
     sum += item.price
   })
-  document.getElementById('total-item').innerText = `Total Item : ${cartData.length}`
+
+  if (cartData.length > 1) {
+    document.getElementById('total-item').innerText = `Total Items : ${cartData.length}`
+  } else {
+    document.getElementById('total-item').innerText = `Total Item : ${cartData.length}`
+  }
+
   document.getElementById('total-price').innerText = `Total Price : ₱ ${sum}`
 }
 
@@ -253,51 +263,17 @@ function cartToggle() {
     document.getElementById('cart-page').classList.toggle('cart-toggle')
     //document.getElementById('category-header').classList.toggle('toggle-category')
     document.getElementById('checkout').classList.toggle('cart-toggle')
+    document.getElementById('overlay').classList.add('active')
     flag = true
   } else {
     alert('Currently no items in cart')
   }
 }
 
+const closeBtn = document.getElementById("close-page-btn");
 
-const closeBtn = document.getElementById("close-cart-btn");
-const cartPage = document.getElementById("cart-page");
-
-closeBtn.addEventListener("click", function() {
-  cartPage.classList.toggle("toggle-cart");
+closeBtn.addEventListener("click", function () {
+  const cartPage = document.getElementById("cart-page");
+  cartPage.classList.remove("cart-toggle");
+  document.getElementById('overlay').classList.remove('active')
 });
-
-
-// cart-page modal 
-// const openModalButtons = document.querySelectorAll('[data-modal-target]')
-// const closeModalButtons = document.querySelectorAll('[data-close-button]')
-// const overlay = document.getElementById('overlay')
-
-// openModalButtons.forEach(button => {
-//   button.addEventListener('click', () => {
-//     const modal = document.querySelector(button.dataset.modalTarget)
-//     openModal(modal)
-//   })
-// })
-
-// closeModalButtons.forEach(button => {
-//   button.addEventListener('click', () => {
-//     const modal = button.closest('.toggle-cart')
-//     closeModal(modal)
-//   })
-// })
-
-
-// function openModal(modal) {
-//   if (modal == null) return
-//   const closeModalButtons = document.querySelectorAll('[data-close-button]')
-//   modal.classList.add('active')
-//   overlay.classList.add('active')
-// }
-
-// function closeModal(modal) {
-//   if (modal == null) return
-//   const closeModalButtons = document.querySelectorAll('[data-close-button]')
-//   modal.classList.add('active')
-//   overlay.classList.add('active')
-// }

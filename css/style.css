@@ -522,7 +522,6 @@ CONTACT PAGE
   font-size: 80px;
 }
 
-
 /* for menu sub-head */
 .sub-header-contact {
   height: 50vh;
@@ -811,7 +810,7 @@ input[type="text"] {
 .toggle-cart{
   display: none;
 }
-.cart-toggle{
+.cart-toggle{ 
     display: block;
 }
 
@@ -848,7 +847,7 @@ input[type="text"] {
   color: red;
 }
 
-/* #overlay{
+#overlay{
   position: fixed;
   opacity: 0;
   top: 0;
@@ -862,7 +861,7 @@ input[type="text"] {
 #overlay.active{
   opacity: 1;
   pointer-events: all;
-} */
+}
 
 #cart-title{
   font-size: 35px;
@@ -900,7 +899,7 @@ input[type="text"] {
   border-radius: 3px;
   cursor: pointer;
   margin: 0 5px;
-  padding: 3px 10px;
+  padding: 3px 8px;
 }
 
 #cart-page table tbody img{
