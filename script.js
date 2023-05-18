@@ -3,7 +3,7 @@ export const drinks = [{
     id: 1,
     itemName: "Coke",
     subCategory: "Carbonated Drink",
-    size: "Can",
+    size: "Can", 
     price: 25,
     imgurl: "assets/images/Drinks/Coke.jpg",
     category: "drinks",
