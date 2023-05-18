@@ -505,7 +505,26 @@ ABOUT US PAGE
 /* ----------------------------------------------------------------------------------------------------------------------------------
 CONTACT PAGE
 -----------------------------------------------------------------------------------------------------------------------------------*/
-.sub-header2 {
+.sub-header4 {
+  height: 50vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(/assets/menu-pdf-banner.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center calc(80%);
+  text-align: center;
+  color: #fff;
+}
+
+.sub-header4 h1 {
+  font-family: 'Cookie', cursive;
+  font-weight: normal;
+  font-size: 80px;
+}
+
+
+/* for menu sub-head */
+.sub-header-contact {
   height: 50vh;
   width: 100%;
   background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(/assets/images/contact.jpg);
@@ -516,10 +535,32 @@ CONTACT PAGE
   color: #fff;
 }
 
-.sub-header2 h1 {
+.sub-header-contact h1 {
   font-family: 'Cookie', cursive;
   font-weight: normal;
   font-size: 80px;
+}
+
+.menu-pdf {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+.menu-pdf a {
+  background-color: #0a300b;
+  color: #FFF;
+  padding: 20px 40px;
+  border-radius: 5px;
+  font-size: 20px;
+  text-decoration: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.menu-pdf a:hover {
+  background-color: #F7D72D;
+  color: #222222;
 }
 
 .contacts {
@@ -807,7 +848,7 @@ input[type="text"] {
   color: red;
 }
 
-#overlay{
+/* #overlay{
   position: fixed;
   opacity: 0;
   top: 0;
@@ -821,7 +862,7 @@ input[type="text"] {
 #overlay.active{
   opacity: 1;
   pointer-events: all;
-}
+} */
 
 #cart-title{
   font-size: 35px;

@@ -21,7 +21,7 @@ const searchInputs = document.querySelector(".search-bar input")
 const filterBtns = document.querySelectorAll(".filter-btn");
 
 window.addEventListener("DOMContentLoaded", () => {
-  displayMenuItems(allItems); 
+  displayMenuItems(allItems);
 
 });
 
@@ -220,7 +220,7 @@ function decrementItem() {
     document.getElementById('cart-plus').innerHTML = ` ${cartData.length} Items`
     document.getElementById('m-cart-plus').innerHTML = ` ${cartData.length}`
 
-    if(cartData.length < 1 && flag){
+    if (cartData.length < 1 && flag) {
       document.getElementById('food-items').classList.toggle('food-items')
       document.getElementById('category-list').classList.toggle('food-items')
       document.getElementById('m-cart-plus').classList.toggle('m-cart-toggle')
@@ -232,11 +232,11 @@ function decrementItem() {
 
     }
   }
-totalAmount()
-cartItems()
+  totalAmount()
+  cartItems()
 }
 
-function totalAmount(){
+function totalAmount() {
   var sum = 0
   cartData.map(item => {
     sum += item.price
@@ -248,8 +248,8 @@ function totalAmount(){
 document.getElementById('cart-plus').addEventListener('click', cartToggle)
 //document.getElementById('m-cart-plus').addEventListener('click', cartToggle)
 
-function cartToggle(){
-  if(cartData.length > 0){
+function cartToggle() {
+  if (cartData.length > 0) {
     document.getElementById('cart-page').classList.toggle('cart-toggle')
     //document.getElementById('category-header').classList.toggle('toggle-category')
     document.getElementById('checkout').classList.toggle('cart-toggle')
@@ -258,3 +258,46 @@ function cartToggle(){
     alert('Currently no items in cart')
   }
 }
+
+
+const closeBtn = document.getElementById("close-cart-btn");
+const cartPage = document.getElementById("cart-page");
+
+closeBtn.addEventListener("click", function() {
+  cartPage.classList.toggle("toggle-cart");
+});
+
+
+// cart-page modal 
+// const openModalButtons = document.querySelectorAll('[data-modal-target]')
+// const closeModalButtons = document.querySelectorAll('[data-close-button]')
+// const overlay = document.getElementById('overlay')
+
+// openModalButtons.forEach(button => {
+//   button.addEventListener('click', () => {
+//     const modal = document.querySelector(button.dataset.modalTarget)
+//     openModal(modal)
+//   })
+// })
+
+// closeModalButtons.forEach(button => {
+//   button.addEventListener('click', () => {
+//     const modal = button.closest('.toggle-cart')
+//     closeModal(modal)
+//   })
+// })
+
+
+// function openModal(modal) {
+//   if (modal == null) return
+//   const closeModalButtons = document.querySelectorAll('[data-close-button]')
+//   modal.classList.add('active')
+//   overlay.classList.add('active')
+// }
+
+// function closeModal(modal) {
+//   if (modal == null) return
+//   const closeModalButtons = document.querySelectorAll('[data-close-button]')
+//   modal.classList.add('active')
+//   overlay.classList.add('active')
+// }
