@@ -127,6 +127,8 @@ function addToCart() {
 
   var index = cartData.indexOf(itemObj)
   if (index === -1) {
+    // this cause error!!!!!!!!!!!!!!!!
+    // this.parentNode.classList.add('active') - //
     cartData = [...cartData, itemObj]
   } else if (index > -1) {
     alert("Added to cart")
