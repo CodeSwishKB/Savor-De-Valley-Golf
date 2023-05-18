@@ -127,7 +127,6 @@ function addToCart() {
 
   var index = cartData.indexOf(itemObj)
   if (index === -1) {
-    this.parentNode.classList.add('active')
     cartData = [...cartData, itemObj]
   } else if (index > -1) {
     alert("Added to cart")
@@ -211,7 +210,7 @@ function decrementItem() {
   let itemToDec = this.parentNode.previousSibling.innerText;
   let decObj = cartData.find(element => element.itemName == itemToDec)
   let ind = cartData.indexOf(decObj)
-  console.log(ind)
+  console.log(decObj)
 
   if (decObj.quantity > 1) {
     currentPrice = (decObj.price * decObj.quantity - decObj.price * (decObj.quantity - 1)) / (decObj.quantity);
@@ -219,15 +218,15 @@ function decrementItem() {
     decObj.price = currentPrice * decObj.quantity;
 
   } else {
-    document.getElementById(decObj.id).classList.remove('active')
+    this.parentNode.classList.remove('active')
     cartData.splice(ind, 1)
     document.getElementById('cart-plus').innerHTML = ` ${cartData.length} Items`
-    document.getElementById('m-cart-plus').innerHTML = ` ${cartData.length}`
+    //document.getElementById('m-cart-plus').innerHTML = ` ${cartData.length}`
 
     if (cartData.length < 1 && flag) {
-      document.getElementById('food-items').classList.toggle('food-items')
-      document.getElementById('category-list').classList.toggle('food-items')
-      document.getElementById('m-cart-plus').classList.toggle('m-cart-toggle')
+      // document.getElementById('food-items').classList.toggle('food-items')
+      // document.getElementById('category-list').classList.toggle('food-items')
+      // document.getElementById('m-cart-plus').classList.toggle('m-cart-toggle')
       document.getElementById('cart-page').classList.toggle('cart-toggle')
       //document.getElementById('category-header').classList.toggle('toggle-category')
       document.getElementById('checkout').classList.toggle('cart-toggle')
@@ -263,7 +262,7 @@ function cartToggle() {
     document.getElementById('cart-page').classList.toggle('cart-toggle')
     //document.getElementById('category-header').classList.toggle('toggle-category')
     document.getElementById('checkout').classList.toggle('cart-toggle')
-    document.getElementById('overlay').classList.add('active')
+    // document.getElementById('overlay').classList.add('active')
     flag = true
   } else {
     alert('Currently no items in cart')
