@@ -273,8 +273,8 @@ function cartToggle() {
 
 const closeBtn = document.getElementById("close-page-btn");
 
-closeBtn.addEventListener("click", function () {git 
+closeBtn.addEventListener("click", function () { 
   const cartPage = document.getElementById("cart-page");
   cartPage.classList.remove("cart-toggle");
-  document.getElementById('overlay').classList.remove('active')
+  // document.getElementById('overlay').classList.remove('active')
 });
