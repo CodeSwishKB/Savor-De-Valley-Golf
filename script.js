@@ -11,17 +11,14 @@ window.addEventListener("scroll", () => {
 })
 
 
-let allItems = [...foods, ...drinks, ...dessert]
-
-// const randomAllItems = allItems[Math.floor(Math.random() * allItems.length)]
-// console.log(randomAllItems)
-
+let allItems = arrayShuffle([...foods, ...drinks, ...dessert])
 const menuItems = document.querySelector(".menu-items");
 const searchInputs = document.querySelector(".search-bar input")
 const filterBtns = document.querySelectorAll(".filter-btn");
 
 window.addEventListener("DOMContentLoaded", () => {
-  displayMenuItems(allItems);
+  const shuffledItems = arrayShuffle(allItems)
+  displayMenuItems(shuffledItems);
 
 });
 
@@ -30,7 +27,6 @@ searchInputs.addEventListener('input', () => {
   const filteredDrinks = drinks.filter(drink => drink.itemName.toLowerCase().includes(searchValue))
   const filteredFoods = foods.filter(food => food.itemName.toLowerCase().includes(searchValue))
   const filteredDesserts = dessert.filter(dessert => dessert.itemName.toLowerCase().includes(searchValue))
-
   const allItems = filteredDrinks.concat(filteredFoods, filteredDesserts)
 
   menuItems.innerHTML = '';
@@ -40,55 +36,76 @@ searchInputs.addEventListener('input', () => {
     const itemElement = createItemElement(item);
     menuItems.appendChild(itemElement);
   });
+  attachOrderButtonListeners()
+  displayMenuItems(allItems);
 });
-
 
 function createItemElement(item) {
   const itemElement = document.createElement('div');
   itemElement.className = `menu-item ${item.subCategory}`;
   itemElement.innerHTML = `
-    <img src="${item.imgurl}" alt="${item.itemName}" class="photo">
-    <div class="item-info">
-      <header>
-        <h4>${item.itemName}</h4>
-        <h4 class="price">₱${item.price}</h4>
-        <h4>${item.size}</h4>
-      </header>
-      <p class="item-text">${item.description}</p>
-      <button class="order-btn">Order</button>
-    </div>
-  `;
+      <img src="${item.imgurl}" alt="${item.itemName}" class="photo">
+      <div class="item-info">
+        <header>
+          <h4>${item.itemName}</h4>
+          <h4 class="price">₱${item.price}</h4>
+          <h4>${item.size}</h4>
+        </header>
+        <p class="item-text">${item.description}</p>
+        <button class="order-btn">Order</button>
+      </div>
+    `;
   return itemElement;
 }
 
-
-
 function displayMenuItems(items) {
+  arrayShuffle(items)
+
+  const container = document.createElement('div');
+  container.classList.add('menu-container');
+
+  const heading = document.createElement('h1');
+  heading.textContent = 'Recommended';
+  container.appendChild(heading);
+
   let display = items.map(item => {
     return `
-      <div class="menu-item ${item.subCategory}">
-        <img src="${item.imgurl}" alt="${item.itemName}" class="photo">
-        <div class="item-info">
-          <header>
-            <h4>${item.itemName}</h4>
-            <h4 class="price">₱${item.price}</h4>
-            <h4>${item.size}</h4>
-          </header>
-          <p class="item-text">${item.description}</p>
-          <button class="order-btn">Order</button> 
+        <div class="menu-item ${item.subCategory}">
+          <img src="${item.imgurl}" alt="${item.itemName}" class="photo">
+          <div class="item-info">
+            <header>
+              <h4>${item.itemName}</h4>
+              <h4 class="price">₱${item.price}</h4>
+              <h4>${item.size}</h4>
+            </header>
+            <p class="item-text">${item.description}</p>
+            <button class="order-btn">Order</button> 
+          </div>
         </div>
-      </div>
-    `;
+      `;
   }).join("");
 
+  container.innerHTML += display;
+
   menuItems.innerHTML = display;
+  menuItems.appendChild(container);
 
-  document.querySelectorAll(".order-btn").forEach(item => {
-    item.addEventListener('click', addToCart)
-  })
-
+  attachOrderButtonListeners();
 }
 
+function attachOrderButtonListeners() {
+  document.querySelectorAll(".order-btn").forEach(item => {
+    item.addEventListener('click', addToCart);
+  });
+}
+
+function arrayShuffle(arr) {
+  for (let i = arr.length - 1; i > 0; i--) {
+    const r = Math.floor(Math.random() * (i + 1));
+    [arr[i], arr[r]] = [arr[r], arr[i]];
+  }
+  return arr;
+}
 
 filterBtns.forEach(btn => {
   btn.addEventListener("click", e => {
@@ -97,6 +114,8 @@ filterBtns.forEach(btn => {
     const filteredItems = allItems.filter(item => item.category === category);
     const itemAll = allItems.filter(item => item.all === all);
     const itemsToDisplay = [...filteredItems, ...itemAll];
+
+    const shuffledItems = arrayShuffle(itemsToDisplay);
 
     filterBtns.forEach(btn => btn.classList.remove('active'));
     e.currentTarget.classList.add('active');
@@ -113,6 +132,9 @@ filterBtns.forEach(btn => {
       const itemElement = createItemElement(item);
       menuItems.appendChild(itemElement);
     });
+
+    attachOrderButtonListeners()
+    displayMenuItems(shuffledItems);
   });
 });
 
@@ -120,20 +142,16 @@ var cartData = []
 
 function addToCart() {
   var itemToAdd = this.parentNode.querySelector('.item-info h4:first-of-type').textContent.trim();
-
   var itemObj = allItems.find(element => element.itemName === itemToAdd)
-
-  console.log(itemObj)
-
   var index = cartData.indexOf(itemObj)
   if (index === -1) {
     // this cause error!!!!!!!!!!!!!!!!
     // this.parentNode.classList.add('active') - //
+    //this.closest('.menu-item').classList.add('active');
     cartData = [...cartData, itemObj]
   } else if (index > -1) {
     alert("Added to cart")
   }
-
   document.getElementById('cart-plus').innerText = ` ${cartData.length} Items`
   //document.getElementById('m-cart-plus').innerText = ` ${cartData.length}`
   totalAmount()
@@ -188,7 +206,6 @@ function cartItems() {
   })
 }
 
-
 var currentPrice = 0;
 
 function incrementItem() {
@@ -220,12 +237,13 @@ function decrementItem() {
     decObj.price = currentPrice * decObj.quantity;
 
   } else {
-    this.parentNode.classList.remove('active')
+    //document.getElementsByClassName(decObj.id).classList.remove('active')
     cartData.splice(ind, 1)
     document.getElementById('cart-plus').innerHTML = ` ${cartData.length} Items`
     //document.getElementById('m-cart-plus').innerHTML = ` ${cartData.length}`
 
     if (cartData.length < 1 && flag) {
+      this.parentNode.classList.remove('active')
       // document.getElementById('food-items').classList.toggle('food-items')
       // document.getElementById('category-list').classList.toggle('food-items')
       // document.getElementById('m-cart-plus').classList.toggle('m-cart-toggle')
@@ -267,14 +285,53 @@ function cartToggle() {
     // document.getElementById('overlay').classList.add('active')
     flag = true
   } else {
-    alert('Currently no items in cart')
+    alert('Currently no items in cart');
+    // document.getElementById('cart-page').classList.remove('cart-toggle');
+    // document.getElementById('category-header').classList.remove('toggle-category');
+    // document.getElementById('checkout').classList.remove('cart-toggle');
+    // document.getElementById('overlay').classList.remove('active');
+    // flag = false;
   }
 }
 
 const closeBtn = document.getElementById("close-page-btn");
 
-closeBtn.addEventListener("click", function () { 
+closeBtn.addEventListener("click", function () {
   const cartPage = document.getElementById("cart-page");
+  // const overlay = document.getElementById("overlay");
   cartPage.classList.remove("cart-toggle");
-  // document.getElementById('overlay').classList.remove('active')
+  // overlay.classList.remove("active");
 });
+
+document.querySelector('.cart-checkout').addEventListener('click', () => {
+  openCheckoutModal()
+})
+
+function openCheckoutModal() {
+  const modal = document.getElementById('checkout');
+  const closeModal = document.querySelector('.close-cart-btn');
+  const checkoutTotal = document.getElementById('total-price');
+
+  modal.style.display = 'block';
+
+  closeModal.onclick = function() {
+    modal.style.display = 'none';
+  };
+
+  window.onclick = function(event) {
+    if (event.target == modal) {
+      modal.style.display = 'none';
+    }
+  };
+
+  document.getElementById('checkout-button').addEventListener('click', function() {
+    // Add your code to process the purchase here
+    alert('Purchase successful! Thank you for your order.');
+
+    // Clear the cart after successful purchase
+    cartData = [];
+
+    // Close the modal
+    modal.style.display = 'none';
+  });
+}

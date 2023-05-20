@@ -562,6 +562,7 @@ CONTACT PAGE
   color: #222222;
 }
 
+
 .contacts {
   display: flex;
   flex-direction: column;
@@ -944,4 +945,15 @@ input[type="text"] {
   color: var(--dark-green);
   background: none;
   border: 1px solid var(--dark-green)
+}
+
+.menu-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu-container h1 {
+  margin-bottom: 20px;
+  font-size: 30px;
 }
