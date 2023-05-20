@@ -180,6 +180,11 @@ nav .fa {
   .nav-links ul {
     padding: 30px;
   }
+
+  nav img{
+    height: 100px;
+    width: 150px;
+  }
 }
 
 /* ----------------------------------------------------------------------------------------------------------------------------------
@@ -240,7 +245,7 @@ h3 {
   transform: scale(1.1);
 }
 
-@media(max-width: 700px) {
+@media(max-width: 800px) {
   .row {
     flex-direction: column;
   }
