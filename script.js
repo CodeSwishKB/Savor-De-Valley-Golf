@@ -34,7 +34,7 @@ searchInputs.addEventListener('input', () => {
     const itemElement = createItemElement(item);
     menuItems.appendChild(itemElement);
   });
-  attachOrderButtonListeners()
+  connectOrderBtnListeners()
   displayMenuItems(allItems);
 });
 
@@ -123,7 +123,7 @@ filterBtns.forEach(btn => {
       menuItems.appendChild(itemElement);
     });
 
-    attachOrderButtonListeners()
+    connectOrderBtnListeners()
     displayMenuItems(shuffledItems);
   });
 });
