@@ -151,7 +151,7 @@ nav .fa {
 
 @media(max-width: 850px) {
   .text-box {
-    font-size: 20px;
+    font-size: 16px;
   }
 
   .nav-links ul li {
@@ -434,6 +434,28 @@ FOOTER
 
 .icons i {
   font-size: 24px;
+}
+
+@media (max-width: 800px) {
+  /* Styles for screens up to 800px */
+  .footer-widgets-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .widget {
+    margin-bottom: 20px;
+  }
+
+  .schedule-list-item {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .schedule-time {
+    font-size: 14px;
+  }
 }
 
 
