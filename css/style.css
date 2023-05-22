@@ -150,6 +150,10 @@ nav .fa {
 }
 
 @media(max-width: 850px) {
+  html, body {
+    overflow-x: hidden;
+  }
+
   .text-box {
     font-size: 16px;
   }
