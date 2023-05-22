@@ -436,7 +436,7 @@ FOOTER
   font-size: 24px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 850px) {
   /* Styles for screens up to 800px */
   .footer-widgets-area {
     display: flex;
@@ -577,7 +577,7 @@ CONTACT PAGE
 }
 
 .menu-pdf a:hover {
-  background-color: #F7D72D;
+  background-color: var(--light-peach);
   color: #222222;
 }
 
