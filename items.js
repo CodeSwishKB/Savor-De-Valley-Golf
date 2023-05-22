@@ -1224,5 +1224,16 @@ export const dessert = [{
     all: "all",
     description: "",
     quantity: 1,
-},]
+},{
+    id: 112,
+    itemName: "Chocolate Creampie",
+    subCategory: "Cake",
+    size: "Large",
+    price: 69,
+    imgurl: "assets/images/Dessert/Chocolate-Cream-Pie-12.jpg",
+    category: "desserts",
+    all: "all",
+    description: "",
+    quantity: 1,
+}]
 
