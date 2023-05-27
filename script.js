@@ -1,5 +1,15 @@
 import { drinks, foods, dessert } from '/items.js';
 
+const activePage = window.location.pathname;
+const navLinks = document.querySelectorAll('.nav__link');
+
+navLinks.forEach(link => {
+  if (link.getAttribute('href') === activePage) {
+    link.parentElement.classList.add('active-nav-link');
+  }
+});
+
+
 const toTop = document.querySelector(".to-top")
 window.addEventListener("scroll", () => {
   if (window.pageYOffset > 100) {

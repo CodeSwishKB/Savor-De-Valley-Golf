@@ -15,7 +15,7 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
-	<script src="/script.js" defer></script>
+	<script type="module" defer src="/script.js"></script>
 	<title>HOME | Savor De Valley</title>
 
 	<!-- Matomo -->
@@ -38,16 +38,16 @@
 <body>
 	<!-- NAV BAR -->
 	<section class="header">
-		<nav>
+		<nav class="nav">
 			<a href="index.html"><img src="/assets/sdv-logo-removebg-preview (1).png" alt=""></a>
 			<div class="nav-links" id="navLinks">
 				<i class="fa fa-times" onclick="hideMenu()"></i>
-				<ul>
-					<li><a href="/index.html">HOME</a></li>
-					<li><a href="/about.html">ABOUT</a></li>
-					<li><a href="/menu.html">MENU</a></li>
-					<li><a href="/order.html">ONLINE ORDER</a>
-					<li><a href="/contact.html">CONTACT</a></li>
+				<ul class="nav__list">
+					<li class="nav__item"><a class="nav__link" href="/index.html">HOME</a></li>
+					<li class="nav__item"><a class="nav__link" href="/about.html">ABOUT</a></li>
+					<li class="nav__item"><a class="nav__link" href="/menu.html">MENU</a></li>
+					<li class="nav__item"><a class="nav__link" href="/order.html">ONLINE ORDER</a></li>
+					<li class="nav__item"><a class="nav__link" href="/contact.html">CONTACT</a></li>
 				</ul>
 			</div>
 			<i class="fa fa-bars" onclick="showMenu()"></i>
@@ -152,7 +152,7 @@
 	<section class="footer">
 		<div class="footer-widgets-area">
 			<aside class="widget widget-schedule">
-				<h1><i style="padding-right: 10px;" class="fa fa-clock-o"></i>Open Hours</h1>
+				<h1><i style="padding-right: 10pt;" class="fa fa-clock-o"></i>Open Hours</h1>
 				<ul class="schedule-list">
 					<li class="schedule-list-item">
 						<span class="schedule-day">Lunch</span>
@@ -181,7 +181,7 @@
 			</aside>
 
 			<aside class="widget widget-text">
-				<h1><i style="padding-right: 10px; padding-bottom: 10px;" class="fa fa-map-marker"></i>Location</h1>
+				<h1><i style="padding-right: 10pt; padding-bottom: 10pt;" class="fa fa-map-marker"></i>Location</h1>
 				<div class="textwidget">
 					<iframe
 						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.133212464005!2d121.135411575051!3d14.591484177299904!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b89c95538169%3A0xe731fd4e7c4bbc39!2sJesus%20Christ&#39;s%20Church%20In%20The%20Valley!5e0!3m2!1sen!2sph!4v1682998876705!5m2!1sen!2sph"
@@ -216,7 +216,7 @@
 		}
 
 		function hideMenu() {
-			navLinks.style.right = "-200px"
+			navLinks.style.right = "-200pt"
 		}
 	</script>
 
