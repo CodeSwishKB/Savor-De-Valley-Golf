@@ -642,7 +642,6 @@ CONTACT PAGE
   color: black; 
 }
 
-
 /* ----------------------------------------------------------------------------------------------------------------------------------
 MENU PAGE
 -----------------------------------------------------------------------------------------------------------------------------------*/
@@ -693,7 +692,13 @@ MENU PAGE
   color: #fff;
 }
 
-.menu-items {
+.sub-category {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.menu-items-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -707,6 +712,7 @@ MENU PAGE
   box-shadow: 0 0 5pt rgba(0, 0, 0, 0.3);
   overflow: hidden;
   width: 300pt;
+  flex: 0 0 300pt;
 }
 
 .menu-item:hover {
@@ -725,7 +731,7 @@ MENU PAGE
   padding: 20pt;
 }
 
-.item-info h3 {
+.item-info h4 {
   margin: 0;
 }
 
@@ -733,6 +739,7 @@ MENU PAGE
   margin: 10pt 0 0 0;
   font-size: 14pt;
 }
+
 
 input[type="text"] {
   padding: 10pt;
@@ -966,4 +973,16 @@ input[type="text"] {
   color: var(--dark-green);
   background: none;
   border: 1pt solid var(--dark-green)
+}
+
+
+/* ----------------------------------------------------------------------------------------------------------------------------------
+ORDER PAGE
+-----------------------------------------------------------------------------------------------------------------------------------*/
+#appetizers, #beers, #cake, #carbonated-drink, #cold, #cold-coffee, #custard, #fried, #hot, #hot-coffee, #main-dish, #pasta, #pizza, #salad, #shake, #shaved-ice, #short-bread, #side-dish, #soup{
+  margin-top: 40pt;
+} 
+
+#category-name{
+  font-size: 25pt;
 }
