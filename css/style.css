@@ -31,7 +31,7 @@
   text-decoration: none;
   opacity: 0;
   pointer-events: none;
-  transition: all 0.4s;
+  transition: all 0.5s;
 }
 
 .to-top.active{
@@ -692,15 +692,18 @@ MENU PAGE
   color: #fff;
 }
 
-.sub-category {
+.sub-category{
   display: flex;
   flex-wrap: wrap;
-  align-items: flex-start;
+  flex-direction: column;
+  align-items: center;
+  padding: 20pt;
 }
 
-.menu-items-container {
+.menu-items-container, #food-item {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
   justify-content: center;
 }
 
@@ -737,7 +740,7 @@ MENU PAGE
 
 .item-info p {
   margin: 10pt 0 0 0;
-  font-size: 14pt;
+  font-size: 12pt;
 }
 
 
@@ -811,6 +814,43 @@ input[type="text"] {
   cursor: pointer;
   opacity: 0; 
   transition: opacity 0.5s ease;
+}
+
+.size-buttons-container {
+  display: flex;
+  align-items: center;
+}
+
+.sizes-btn{
+  padding: 3px 8px;
+  margin-right: 10px;
+  cursor: pointer;
+  border: none;
+  background: var(--dark-green);
+  color: var(--light-peach);
+  font-size: 16px;
+}
+
+#sizes-btn-s{
+  right: 90px;
+}
+
+#sizes-btn-m{
+  right: 50px;
+}
+
+#sizes-btn-l{
+  right: 15px;
+}
+
+.sizes-btn:hover{
+  background-color: #ddd;
+  color: #000000;
+}
+
+.sizes-btn:active{
+  background-color: #ddd;
+  color: #000000;
 }
 
 .order-btn.active {
@@ -984,5 +1024,13 @@ ORDER PAGE
 } 
 
 #category-name{
-  font-size: 25pt;
+  font-size: 30pt;
+  font-weight: bold;
+  color: var(--dark-green);
+
 }
+
+/* #category-name{
+  padding-left: 60pt;
+  color: var(--dark-green);
+} */
