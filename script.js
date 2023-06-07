@@ -271,51 +271,82 @@ function addToCart() {
 
 // displaying the cart page
 function cartItems() {
-  var tableBody = document.getElementById('table-body')
-  tableBody.innerHTML = ''
+ var tableBody = document.getElementById('table-body');
+  tableBody.innerHTML = '';
 
   cartData.map(item => {
-    var tableRow = document.createElement('tr')
+    var tableRow = document.createElement('tr');
 
-    var rowData1 = document.createElement('td')
-    var img = document.createElement('img')
-    img.src = item.imgurl
-    rowData1.appendChild(img)
+    var rowData1 = document.createElement('td');
+    var img = document.createElement('img');
+    img.src = item.imgurl;
+    rowData1.appendChild(img);
 
-    var rowData2 = document.createElement('td')
-    rowData2.innerText = item.itemName
+    var rowData2 = document.createElement('td');
+    rowData2.innerText = item.itemName;
 
-    var rowData3 = document.createElement('td')
-    var btn1 = document.createElement('button')
-    btn1.setAttribute('class', 'decrease-item')
-    btn1.innerHTML = '-'
-    var span = document.createElement('span')
-    span.innerText = item.quantity
-    var btn2 = document.createElement('button')
-    btn2.setAttribute('class', 'increase-item')
-    btn2.innerText = '+'
+    var rowData3 = document.createElement('td');
+    var btn1 = document.createElement('button');
+    btn1.setAttribute('class', 'decrease-item');
+    btn1.innerHTML = '-';
+    var span = document.createElement('span');
+    span.innerText = item.quantity;
+    var btn2 = document.createElement('button');
+    btn2.setAttribute('class', 'increase-item');
+    btn2.innerText = '+';
 
-    rowData3.appendChild(btn1)
-    rowData3.appendChild(span)
-    rowData3.appendChild(btn2)
+    rowData3.appendChild(btn1);
+    rowData3.appendChild(span);
+    rowData3.appendChild(btn2);
 
-    var rowData4 = document.createElement('td')
-    rowData4.innerText = `₱${item.price}`;
+    var rowData4 = document.createElement('td');
+    var sizeSelect = document.createElement('select');
+    sizeSelect.setAttribute('class', 'size-select');
 
-    tableRow.appendChild(rowData1)
-    tableRow.appendChild(rowData2)
-    tableRow.appendChild(rowData3)
-    tableRow.appendChild(rowData4)
+    item.sizes.forEach(size => {
+      var option = document.createElement('option');
+      option.value = size.size;
+      option.innerText = size.size;
+      sizeSelect.appendChild(option);
+    });
 
-    tableBody.appendChild(tableRow)
-  })
+    sizeSelect.addEventListener('change', function () {
+      var selectedSize = this.value;
+      var selectedPrice;
+
+      if (item.sizes.length === 1) {
+        selectedPrice = item.sizes[0].price;
+      } else {
+        selectedPrice = item.sizes.find(size => size.size === selectedSize).price;
+      }
+
+      item.selectedSize = selectedSize;
+      item.price = selectedPrice;
+      rowData5.innerText = `₱${selectedPrice}`;
+      totalAmount();
+    });
+
+    sizeSelect.value = item.selectedSize || item.sizes[0].size;
+    rowData4.appendChild(sizeSelect);
+
+    var rowData5 = document.createElement('td');
+    rowData5.innerText = `₱${item.price || item.sizes[0].price}`;
+
+    tableRow.appendChild(rowData1);
+    tableRow.appendChild(rowData2);
+    tableRow.appendChild(rowData3);
+    tableRow.appendChild(rowData4);
+    tableRow.appendChild(rowData5);
+
+    tableBody.appendChild(tableRow);
+  });
 
   document.querySelectorAll('.increase-item').forEach(item => {
-    item.addEventListener('click', incrementItem)
-  })
+    item.addEventListener('click', incrementItem);
+  });
   document.querySelectorAll('.decrease-item').forEach(item => {
-    item.addEventListener('click', decrementItem)
-  })
+    item.addEventListener('click', decrementItem);
+  });
 }
 
 // incrementing the items in cart
@@ -326,6 +357,9 @@ function incrementItem() {
   incObj.quantity += 1
   currentPrice = (incObj.price * incObj.quantity - incObj.price * (incObj.quantity - 1)) / (incObj.quantity - 1)
   incObj.price = currentPrice * incObj.quantity
+  var selectedSizeObj = incObj.sizes[0];
+  incObj.price = selectedSizeObj.price * incObj.quantity;
+
   totalAmount()
   cartItems()
   console.log(currentPrice)
@@ -364,7 +398,7 @@ function decrementItem() {
 function totalAmount() {
   var sum = 0
   cartData.map(item => {
-    sum += item.price
+    sum += item.price || item.sizes[0].price
   })
 
   if (cartData.length > 1) {
@@ -376,7 +410,7 @@ function totalAmount() {
   document.getElementById('total-price').innerText = `Total Price : ₱ ${sum}`
 }
 
-// // adds an event listener to the element with the ID 'cart-plus
+// adds an event listener to the element with the ID 'cart-plus
 document.getElementById('cart-plus').addEventListener('click', cartToggle)
 function cartToggle() {
   if (cartData.length > 0) {

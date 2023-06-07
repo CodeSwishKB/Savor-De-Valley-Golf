@@ -816,6 +816,19 @@ input[type="text"] {
   transition: opacity 0.5s ease;
 }
 
+select {
+  font-size: 20px;
+  background: var(--dark-green);
+  color: white;
+  border-radius: 3pt;
+  cursor: pointer;
+  margin: 0px 5pt;
+  padding: 3pt 8pt;
+  outline: none;
+  border: none;
+
+}
+
 .size-buttons-container {
   display: flex;
   align-items: center;
