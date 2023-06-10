@@ -1,4 +1,4 @@
-import {foodsItem} from '/items.js';
+import { foodsItem } from '/items.js';
 
 const activePage = window.location.pathname;
 const navLinks = document.querySelectorAll('.nav__link');
@@ -34,19 +34,19 @@ const filterBtns = document.querySelectorAll(".filter-btn");
 
 // searching the items
 searchInputs.addEventListener('input', () => {
-    const searchValue = searchInputs.value.toLowerCase();
-    const filteredItems = foodsItem.filter(food => food.itemName.toLowerCase().includes(searchValue))
+  const searchValue = searchInputs.value.toLowerCase();
+  const filteredItems = foodsItem.filter(food => food.itemName.toLowerCase().includes(searchValue))
 
-    menuItems.innerHTML = '';
-  
-    // adds all filtered items to item list
-    filteredItems.forEach(item => {
-      const itemElement = createItemElement(item);
-      menuItems.appendChild(itemElement);
-    });
-    connectOrderBtnListeners()
-    displayMenuItems(filteredItems);
+  menuItems.innerHTML = '';
+
+  // adds all filtered items to item list
+  filteredItems.forEach(item => {
+    const itemElement = createItemElement(item);
+    menuItems.appendChild(itemElement);
   });
+  connectOrderBtnListeners()
+  displayMenuItems(filteredItems);
+});
 
 //  display all the items
 function displayMenuItems(items) {
@@ -93,30 +93,30 @@ function displayMenuItems(items) {
 
         const itemInfo = document.createElement('div');
         itemInfo.setAttribute('class', 'item-info');
-  
+
         const header = document.createElement('header');
-  
+
         const itemName = document.createElement('h4');
         itemName.innerText = item.itemName;
-  
+
         const itemPrice = document.createElement('h4');
         itemPrice.setAttribute('class', 'price');
         itemPrice.innerText = `₱${item.sizes[0].price}`; // Display the price for the default size
-  
+
         const itemSize = document.createElement('h4');
         itemSize.innerText = item.sizes[0].size; // Display the default size
-  
+
         header.appendChild(itemName);
         header.appendChild(itemPrice);
         header.appendChild(itemSize);
-  
+
         const itemText = document.createElement('p');
         itemText.setAttribute('class', 'item-text');
         itemText.innerText = item.description;
-  
+
         const sizeButtonsContainer = document.createElement('div');
         sizeButtonsContainer.setAttribute('class', 'size-buttons-container');
-  
+
         item.sizes.forEach(size => {
           const sizeBtn = document.createElement('button');
           sizeBtn.setAttribute('class', 'sizes-btn');
@@ -127,22 +127,22 @@ function displayMenuItems(items) {
           });
           sizeButtonsContainer.appendChild(sizeBtn);
         });
-  
+
         const orderBtn = document.createElement('button');
         orderBtn.setAttribute('class', 'order-btn');
         orderBtn.innerText = 'Order';
-  
+
         itemInfo.appendChild(header);
         itemInfo.appendChild(itemText);
         itemInfo.appendChild(sizeButtonsContainer);
         itemInfo.appendChild(orderBtn);
-  
+
         itemCard.appendChild(img);
         itemCard.appendChild(itemInfo);
-  
+
         menuItemsContainer.appendChild(itemCard);
       });
-  
+
 
       subCategoryContainer.appendChild(menuItemsContainer);
       categoryElement.appendChild(subCategoryContainer);
@@ -244,7 +244,7 @@ filterBtns.forEach(btn => {
   });
 });
 displayMenuItems(foodsItem)
-  
+
 // connecting buttons to other listens
 function connectOrderBtnListeners() {
   document.querySelectorAll(".order-btn").forEach(item => {
@@ -271,7 +271,7 @@ function addToCart() {
 
 // displaying the cart page
 function cartItems() {
- var tableBody = document.getElementById('table-body');
+  var tableBody = document.getElementById('table-body');
   tableBody.innerHTML = '';
 
   cartData.map(item => {
@@ -422,7 +422,7 @@ function cartToggle() {
   }
 }
 
- // x button in the cart page
+// x button in the cart page
 const closeBtn = document.getElementById("close-page-btn");
 closeBtn.addEventListener("click", () => {
   const cartPage = document.getElementById("cart-page");

@@ -1,4 +1,4 @@
-:root{
+:root {
   --dark-green: #0a300b;
   --light-peach: #f8e2b2;
 }
@@ -15,7 +15,7 @@
 }
 
 /* to-top button */
-.to-top{
+.to-top {
   background: #0a300b;
   position: fixed;
   bottom: 16pt;
@@ -27,14 +27,14 @@
   align-items: center;
   justify-content: center;
   font-size: 32pt;
-  color:#f1f1f1;
+  color: #f1f1f1;
   text-decoration: none;
   opacity: 0;
   pointer-events: none;
   transition: all 0.5s;
 }
 
-.to-top.active{
+.to-top.active {
   bottom: 32pt;
   pointer-events: auto;
   opacity: 1;
@@ -152,7 +152,9 @@ nav .fa {
 }
 
 @media(max-width: 850pt) {
-  html, body {
+
+  html,
+  body {
     overflow-x: hidden;
   }
 
@@ -187,7 +189,7 @@ nav .fa {
     padding: 30pt;
   }
 
-  nav img{
+  nav img {
     height: 80pt;
     width: 100pt;
   }
@@ -443,6 +445,7 @@ FOOTER
 }
 
 @media (max-width: 850pt) {
+
   /* Styles for screens up to 800pt */
   .footer-widgets-area {
     display: flex;
@@ -631,15 +634,15 @@ CONTACT PAGE
 }
 
 .contact-list-item._address i {
-  color: black; 
+  color: black;
 }
 
 .contact-list-item._telephone i {
-  color: black; 
+  color: black;
 }
 
 .contact-list-item._email i {
-  color: black; 
+  color: black;
 }
 
 /* ----------------------------------------------------------------------------------------------------------------------------------
@@ -692,7 +695,7 @@ MENU PAGE
   color: #fff;
 }
 
-.sub-category{
+.sub-category {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -700,7 +703,8 @@ MENU PAGE
   padding: 20pt;
 }
 
-.menu-items-container, #food-item {
+.menu-items-container,
+#food-item {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -755,11 +759,11 @@ input[type="text"] {
   color: #333;
 }
 
-.search-bar{
+.search-bar {
   display: flex;
 }
 
-.util i{
+.util i {
   font-size: 18pt;
   margin: 0 16pt;
   border: 1pt solid #0a300b;
@@ -769,12 +773,12 @@ input[type="text"] {
   cursor: pointer;
 }
 
-.util i:hover{
+.util i:hover {
   color: white;
   background: #0a300b;
 }
 
-.util i:active{
+.util i:active {
   color: white;
   background: #0a300b;
 }
@@ -802,7 +806,7 @@ input[type="text"] {
 }
 
 .order-btn {
-  position: absolute; 
+  position: absolute;
   bottom: 10pt;
   right: 10pt;
   background-color: #fff;
@@ -812,7 +816,7 @@ input[type="text"] {
   border-radius: 5pt;
   font-size: 16pt;
   cursor: pointer;
-  opacity: 0; 
+  opacity: 0;
   transition: opacity 0.5s ease;
 }
 
@@ -834,7 +838,7 @@ select {
   align-items: center;
 }
 
-.sizes-btn{
+.sizes-btn {
   padding: 3px 8px;
   margin-right: 10px;
   cursor: pointer;
@@ -844,24 +848,24 @@ select {
   font-size: 16px;
 }
 
-#sizes-btn-s{
+#sizes-btn-s {
   right: 90px;
 }
 
-#sizes-btn-m{
+#sizes-btn-m {
   right: 50px;
 }
 
-#sizes-btn-l{
+#sizes-btn-l {
   right: 15px;
 }
 
-.sizes-btn:hover{
+.sizes-btn:hover {
   background-color: #ddd;
   color: #000000;
 }
 
-.sizes-btn:active{
+.sizes-btn:active {
   background-color: #ddd;
   color: #000000;
 }
@@ -877,7 +881,7 @@ select {
 }
 
 .menu-item:hover .order-btn {
-  opacity: 1; 
+  opacity: 1;
 }
 
 .order-btn:hover {
@@ -889,10 +893,11 @@ select {
 /* ------------------
   CART PAGE
 ------------------- */
-.toggle-cart{
+.toggle-cart {
   display: none;
 }
-.cart-toggle{ 
+
+.cart-toggle {
   display: block;
 }
 
@@ -905,8 +910,8 @@ select {
   position: fixed;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%) ; 
-  z-index: 999; 
+  transform: translate(-50%, -50%);
+  z-index: 999;
 }
 
 .cart-header {
@@ -929,7 +934,7 @@ select {
   color: red;
 }
 
-#overlay{
+#overlay {
   position: fixed;
   opacity: 0;
   top: 0;
@@ -940,38 +945,38 @@ select {
   pointer-events: none;
 }
 
-#overlay.active{
+#overlay.active {
   opacity: 1;
   pointer-events: all;
 }
 
-#cart-title{
+#cart-title {
   font-size: 35pt;
   margin: 0;
   color: var(--dark-green);
 }
 
-#cart-page table{
+#cart-page table {
   width: 100%;
   margin-top: 20pt;
   text-align: center;
 }
 
-#cart-page table thead td{
+#cart-page table thead td {
   font-size: 25pt;
   padding-bottom: 10pt;
 }
 
-#m-total-amount{
+#m-total-amount {
   display: none;
 }
 
-#cart-page table tbody td{
+#cart-page table tbody td {
   padding: 10pt 0;
   font-size: 20pt;
 }
 
-#cart-page table tbody button{
+#cart-page table tbody button {
   outline: none;
   border: none;
   font-size: 16pt;
@@ -984,13 +989,13 @@ select {
   padding: 3pt 8pt;
 }
 
-#cart-page table tbody img{
+#cart-page table tbody img {
   width: 75pt;
   height: 75pt;
   border-radius: 50pt;
 }
 
-#checkout{
+#checkout {
   text-align: center;
   margin: 40pt auto;
   border-radius: 5pt;
@@ -998,17 +1003,18 @@ select {
   padding: 10pt 20pt;
 }
 
-#checkout p{
+#checkout p {
   margin: 15pt 0;
   float: left;
 }
 
-#total-price, #total-item{
+#total-price,
+#total-item {
   font-size: 25pt;
   color: var(--dark-green);
 }
 
-.cart-checkout{
+.cart-checkout {
   outline: none;
   border: none;
   background: var(--dark-green);
@@ -1019,10 +1025,10 @@ select {
   text-transform: uppercase;
   bottom: 30pt;
   margin: 15pt 0;
-  cursor: pointer;  
+  cursor: pointer;
 }
 
-.cart-checkout:active{
+.cart-checkout:active {
   color: var(--dark-green);
   background: none;
   border: 1pt solid var(--dark-green)
@@ -1032,18 +1038,31 @@ select {
 /* ----------------------------------------------------------------------------------------------------------------------------------
 ORDER PAGE
 -----------------------------------------------------------------------------------------------------------------------------------*/
-#appetizers, #beers, #cake, #carbonated-drink, #cold, #cold-coffee, #custard, #fried, #hot, #hot-coffee, #main-dish, #pasta, #pizza, #salad, #shake, #shaved-ice, #short-bread, #side-dish, #soup{
+#appetizers,
+#beers,
+#cake,
+#carbonated-drink,
+#cold,
+#cold-coffee,
+#custard,
+#fried,
+#hot,
+#hot-coffee,
+#main-dish,
+#pasta,
+#pizza,
+#salad,
+#shake,
+#shaved-ice,
+#short-bread,
+#side-dish,
+#soup {
   margin-top: 40pt;
-} 
+}
 
-#category-name{
+#category-name {
   font-size: 30pt;
   font-weight: bold;
   color: var(--dark-green);
 
 }
-
-/* #category-name{
-  padding-left: 60pt;
-  color: var(--dark-green);
-} */
